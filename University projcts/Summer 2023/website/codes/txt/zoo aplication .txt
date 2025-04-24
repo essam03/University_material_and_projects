@@ -1,0 +1,58 @@
+!DOCTYPE html
+html lang=en
+head
+    meta charset=UTF-8
+    meta name=viewport content=width=device-width, initial-scale=1.0
+    titleDocumenttitle
+head
+body
+    form
+    h1Zoo Keeper Application FormFormh1
+    h5please complete the form. Mandatory fileds are marked with a h5
+    
+    h3contcat detailesh3
+    labelNamelabel
+    input type=text
+
+    labelTelephonelabel
+    input type=text
+
+    labelEmaillabel
+    input type=text
+
+    brbr
+
+    h3personal Informtionh3
+    labelAgelabel
+    input type=text
+
+    brbr
+    labelGenderlabel
+    input type=text
+
+    br
+    labelwhen did you first know you wanted to be a zoo_keeperlabel
+    textarea name=question textarea
+
+    brbr
+    h3Pick Your Favorte Animalsh3
+    labellabelinput type=checkboxZebralabel
+    labellabelinput type=checkboxCatlabel
+    labellabelinput type=checkboxAnacondalabel
+    labellabelinput type=checkboxHumanlabel
+
+    br
+
+    labellabelinput type=checkboxElephantlabel
+    labellabelinput type=checkboxWildebeestlabel
+    labellabelinput type=checkboxpigeonlabel
+    labellabelinput type=checkboxCrablabel
+
+
+    brbr
+
+   buttonSubmit Applicationbutton
+
+    form
+body
+html

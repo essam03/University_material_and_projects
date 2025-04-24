@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recycle Batteries: About Us & Contact</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #cadcbf;
+      color: #808080;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #93bc3f;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    nav {
+      background-color: #93bc3f;
+      color: white;
+      text-align: center;
+      padding: 0.5rem;
+    }
+    nav a {
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 1rem;
+      text-align: center; /* To center the image */
+    }
+    #logo {
+      margin: 20px auto;
+      display: block;
+    }
+    h1, h2 {
+      color: #93bc3f;
+    }
+    p, ul {
+      margin-bottom: 1rem;
+    }
+    /* Responsive design */
+    @media (min-width: 768px) {
+      .info-container {
+        display: flex;
+        justify-content: space-between;
+        text-align: left; /* Reset to default alignment for larger screens */
+      }
+      .section {
+        width: 48%; /* Roughly half of the info-container's width */
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Recycle Batteries</h1>
+  </header>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <a href="http://127.0.0.1:5500/Final%20assignmnet/codes/Home.html">Home</a>
+    <a href="http://localhost/Final%20assignmnet/php2/booking.php">Booking</a>
+    <a href="http://localhost/Final%20assignmnet/php2/signup.php">Register</a>
+    <a href="http://localhost/Final%20assignmnet/php2/sign%20in.php">Log In</a>
+  </nav>
+
+  <div class="container">
+    <!-- Logo Image -->
+    <img src="logo.png" alt="recycling" id="logo">
+
+    <!-- Information Container for About Us and Contact Us -->
+    <div class="info-container">
+      <!-- About Us Section -->
+      <div class="section" id="about">
+        <h2>About Us</h2>
+        <p>We are a dedicated team focused on recycling batteries safely and efficiently. Our mission is to make recycling easy and accessible for everyone while promoting environmental sustainability.</p>
+      </div>
+
+      <!-- Contact Us Section -->
+      <div class="section" id="contact">
+        <h2>Contact Us</h2>
+        <ul>
+          <li>Email: info@recyclebatteries.com</li>
+          <li>Phone: 123-456-7890</li>
+          <li>Address: 123 Green Street, Recycling City, RS 12345</li>
+        </ul>
+      </div>
+    </div> <!-- End of info-container -->
+  </div> <!-- End of container -->
+</body>
+</html>

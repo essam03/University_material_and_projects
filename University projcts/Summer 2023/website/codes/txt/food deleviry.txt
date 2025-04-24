@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <h1>Your information</h1>
+    <label>Your Name: </label>
+    <input type='text'>
+   <br/> <br/>
+   <label>deleviry Address:</label>
+    <textarea name='deleviry Address'></textarea>
+
+    <br/><br/>
+
+    <h1>Your Order</h1>
+
+    <label>pizza topping: </label>
+    <label>supreme</label>
+    <input type="radio">
+    <label>egetariane</label>
+    <input type="radio">
+    <label>hawaaiian</label>
+    <input type="radio">
+
+    <br/><br/>
+
+
+    <label>pizza topping:</label>
+    <input type="checkbox">
+    <label>chesse</label>
+    <input type="checkbox">
+    <label>olives</label>
+    <input type="checkbox">
+    <label>saalami</label>
+
+    <br/><br/>
+    <label>Extra:</label>
+    <select>
+    <option>pizza sause</option>
+    <option>tomato</option>
+    <option>barbecue</option>
+ </select>
+    <br/><br/>
+
+    <button type="button">order</button>
+    <br/><br/>
+   
+    </form>
+</body>
+</html>

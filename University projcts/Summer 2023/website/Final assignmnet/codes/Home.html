@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>recyclo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        ul {
+            background-color:#93bc3f;
+            padding: 10px;
+            text-align: center;
+        
+        }
+       #logo{
+        width: 158px;
+            height: 45px;
+            position:absolute;
+            left: 5px;
+            top:8px;
+       }
+       
+        
+        li {
+            display: inline-block;
+            /* list-style-type: circle; */
+            margin-left: 10px;
+        }
+        
+        li a {
+            text-decoration: none;
+            color: aliceblue;
+            font-size: 20px;
+        }
+        
+        li a:hover {
+            font-weight: bold;
+        }
+        #search-box{
+            width: 300px;
+            height: 40px;
+            position: absolute;
+            right: 160px;
+            top: 20px;
+        
+        }
+        #account ul{
+            position:absolute;
+            right: 3px;
+            top: 8px;
+        }
+        
+        #main-choices{
+            position: absolute;
+            left: 170px;
+            top: 15px; 
+            
+        }
+      
+        #first-img{
+            width: 500px;
+            height: 500px;
+
+        }
+          #body{
+            background-color: #cadcbf;
+        }
+        #text{ 
+            font-size: 26px;
+            position: absolute;
+            right: 5px;
+            top: 70px;
+                      
+        }
+        #second-img{
+            width: 500px;
+            height: 500px;
+
+        }
+        #text1{
+            font-size: 25px;
+            position: absolute;
+            right: 5px;
+            top: 600px;
+            
+        }
+        #bottom{
+            bottom: 5px;
+            background-color: black;
+
+        }
+        .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height:50px;
+    background-color:#93bc3f;
+    color: black;
+    text-align: center;
+}/* For mobile devices */
+@media (max-width: 768px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+            #first-img,
+            #second-img {
+                width: 100%;
+                height: auto;
+            }
+            #text,
+            #text1 {
+                font-size: 18px;
+                right: 5px;
+                position: static;
+            }
+        }
+
+        /* For tablets */
+        @media (min-width: 769px) and (max-width: 1024px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+            #first-img,
+            #second-img {
+                width: 100%;
+                height: auto;
+            }
+            #text,
+            #text1 {
+                font-size: 22px;
+                right: 5px;
+                position: static;
+            }
+        }
+
+        /* For desktops */
+        @media (min-width: 1025px) {
+            .grid {
+                grid-template-columns: 1fr 1fr;
+            }
+            #first-img,
+            #second-img {
+                max-width: 50%;
+                height: auto;
+            }
+            #text,
+            #text1 {
+                font-size: 25px;
+                right: 5px;
+            }
+        }
+</style>
+
+</head>
+
+<body>
+    <div class="grid">
+    <nav>
+        
+        <ul>
+            <li><img src="logo.png" alt="recyling" id="logo"></li>
+            <!-- Main navigation links with relevant anchor text -->
+                <!-- Search box for improved user experience -->
+                <!-- Account dropdown menu for user interactions -->
+            <div id="main-choices">
+            <li><a href="http://127.0.0.1:5500/Final%20assignmnet/codes/Home.html"> <i class="fa-solid fa-house"></i> Home </a></li>
+            <li> <a href="http://127.0.0.1:5500/Final%20assignmnet/codes/info.html"> info </a> </li>
+                </div>
+           <ul class="serach and account">
+            <div id="search-box">
+                <li>
+                    <form action="" class="navbar-form">
+                        <div class="form-group">
+                            <div class="input-group">
+                                <input type="search" name="search" id="box" placeholder="Search Anything Here..." class="form-control">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-search"></span></span>
+                            </div>
+                        </div>
+                    </form>
+                </li>
+            </div>
+            <div id="account">
+                    <ul class="account">
+                        <li><a href="http://localhost/Final%20assignmnet/php/login.php">Login</a></li>
+                        <li><a href="http://localhost/Final%20assignmnet/php/sign%20in.php">Sign Up</a></li>
+                    </ul>
+            </div>
+            </ul> 
+        </ul>
+        
+    </nav>
+
+
+    <div id="body">
+        <img src="download.png" alt="dangoures" id="first-img"><!-- Image Display with Alt Text -->
+        <div id="text">
+            <p style=" font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: 40px;color: #0c0c0c; text-align: center;">The danger of lead</p><br/>
+             <p>Exposure to lead poses serious health risks, especially for children and pregnant women.</p><br/>
+             <p>Even at low levels, lead can result in cognitive impairment, developmental delays, and lower IQ.</p> <br/>
+             <p>In adults, it can lead to kidney issues, high blood pressure, and increased risk of heart disease.</p><br/>
+             <p>Because lead can be found in old paint, water pipes and contaminated soil.</p><br/>
+             <p>Always consult professionals when dealing with potential lead sources.</p>
+            
+        </div>
+       
+        <br/><br/></div>
+            <img src="download.jfif" alt="battary" id="second-img"> <!-- Image Display with Alt Text -->
+            
+            <div id="text1">
+                <p style=" font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;font-size: 40px;color: #0c0c0c; text-align: center;">Advantges of recycling </p><br/>
+                <p>Recycling car batteries is an eco-friendly initiative that offers multiple benefits.</p><br/>
+                <p>Prevents the hazardous lead and acid contained in the batteries from mixing with soil and water</p><br/>
+                <p>The recycling process also  recovering  materials like lead and plastic,and ma used in new battary</p><br/>
+                <p>Reduces the energy consumption and greenhouse gas emissions.</p><br/>
+                <p>Make the responsible choice; recycle your car batteries.</p>
+            </div>
+            <div class="footer">
+                <ul>
+                    <li><img src="logo.png" alt="recyling" id="logo"></li> <!-- Image Display with Alt Text -->
+                    <div id="main-choices">
+                    <li> <a href="http://127.0.0.1:5500/Final%20assignmnet/codes/info.html"> info </a> </li>
+                    </div>
+                    <div id="account">
+                            <ul class="account1">
+                                <li><a href="http://localhost/Final%20assignmnet/php/login.php">Login</a></li>
+                                <li><a href="http://localhost/Final%20assignmnet/php/sign%20in.php">Sign Up</a></li>
+                            </ul>
+                    </div>
+                </ul>
+                
+            </div>
+        </div>
+</body>
+
+
+
+
+</html>
