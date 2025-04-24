@@ -1,0 +1,453 @@
+ 			final
+
+inserting tables:
+
+
+
+
+
+1_creating department table:
+
+CREATE TABLE department( 
+department_ID int(15) NOT null UNIQUE,
+ name varchar(15) ,
+ email varchar(60) UNIQUE,
+ phone int(15) UNIQUE,
+ PRIMARY KEY(department_ID));
+
+
+
+2_ creating doctor:
+
+
+CREATE TABLE doctor (
+  doctor_ID INT(15) UNIQUE NOT NULL,
+  department INT,
+  Fname VARCHAR(5),
+  Lname VARCHAR(5),
+  gender CHAR(1),
+  date_of_birth DATE,
+  salary INT(5),
+  phone INT(15) UNIQUE,
+  email VARCHAR(80) UNIQUE,
+  specialty VARCHAR(10),
+  PRIMARY KEY (doctor_ID),
+  CONSTRAINT FK_1 FOREIGN KEY (department) REFERENCES department (department_ID) ON UPDATE CASCADE ON DELETE CASCADE
+);
+
+
+
+3_creat docotr_address:
+
+ CREATE TABLE doctor_addresses(
+address_ID int(15) UNIQUE NOT NULL,     
+state varchar(25),
+city varchar(25),              
+street_name varchar(15),     
+bulding_number int(6),     
+doctor_ID int(15) NOT NULL,     
+country varchar (25),
+PRIMARY KEY(address_ID),   
+CONSTRAINT FK_2  FOREIGN KEY(doctor_ID)REFERENCES doctor(doctor_ID)ON UPDATE CASCADE ON DELETE CASCADE
+     );
+
+
+
+4_ creat patient's table :
+
+CREATE TABLE patient(
+ patient_ID int (15) NOT NULL UNIQUE ,
+Fname varchar(5),
+Lname varchar(5),
+relatives_phone int(15) UNIQUE,
+gender char(1),
+date_of_birth date,
+room_no int (30) UNIQUE,    
+case_description varchar(5),
+disease_type varchar(7),    
+doctor_ID int(15),
+PRIMARY KEY( patient_ID),
+CONSTRAINT FK_3 FOREIGN KEY (doctor_ID) REFERENCES doctor(doctor_ID)ON UPDATE CASCADE ON DELETE CASCADE
+    );
+
+
+
+5_ creat nurse's table:
+
+CREATE TABLE nurse(
+nurse_ID int (15) NOT NULL UNIQUE ,
+Fname varchar(5),
+Lname varchar(5),
+phone int(15) UNIQUE,
+gender char(1),
+date_of_birth date,
+eamil varchar (80) UNIQUE,     
+salary int (6),
+doctor_ID  int(15), 
+PRIMARY KEY( nurse_ID),
+CONSTRAINT FK_4 FOREIGN KEY (doctor_ID) REFERENCES doctor(doctor_ID)ON UPDATE CASCADE ON DELETE CASCADE
+    );
+
+
+
+
+6_creat nurse addresses:
+ CREATE TABLE nurse_addresses(
+address_ID int(15) UNIQUE NOT NULL,     
+state varchar(25),
+city varchar(25),              
+street_name varchar(15),     
+bulding_number int(6),     
+nurse_ID int(15) NOT null,     
+country varchar (25),    
+PRIMARY KEY(address_ID),   
+CONSTRAINT FK_5  FOREIGN KEY(nurse_ID)REFERENCES nurse(nurse_ID)ON UPDATE CASCADE ON DELETE CASCADE
+     );
+
+
+
+
+7_ creat recored table:
+
+ CREATE TABLE medical_recored(
+recored_number int(10) UNIQUE NOT NULL,     
+serice_type varchar(5),
+date_and_time date,    
+patient_ID int(15) UNIQUE,     
+PRIMARY KEY(recored_number),   
+CONSTRAINT FK_6  FOREIGN KEY(patient_ID)REFERENCES patient(patient_ID)ON UPDATE CASCADE ON DELETE CASCADE
+     );
+
+
+
+
+
+
+8_ creat service managmet table:
+
+ CREATE TABLE service_managment(
+recored_number int(10) UNIQUE NOT NULL,        
+nurse_ID int(15) UNIQUE,     
+PRIMARY KEY(recored_number,nurse_ID),   
+CONSTRAINT FK_7  FOREIGN KEY(recored_number)REFERENCES medical_recored(recored_number)ON UPDATE CASCADE ON DELETE CASCADE,
+  CONSTRAINT FK_8  FOREIGN KEY(nurse_ID)REFERENCES nurse(nurse_ID)ON UPDATE CASCADE ON DELETE CASCADE    
+     );
+
+
+
+
+----------------------------------------------------------
+
+inserting data:
+
+
+
+
+
+department insertin data:
+
+INSERT INTO doctors (doctor_ID, department_ID, first_name, last_name, gender, date_of_birth, salary, email)
+VALUES (1000, 2147483647, 'Mental', 'Illness', 'M', '1986-04-24', 9000, 'mental.illness@johnhopkins.com');
+
+
+
+
+
+
+inserting doctor:
+
+INSERT INTO doctors (doctor_ID, department_ID, first_name, last_name, gender, date_of_birth, salary, phone_number, email, specialization)
+VALUES
+(5001, 1000, 'David', 'Johns', 'M', '1985-11-10', 2500, 2147483647, 'david.johnson@example.com', 'Psychiatri'),
+(5002, 1000, 'Lucas', 'White', 'M', '1986-04-24', 5600, 123456789, 'lucas.white@example.com', 'Psychiatri'),
+(5003, 1000, 'Ethan', 'Moore', 'M', '1987-02-28', 7390, 2147483647, 'ethan.moore@example.com', 'Psychiatri'),
+(5004, 1000, 'Alexa', 'Lewis', 'M', '1986-04-24', 9000, 1234567890, 'alexander.lewis@example.com', 'Psychiatri');
+
+
+
+
+
+
+inserting patinets:
+
+INSERT INTO patient (patient_ID, Fname, Lname, relatives_phone, gender, date_of_birth, room_no, case_description, disease_type, doctor_ID)
+VALUES
+(7001, 'Emma', 'Johns', 987654321, 'F', '1995-05-15', 102, 'Treat', 'Anxiety', 5001),
+(7002, 'Isabe', 'Herna', 654987321, 'F', '2002-02-18', 110, 'Treat', 'Social', 5002),
+(7003, 'Mia', 'River', 789123456, 'F', '1989-09-14', 116, 'Diagn', 'Bipolar', 5003),
+(7004, 'Ella', 'Clark', 654987321, 'F', '2003-09-02', 120, 'Diagn', 'Schizop', 5004);
+
+
+insertng meddical record:
+
+INSERT INTO medical_recored (recored_number, serice_type, patient_ID, date_and_time)
+VALUES
+(1, 'food', 7001, '2023-05-15 12:45:00'),
+(2, 'medic', 7002, '2023-02-18 09:20:00'),
+(3, 'medic', 7003, '2023-09-14 09:50:00'),
+(4, 'food', 7004, '2023-09-02 08:40:00');
+
+
+inserting nurse:
+
+INSERT INTO nurse (nurse_ID, first_name, last_name, phone_number, gender, birth_date, email, salary, address_ID)
+VALUES
+(1001, 'Jane', 'Smith', '986831320', 'F', '1990-05-15', 'jane.smith1@example.com', 1300, 5001),
+(1002, 'Sophi', 'Herna', '2147483647', 'F', '1990-02-18', 'sophia.hernandez@example.com', 2200, 5002),
+(1003, 'Mia', 'River', '789214450', 'F', '1989-09-14', 'mia.rivera@example.com', 2600, 5003),
+(1004, 'Ella', 'Clark', '654238310', 'F', '2003-09-02', 'ella.clark@example.com', 1000, 5004);
+
+
+
+
+
+
+
+
+inserting doctor addressses:
+INSERT INTO doctor_addresses (address_ID, state, city, street_name, bulding_number, doctor_ID, country)
+VALUES
+(1, 'California', 'Los Angeles', 'Main St', 123, 5001, 'USA'),
+(2, 'California', 'San Francisco', 'Broadway', 456, 5001, 'USA'),
+(3, 'California', 'San Diego', 'Oak St', 789, 5002, 'USA'),
+(4, 'California', 'Sacramento', 'Beach Ave', 321, 5004, 'USA'),
+(5, 'California', 'Fresno', 'State St', 654, 5003, 'USA'),
+(6, 'California', 'Oakland', 'Market St', 987, 5003, 'USA'),
+(7, 'California', 'San Jose', 'Elm St', 123, 5004, 'USA'),
+(8, 'California', 'Long Beach', 'Main St', 456, 5002, 'USA'),
+(9, 'California', 'Anaheim', 'Orange Ave', 789, 5003, 'USA);
+
+
+
+inserting nurse addresses: 
+
+INSERT INTO nurse_addresses (address_ID, state, city, street_name, bulding_number, nurse_ID, country)
+VALUES
+(1, 'California', 'San Francisco', 'Oak Avenue', 456, 1001, 'USA'),
+(2, 'California', 'Anaheim', 'Magnolia Avenue', 234, 1002, 'USA'),
+(3, 'California', 'Fremont', 'Cactus Lane', 321, 1003, 'USA'),
+(4, 'California', 'Santa Clarita', 'Ash Avenue', 567, 1004, 'USA'),
+(5, 'California', 'Los Angeles', 'Main Street', 123, 1001, 'USA'),
+(6, 'California', 'San Francisco', 'Oak Avenue', 456, 1002, 'USA'),
+(7, 'California', 'San Diego', 'Elm Street', 789, 1002, 'USA'),
+(8, 'California', 'Sacramento', 'Maple Drive', 321, 1003, 'USA'),
+(9, 'California', 'Fresno', 'Pine Road', 567, 1004, 'USA'),
+(10, 'California', 'San Jose', 'Cedar Lane', 890, 1003, 'USA'),
+(11, 'California', 'Long Beach', 'Spruce Avenue', 234, 1004, 'USA');
+
+
+
+
+inserting service managment:
+INSERT INTO service_managment (recored_number, nurse_ID)
+VALUES
+(3,1001),
+(2,1002),
+(4,1004),
+(1,1003);
+
+
+
+
+--------------------------------------------------------------------------------------
+
+
+
+view :
+
+
+
+
+first :
+
+
+CREATE VIEW doc_salary AS
+SELECT doctor.salary
+FROM doctor
+WHERE salary>3000;
+
+
+
+
+second :
+
+
+CREATE VIEW LA_nurse AS 
+SELECT nurse.nurse_ID
+FROM nurse
+JOIN nurse_addresses ON nurse.nurse_ID = nurse_addresses.nurse_ID
+WHERE nurse_addresses.city = 'Los Angeles';
+
+
+
+
+
+
+third:
+
+CREATE VIEW Anxiety AS
+SELECT patient.patient_ID, patient.disease_type
+FROM patient
+WHERE patient.disease_type='Anxiety';
+
+
+
+
+
+
+fourth :
+
+CREATE VIEW avg_salary AS
+SELECT AVG(doctor.salary)
+FROM doctor
+
+
+
+
+-------------------------------proudcer--------------------------:
+
+
+
+
+first:
+
+
+
+DELIMITER //
+
+CREATE PROCEDURE adding_patients(
+    IN patient_ID INT,
+    IN patient_Fname VARCHAR(255),
+    IN patient_Lname VARCHAR(255),
+    IN relatives_phone VARCHAR(255),
+    IN patient_gender VARCHAR(255),
+    IN patient_date_of_birth DATE,
+    IN patient_room_no INT,
+    IN case_description VARCHAR(255),
+    IN disease_type VARCHAR(255),
+    IN patient_doctor_ID INT
+)
+BEGIN
+    INSERT INTO patient (patient_ID, Fname, Lname, relatives_phone, gender, date_of_birth, room_no, case_description, disease_type, doctor_ID)
+    VALUES (patient_ID, patient_Fname, patient_Lname, relatives_phone, patient_gender, patient_date_of_birth, patient_room_no, case_description, disease_type, patient_doctor_ID);
+END //
+
+DELIMITER ;
+
+CALL adding_patients(7005, 'samo', 'beno', '5735282871', 'M', '2003-04-10', 432, 'under treatment', 'depression', 5002);
+
+
+
+
+
+
+second :
+
+
+DELIMITER //
+CREATE PROCEDURE doc_info (IN salary INT)
+BEGIN
+SELECT * 
+FROM doctor 
+WHERE doctor.salary>6000;
+end //
+
+CALL doc_info(5300);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+third:
+DELIMITER //
+
+CREATE PROCEDURE food_time(IN record_number INT)
+BEGIN
+    SELECT `TD`
+    FROM medical_record
+    WHERE service_type = 'food'
+    LIMIT record_number;
+END
+
+DELIMITER ;
+
+CALL food_time(4);
+ 
+
+
+
+
+
+
+
+fourth:
+
+
+DELIMITER //
+
+CREATE PROCEDURE add_nurse(
+    IN p_nurse_ID INT,
+    IN p_nurse_Fname VARCHAR(5),
+    IN p_nurse_Lname VARCHAR(5),
+    IN p_phone INT,
+    IN p_gender CHAR(1),
+    IN p_date_of_birth DATE,
+    IN p_email VARCHAR(80),
+    IN p_salary INT,
+    IN p_doctor_ID INT
+)
+BEGIN
+    INSERT INTO nurse (nurse_ID, Fname, Lname, phone, gender, date_of_birth, eamil, salary, doctor_ID)
+    VALUES (p_nurse_ID, p_nurse_Fname, p_nurse_Lname, p_phone, p_gender, p_date_of_birth, p_email, p_salary, p_doctor_ID);
+END //
+
+DELIMITER ;
+
+------------------------------------------------------------------------------------
+
+creating users and password with peivilage:
+
+
+
+CREATE USER ethen IDENTIFIED BY 'ethan_87';      (doctor)
+
+
+GRANT SELECT, INSERT, DELETE, UPDATE ON department TO ethan;
+GRANT SELECT, INSERT, DELETE, UPDATE ON nurse TO ethan;
+GRANT SELECT, INSERT, DELETE, UPDATE ON nurse_addresses TO ethan;
+GRANT SELECT, INSERT, DELETE, UPDATE ON doctor TO ethan;
+GRANT SELECT, INSERT, DELETE, UPDATE ON patient TO ethan;
+GRANT SELECT, INSERT, DELETE, UPDATE ON service_managment TO ethan;
+GRANT SELECT, INSERT, DELETE, UPDATE ON doctor_addresses TO ethan;
+GRANT SELECT, INSERT, DELETE, UPDATE ON doctor_addresses TO ethan;
+GRANT SELECT ON LA_nurse TO ethan;
+GRANT SELECT ON Anxiety TO ethan;
+
+CREATE USER Mia IDENTIFIED BY 'Mia_89';
+
+GRANT SELECT, UPDATE, INSERT, DELETE ON nurse_addresses TO Mia;
+GRANT SELECT, UPDATE, INSERT, DELETE ON medical_recored TO Mia;
+GRANT SELECT, UPDATE, INSERT, DELETE ON patient TO Mia;
+GRANT SELECT ON nurse TO Mia;
+GRANT SELECT ON patient TO Mia;
+GRANT SELECT ON medical_recored TO Mia;
+GRANT SELECT ON service_managment TO Mia;
+GRANT SELECT ON nurse_addresses TO Mia;
+GRANT SELECT ON Anxiety TO Mia;
+
+
+
+
+
+
+

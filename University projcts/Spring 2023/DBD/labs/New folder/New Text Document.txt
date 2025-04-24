@@ -1,0 +1,125 @@
+
+
+SELECT * FROM instructor 
+WHERE instructor.office='f07';
+
+----------------------------------------------------------
+
+SELECT instructor.first_name,instructor.last_name,instructor.rank FROM instructor 
+WHERE instructor.salary=5000;
+
+
+
+---------------------------------------------------------
+
+SELECT course.code, prerequisite.course_pre_code
+FROM course
+JOIN prerequisite ON course.code = prerequisite.course_code
+WHERE prerequisite.course_pre_code IS NOT NULL;
+
+
+
+----------------------------------------------------------
+
+
+SELECT * FROM student
+JOIN student_section ON student.number=student_section.student_number
+WHERE student_section.year LIKE'19%';
+
+----------------------------------------------------------
+
+SELECT course.code,course.title,section.id FROM course
+JOIN section ON course.code=section.course_code
+JOIN student ON student.number=section.year
+WHERE student.number='18222225'
+AND section.semester=2020;
+
+
+
+----------------------------------------------------------
+
+SELECT student_phone.phone_number FROM student_phone
+JOIN student ON student.number=student_phone.student_number
+WHERE student.first_name='jermaine'
+AND student.last_name='mack';
+
+
+
+----------------------------------------------------------
+
+SELECT section.id, course.code, course.title, section.year, section.semester, student_section.grade, student.first_name, student.last_name
+FROM course
+JOIN student_section ON student_section.course_code = course.code
+JOIN section ON course.code = section.course_code
+JOIN student ON student.number = student_section.student_number
+WHERE student_section.grade < 2
+AND student.first_name = 'vienna'
+AND student.last_name = 'palmer';
+
+
+----------------------------------------------------------
+
+
+
+SELECT section.id, course.code, course.title, prerequisite.course_pre_code, department.name
+FROM section
+JOIN course ON section.course_code = course.code
+JOIN prerequisite ON prerequisite.course_code = course.code
+JOIN department ON department.name = course.dept_name
+JOIN student_section ON student_section.course_code = course.code
+WHERE student_section.year = 2021
+AND department.name='School of Computing 
+and Informatics';
+
+
+
+----------------------------------------------------------
+
+
+SELECT AVG(student_section.grade)AS GPA
+FROM student_section
+JOIN student ON student_section.student_number=student.number
+WHERE student.first_name='Vienna'
+AND student.last_name='Palmer';
+
+
+
+
+----------------------------------------------------------
+
+
+
+
+SELECT *, department.name
+FROM student_address
+JOIN student ON student_address.student_number = student.number
+JOIN department ON student.dept_name=department.name
+WHERE department.name = 'School of Computing and Informatics';
+
+
+
+
+
+
+----------------------------------------------------------
+
+
+SELECT instructor.first_name,instructor.last_name,AVG(rates.rating)AS avg_rates
+FROM instructor
+JOIN rates ON rates.instructor_SSN=instructor.SSN 
+GROUP BY instructor.SSN
+HAVING COUNT(rates.rating)>5
+ORDER BY avg_rates DESC
+LIMIT 2;
+
+
+----------------------------------------------------------
+
+
+
+SELECT DISTINCT student_address.country,faculty.number
+FROM student_address,faculty
+WHERE faculty.number =(
+    SELECT faculty.number
+    FROM faculty
+    WHERE faculty.title='School of Computing and Informatics');

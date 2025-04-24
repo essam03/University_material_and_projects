@@ -1,0 +1,38 @@
+
+
+Q1:
+1_CREATE USER ' Instructor' IDENTIFIED BY 1234;
+2_CREATE USER ' Dean' IDENTIFIED BY 4567;
+3_CREATE USER 'HR' IDENTIFIED BY 3456;
+
+
+
+
+
+
+
+Q2:
+
+
+
+1_GRANT SELECT ON universitynew.* TO Instructor;
+
+
+2-GRANT UPDATE(description) ON department TO Dean;
+
+3-GRANT SELECT ON instructor TO Instructor;
+
+4-GRANT  ON student TO Dean;
+
+5-GRANT SELECT ON student TO %;
+
+6-GRANT INSERT,DELETE ON student TO HR;
+
+7-GRANT DELETE ON PROCEDURE (delete_student) TO HR;
+
+
+Q3:
+1_REVOKE INSERT,DELETE ON HR FROM Instructor; 
+
+2_REVOKE SELECT ON instructor FROM Instructor;
+3_SHOW GRANTS FOR Dean;

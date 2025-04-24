@@ -1,0 +1,32 @@
+CREATE TABLE INSTRUCTOR 
+(SSN CHAR (15) PRIMARY KEY
+ , firstname varchar(15)
+ ,lastname varchar(15)
+ ,DOB date
+ ,office varchar(5)
+ ,rank int(10)
+ ,salary float(15)
+ ,PASSWORD varchar(16)
+ ,speciality varchar(15)
+ ,eamil varchar(15)
+ ,roleid int(15)
+ , departmnrtname varchar(15),
+ CONSTRAINT fk_1 FOREIGN KEY(roleid) REFERENCES role1(id) ON UPDATE CASCADE ON DELETE SET NULL,
+ CONSTRAINT fk_2 FOREIGN KEY(dpepartmentname)REFERENCES department(name)ON UPDATE CASCADE ON DELETE SET NULL);
+ 
+
+
+
+
+
+
+
+
+
+
+
+CREATE TABLE prerequisite
+(coursecode char(8),
+courseprecode char(8),
+CONSTRAINT FK_6 FOREIGN key(coursecode) REFERENCES course(code)ON UPDATE CASCADE ON DELETE SET NULL,
+ CONSTRAINT FK_7 FOREIGN KEY(coureseprecode) REFERENCES corse(code)ON UPDATE CASCADE on DELETE SET NULL);

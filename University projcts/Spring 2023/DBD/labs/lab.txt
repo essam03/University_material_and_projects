@@ -1,0 +1,35 @@
+CREATE VIEW student_gpa AS
+SELECT student.number, student.first_name, student.last_name, AVG(student_section.grade) AS gpa
+FROM student
+JOIN student_section ON student.number = student_section.grade
+GROUP BY student.number, student.first_name, student.last_name;
+
+
+CREATE VIEW instructor_rating 
+AS SELECT instructor.SSN,instructor.first_name,instructor.last_name,AVG(instructor.rank),instructor.rank
+FROM instructor
+GROUP BY instructor.SSN,instructor.first_name,instructor.last_name
+
+
+
+
+
+
+CREATE VIEW instructor_role AS
+SELECT 
+  instructor.role_id,
+  instructor.first_name,
+  instructor.last_name
+FROM
+  instructor
+GROUP BY
+  instructor.role_id,
+  instructor.first_name,
+  instructor.last_name;
+
+
+
+
+
+
+

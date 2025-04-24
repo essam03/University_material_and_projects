@@ -1,0 +1,37 @@
+INSERT INTO catagory(id,name)
+VALUES(1,'action'),
+       (2,'drama'),
+       (3,'romance'),
+       (4,'fiction'),
+       (5,'Non_Fiction');
+
+
+INSERT INTO book(id,title,catagory_id)
+VALUES (111,'Lorem ipsum',1),
+(222,'Doloe sit smart',2),
+(333,'Consectetur adipiscing elit',1),
+(444,'In nulla magna',3),
+(555,'Eleifend pretium',5);
+
+
+The id has an int type not a varchar that's why numbers were used.
+
+UPDATE book
+SET catagory_id=4
+WHERE titel='Consectetur adipiscing elit';
+
+UPDATE catagory
+SET name='documantary'
+WHERE id=2;
+
+
+INSERT INTO catagory(id,name)
+VALUES(21110241,'issam awamleh'); 
+
+
+DELETE FROM book
+WHERE id=555;
+
+
+
+
