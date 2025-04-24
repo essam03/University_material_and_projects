@@ -1,0 +1,198 @@
+package Final;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class part1v2 {
+
+    public static void main(String[] args) {
+        Scanner scan = new Scanner(System.in);
+
+        // Input key
+        System.out.println("Please enter the key containing 10 bits as binary:");
+        int[] key = new int[10];
+        for (int i = 0; i < 10; i++) {
+            key[i] = scan.nextInt();
+        }
+
+        // Input plaintext
+        System.out.println("Enter the plain text containing 8 bits as binary:");
+        int[] plaintext = new int[8];
+        for (int j = 0; j < 8; j++) {
+            plaintext[j] = scan.nextInt();
+        }
+
+        // Generate four subkeys
+        int[] k1 = generateSubKey(key, 1);
+        int[] k2 = generateSubKey(key, 2);
+        int[] k3 = generateSubKey(key, 3);
+        int[] k4 = generateSubKey(key, 4);
+
+        // Encryption
+        int[] ciphertext = encrypt(k1, k2, k3, k4, plaintext);
+        System.out.println("plaintext: " + Arrays.toString(plaintext));
+
+        System.out.println("Ciphertext: " + Arrays.toString(ciphertext));
+
+        // Decryption
+        int[] decryptedText = decrypt(k4, k3, k2, k1, ciphertext);
+        System.out.println("Decrypted Text: " + Arrays.toString(decryptedText));
+    }
+
+    static int[] generateSubKey(int[] key, int round) {
+        int[] newKey = p10(key);
+        int[] splitL = Arrays.copyOfRange(newKey, 0, 5);
+        int[] splitR = Arrays.copyOfRange(newKey, 5, 10);
+
+        int shiftAmount = round;
+        splitL = shiftLeft(splitL, shiftAmount);
+        splitR = shiftLeft(splitR, shiftAmount);
+
+        int[] combinedKey = combine(splitL, splitR);
+        return p8(combinedKey);
+    }
+
+    static int[] encrypt(int[] k1, int[] k2, int[] k3, int[] k4, int[] plaintext) {
+        int[] permuted = initialPermutation(plaintext);
+
+        int[] intermediate1 = fkRound(permuted, k1);
+        int[] intermediate2 = fkRound(intermediate1, k2);
+        int[] intermediate3 = fkRound(intermediate2, k3);
+        int[] finalOutput = fkRound(intermediate3, k4);
+
+        return finalPermutation(finalOutput);
+    }
+
+    static int[] decrypt(int[] k4, int[] k3, int[] k2, int[] k1, int[] ciphertext) {
+        int[] permuted = initialPermutation(ciphertext);
+
+        int[] intermediate4 = fkRound(permuted, k4);
+        int[] intermediate3 = fkRound(intermediate4, k3);
+        int[] intermediate2 = fkRound(intermediate3, k2);
+        int[] finalOutput = fkRound(intermediate2, k1);
+
+        return finalPermutation(finalOutput);
+    }
+
+    static int[] fkRound(int[] input, int[] key) {
+        int[] left = Arrays.copyOfRange(input, 0, 4);
+        int[] right = Arrays.copyOfRange(input, 4, 8);
+
+        int[] roundOutput = fk(left, right, key);
+
+        int[] swapped = swapHalves(roundOutput);
+
+        left = Arrays.copyOfRange(swapped, 0, 4);
+        right = Arrays.copyOfRange(swapped, 4, 8);
+
+        return fk(left, right, key);
+    }
+
+    static int[] fk(int[] left, int[] right, int[] key) {
+        int[] ep = EP(right);
+        int[] xorOutput = xor(ep, key);
+
+        int[] sboxOutput = sboxes(xorOutput);
+
+        int[] p4 = p4(sboxOutput);
+        int[] newLeft = xor(left, p4);
+
+        return combine(newLeft, right);
+    }
+
+    static int[] xor(int[] a, int[] b) {
+        int[] result = new int[a.length];
+        for (int i = 0; i < a.length; i++) {
+            result[i] = a[i] ^ b[i];
+        }
+        return result;
+    }
+
+    static int[] combine(int[] left, int[] right) {
+        int[] combined = new int[left.length + right.length];
+        System.arraycopy(left, 0, combined, 0, left.length);
+        System.arraycopy(right, 0, combined, left.length, right.length);
+        return combined;
+    }
+
+    static int[] swapHalves(int[] input) {
+        int halfLength = input.length / 2;
+        int[] swapped = new int[input.length];
+        System.arraycopy(input, halfLength, swapped, 0, halfLength);
+        System.arraycopy(input, 0, swapped, halfLength, halfLength);
+        return swapped;
+    }
+
+    static int[] initialPermutation(int[] input) {
+        return new int[]{input[1], input[5], input[2], input[0], input[3], input[7], input[4], input[6]};
+    }
+
+    static int[] finalPermutation(int[] input) {
+        return new int[]{input[3], input[0], input[2], input[4], input[6], input[1], input[7], input[5]};
+    }
+
+    static int[] p10(int[] key) {
+        return new int[]{key[2], key[4], key[1], key[6], key[3], key[9], key[0], key[8], key[7], key[5]};
+    }
+
+    static int[] p8(int[] key) {
+        return new int[]{key[5], key[2], key[6], key[3], key[7], key[4], key[9], key[8]};
+    }
+
+    static int[] p4(int[] input) {
+        return new int[]{input[1], input[3], input[2], input[0]};
+    }
+
+    static int[] EP(int[] right) {
+        return new int[]{right[3], right[0], right[1], right[2], right[1], right[2], right[3], right[0]};
+    }
+
+    static int[] shiftLeft(int[] bits, int numShifts) {
+        int[] shifted = new int[bits.length];
+        System.arraycopy(bits, numShifts, shifted, 0, bits.length - numShifts);
+        System.arraycopy(bits, 0, shifted, bits.length - numShifts, numShifts);
+        return shifted;
+    }
+
+    static int[] sboxes(int[] input) {
+        int[] left = Arrays.copyOfRange(input, 0, 4);
+        int[] right = Arrays.copyOfRange(input, 4, 8);
+
+        int[] sboxOutput = new int[4];
+        s0(left, sboxOutput);
+        s1(right, sboxOutput);
+        return sboxOutput;
+    }
+
+    static void s0(int[] input, int[] output) {
+        int[][] s0 = {
+                {1, 0, 3, 2},
+                {3, 2, 1, 0},
+                {0, 2, 1, 3},
+                {3, 1, 3, 2}
+        };
+
+        int row = (input[0] << 1) + input[3];
+        int col = (input[1] << 1) + input[2];
+        int value = s0[row][col];
+
+        output[0] = (value >> 1) & 1;
+        output[1] = value & 1;
+    }
+
+    static void s1(int[] input, int[] output) {
+        int[][] s1 = {
+                {0, 1, 2, 3},
+                {2, 0, 1, 3},
+                {3, 0, 1, 0},
+                {2, 1, 0, 3}
+        };
+
+        int row = (input[0] << 1) + input[3];
+        int col = (input[1] << 1) + input[2];
+        int value = s1[row][col];
+
+        output[2] = (value >> 1) & 1;
+        output[3] = value & 1;
+    }
+}

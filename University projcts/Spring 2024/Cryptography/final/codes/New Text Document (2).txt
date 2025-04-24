@@ -1,0 +1,259 @@
+package Final;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class part1 {
+
+    public static void main(String[] args) {
+        System.out.println("Please enter the key containing 10 bits as binary:");
+        Scanner scan = new Scanner(System.in);
+        int[] key = new int[10];
+        for (int i = 0; i < 10; i++) {
+            key[i] = scan.nextInt();
+        }
+        System.out.println("Enter the plain text containing 8 bits as binary:");
+        int[] plaintext = new int[8];
+        for (int j = 0; j < 8; j++) {
+            plaintext[j] = scan.nextInt();
+        }
+
+        // Key generation
+        int[] newKey = p10(key);
+        System.out.println("Key: " + Arrays.toString(key));
+        System.out.println("New Key (P10): " + Arrays.toString(newKey));
+
+        int[] splitL = Arrays.copyOfRange(newKey, 0, 5);
+        int[] splitR = Arrays.copyOfRange(newKey, 5, 10);
+        System.out.println("Split Left: " + Arrays.toString(splitL));
+        System.out.println("Split Right: " + Arrays.toString(splitR));
+
+        // Shifting left
+        splitL = shiftLeft(splitL, 1);
+        splitR = shiftLeft(splitR, 1);
+        System.out.println("After shifting left: " + Arrays.toString(splitL));
+        System.out.println("After shifting right: " + Arrays.toString(splitR));
+
+        // Combine and permute to get K1
+        int[] combinedKey = combine(splitL, splitR);
+        int[] k1 = p8(combinedKey);
+        System.out.println("Combined: " + Arrays.toString(combinedKey));
+        System.out.println("K1: " + Arrays.toString(k1));
+
+        // Second shifting left
+        splitL = shiftLeft(splitL, 2);
+        splitR = shiftLeft(splitR, 2);
+        System.out.println("After second shifting left: " + Arrays.toString(splitL));
+        System.out.println("After second shifting right: " + Arrays.toString(splitR));
+
+        // Combine and permute to get K2
+        combinedKey = combine(splitL, splitR);
+        int[] k2 = p8(combinedKey);
+        System.out.println("Combined: " + Arrays.toString(combinedKey));
+        System.out.println("K2: " + Arrays.toString(k2));
+
+        // Encryption
+        int[] ciphertext = encrypt(k1, k2, plaintext);
+        System.out.println("Ciphertext: " + Arrays.toString(ciphertext));
+
+        // Decryption
+        int[] decryptedText = decrypt(k2, k1, ciphertext);
+        System.out.println("Decrypted Text: " + Arrays.toString(decryptedText));
+    }
+
+    static int[] encrypt(int[] k1, int[] k2, int[] plaintext) {
+        // Initial Permutation
+        int[] initialPerm = initialPermutation(plaintext);
+        System.out.println("Initial Permutation: " + Arrays.toString(initialPerm));
+
+        // Split
+        int[] left = Arrays.copyOfRange(initialPerm, 0, 4);
+        int[] right = Arrays.copyOfRange(initialPerm, 4, 8);
+
+        // First round with k1
+        int[] round1Output = fk(left, right, k1);
+        System.out.println("After Round 1 with K1: " + Arrays.toString(round1Output));
+
+        // Swap halves
+        int[] swapped = swapHalves(round1Output);
+        System.out.println("After Swapping: " + Arrays.toString(swapped));
+
+        // Split again
+        left = Arrays.copyOfRange(swapped, 0, 4);
+        right = Arrays.copyOfRange(swapped, 4, 8);
+
+        // Second round with k2
+        int[] round2Output = fk(left, right, k2);
+        System.out.println("After Round 2 with K2: " + Arrays.toString(round2Output));
+
+        // Final Permutation
+        int[] ciphertext = finalPermutation(round2Output);
+        System.out.println("Final Permutation (Ciphertext): " + Arrays.toString(ciphertext));
+        return ciphertext;
+    }
+
+    static int[] decrypt(int[] k2, int[] k1, int[] ciphertext) {
+        // Initial Permutation
+        int[] initialPerm = initialPermutation(ciphertext);
+        System.out.println("Initial Permutation (Decryption): " + Arrays.toString(initialPerm));
+
+        // Split
+        int[] left = Arrays.copyOfRange(initialPerm, 0, 4);
+        int[] right = Arrays.copyOfRange(initialPerm, 4, 8);
+
+        // First round with k2
+        int[] round1Output = fk(left, right, k2);
+        System.out.println("After Round 1 with K2 (Decryption): " + Arrays.toString(round1Output));
+
+        // Swap halves
+        int[] swapped = swapHalves(round1Output);
+        System.out.println("After Swapping (Decryption): " + Arrays.toString(swapped));
+
+        // Split again
+        left = Arrays.copyOfRange(swapped, 0, 4);
+        right = Arrays.copyOfRange(swapped, 4, 8);
+
+        // Second round with k1
+        int[] round2Output = fk(left, right, k1);
+        System.out.println("After Round 2 with K1 (Decryption): " + Arrays.toString(round2Output));
+
+        // Final Permutation
+        int[] decryptedText = finalPermutation(round2Output);
+        System.out.println("Final Permutation (Decrypted Text): " + Arrays.toString(decryptedText));
+        return decryptedText;
+    }
+
+    // Function fk for each round
+    static int[] fk(int[] left, int[] right, int[] key) {
+        // Expand and permute right half
+        int[] ep = EP(right);
+        System.out.println("EP: " + Arrays.toString(ep));
+
+        // XOR with key
+        int[] xorOutput = xor(ep, key);
+        System.out.println("XOR with key: " + Arrays.toString(xorOutput));
+
+        // Split and apply S-boxes
+        int[] sboxOutput = sboxes(xorOutput);
+        System.out.println("S-box output: " + Arrays.toString(sboxOutput));
+
+        // Permutation P4
+        int[] p4 = p4(sboxOutput);
+        System.out.println("P4: " + Arrays.toString(p4));
+
+        // XOR with left half
+        int[] newLeft = xor(left, p4);
+        System.out.println("New Left: " + Arrays.toString(newLeft));
+
+        // Combine halves
+        int[] combined = combine(newLeft, right);
+        System.out.println("Combined FK output: " + Arrays.toString(combined));
+        return combined;
+    }
+
+    static int[] xor(int[] a, int[] b) {
+        int[] result = new int[a.length];
+        for (int i = 0; i < a.length; i++) {
+            result[i] = a[i] ^ b[i];
+        }
+        return result;
+    }
+
+    static int[] combine(int[] left, int[] right) {
+        int[] combined = new int[left.length + right.length];
+        System.arraycopy(left, 0, combined, 0, left.length);
+        System.arraycopy(right, 0, combined, left.length, right.length);
+        return combined;
+    }
+
+    static int[] swapHalves(int[] input) {
+        int halfLength = input.length / 2;
+        int[] swapped = new int[input.length];
+        System.arraycopy(input, halfLength, swapped, 0, halfLength);
+        System.arraycopy(input, 0, swapped, halfLength, halfLength);
+        return swapped;
+    }
+
+    static int[] initialPermutation(int[] input) {
+        return new int[] { input[1], input[5], input[2], input[0], input[3], input[7], input[4], input[6] };
+    }
+
+    static int[] finalPermutation(int[] input) {
+        return new int[] { input[3], input[0], input[2], input[4], input[6], input[1], input[7], input[5] };
+    }
+
+    static int[] p10(int[] key) {
+        return new int[] { key[2], key[4], key[1], key[6], key[3], key[9], key[0], key[8], key[7], key[5] };
+    }
+
+    static int[] p8(int[] key) {
+        return new int[] { key[5], key[2], key[6], key[3], key[7], key[4], key[9], key[8] };
+    }
+
+    static int[] p4(int[] input) {
+        return new int[] { input[1], input[3], input[2], input[0] };
+    }
+
+    static int[] EP(int[] right) {
+        return new int[] { right[3], right[0], right[1], right[2], right[1], right[2], right[3], right[0] };
+    }
+
+    static int[] shiftLeft(int[] bits, int numShifts) {
+        int[] shifted = new int[bits.length];
+        System.arraycopy(bits, numShifts, shifted, 0, bits.length - numShifts);
+        System.arraycopy(bits, 0, shifted, bits.length - numShifts, numShifts);
+        return shifted;
+    }
+
+    static int[] sboxes(int[] input) {
+        int[] left = Arrays.copyOfRange(input, 0, 4);
+        int[] right = Arrays.copyOfRange(input, 4, 8);
+
+        int[] sboxOutput = new int[4];
+        s0(left, sboxOutput);
+        s1(right, sboxOutput);
+        return sboxOutput;
+    }
+
+    static void s0(int[] input, int[] output) {
+        int[][] s0 = {
+                { 1, 0, 3, 2 },
+                { 3, 2, 1, 0 },
+                { 0, 2, 1, 3 },
+                { 3, 1, 3, 2 }
+        };
+
+        int row = (input[0] << 1) + input[3];
+        int col = (input[1] << 1) + input[2];
+        int value = s0[row][col];
+
+        output[0] = (value >> 1) & 1;
+        output[1] = value & 1;
+    }
+
+    static void s1(int[] input, int[] output) {
+        int[][] s1 = {
+                { 0, 1, 2, 3 },
+                { 2, 0, 1, 3 },
+                { 3, 0, 1, 0 },
+                { 2, 1, 0, 3 }
+        };
+
+        int row = (input[0] << 1) + input[3];
+        int col = (input[1] << 1) + input[2];
+        int value = s1[row][col];
+
+        output[2] = (value >> 1) & 1;
+        output[3] = value & 1;
+    }
+
+    // Calculate row index for S-box
+    static int calculateRowIndex(int[] bits) {
+        return (bits[0] << 1) | bits[3];
+    }
+
+    // Calculate column index for S-box
+    static int calculateColumnIndex(int[] bits) {
+        return (bits[1] << 1) | bits[2];
+    }
+}

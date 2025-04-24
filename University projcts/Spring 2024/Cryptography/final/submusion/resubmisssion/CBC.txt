@@ -1,0 +1,73 @@
+from Crypto.Cipher import AES
+from Crypto.Util.Padding import pad, unpad
+import os
+from PIL import Image
+import io
+import numpy as np
+
+# Load the image
+image_path = r'D:\Univercity\spring 2024 semester\crypto\final\TUX.jpg'
+with open(image_path, 'rb') as f:
+    image_data = f.read()
+
+# Define the key and initialization vector
+key = b'Sixteen byte key'  # 16-byte key for AES-128
+iv = os.urandom(16)        # Random 16-byte IV
+
+# Encryption using CBC mode
+def encrypt_cbc(plaintext, key, iv):
+    cipher = AES.new(key, AES.MODE_CBC, iv)
+    ciphertext = cipher.encrypt(pad(plaintext, AES.block_size))
+    return iv + ciphertext
+
+# Decryption using CBC mode
+def decrypt_cbc(ciphertext, key, iv):
+    cipher = AES.new(key, AES.MODE_CBC, iv)
+    decrypted_data = cipher.decrypt(ciphertext)
+    return unpad(decrypted_data, AES.block_size)
+
+# Encrypt the image data
+ciphertext = encrypt_cbc(image_data, key, iv)
+
+# Save the encrypted image data to a file
+encrypted_image_path = r'D:\Univercity\spring 2024 semester\crypto\final\CBC\encrypted_image.bin'
+with open(encrypted_image_path, 'wb') as f:
+    f.write(ciphertext)
+
+# Decrypt the image data
+with open(encrypted_image_path, 'rb') as f:
+    encrypted_data = f.read()
+
+iv = encrypted_data[:16]
+ciphertext = encrypted_data[16:]
+
+decrypted_data = decrypt_cbc(ciphertext, key, iv)
+
+# Save the decrypted image to verify the process
+decrypted_image_path = r'D:\Univercity\spring 2024 semester\crypto\final\CBC\decrypted_image.png'
+with open(decrypted_image_path, 'wb') as f:
+    f.write(decrypted_data)
+
+# Display the original image
+original_image = Image.open(io.BytesIO(image_data))
+original_image.show(title="Original Image")
+
+# Convert encrypted data to an RGB image-like structure for visualization
+encrypted_image_data = np.frombuffer(ciphertext, dtype=np.uint8)
+image_size = int(np.ceil(np.sqrt(len(encrypted_image_data) // 3)))  # Divided by 3 for RGB channels
+encrypted_image_data = np.pad(encrypted_image_data, (0, image_size**2 * 3 - len(encrypted_image_data)), mode='constant')
+encrypted_image_data = encrypted_image_data.reshape((image_size, image_size, 3))
+
+# Convert the encrypted data to an RGB image
+encrypted_image = Image.fromarray(encrypted_image_data, mode='RGB')
+
+# Save the visualized encrypted image as a PNG file
+visualized_encrypted_image_path = r'D:\Univercity\spring 2024 semester\crypto\final\CBC\visualized_encrypted_image.png'
+encrypted_image.save(visualized_encrypted_image_path)
+
+# Display the encrypted image (RGB)
+encrypted_image.show(title="Encrypted Image (RGB)")
+
+# Display the decrypted image
+decrypted_image = Image.open(decrypted_image_path)
+decrypted_image.show(title="Decrypted Image")

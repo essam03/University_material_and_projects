@@ -1,0 +1,92 @@
+from Crypto.Cipher import AES
+from Crypto.Util.Padding import pad, unpad
+import os
+from PIL import Image
+import io
+import numpy as np
+
+# Load the image
+image_path = r'D:\Univercity\spring 2024 semester\crypto\final\TUX.jpg'
+with open(image_path, 'rb') as f:
+    image_data = f.read()
+
+# Define the key and initialization vector
+key = b'Sixteen byte key'  # 16-byte key for AES-128
+iv = os.urandom(16)        # Random 16-byte IV
+
+# Encryption using ECB to build CBC mode
+def encrypt_cbc(plaintext, key, iv):
+    cipher_ecb = AES.new(key, AES.MODE_ECB)
+    prev_block = iv
+    ciphertext = b''
+    for i in range(0, len(plaintext), AES.block_size):
+        block = plaintext[i:i+AES.block_size]
+        block = pad(block, AES.block_size)
+        xor_block = bytes([_a ^ _b for _a, _b in zip(block, prev_block)])
+        encrypted_block = cipher_ecb.encrypt(xor_block)
+        ciphertext += encrypted_block
+        prev_block = encrypted_block
+    return ciphertext
+
+# Decryption using ECB to build CBC mode
+def decrypt_cbc(ciphertext, key, iv):
+    cipher_ecb = AES.new(key, AES.MODE_ECB)
+    prev_block = iv
+    plaintext = b''
+    for i in range(0, len(ciphertext), AES.block_size):
+        block = ciphertext[i:i+AES.block_size]
+        decrypted_block = cipher_ecb.decrypt(block)
+        xor_block = bytes([_a ^ _b for _a, _b in zip(decrypted_block, prev_block)])
+        plaintext += xor_block
+        prev_block = block
+    return unpad(plaintext, AES.block_size)
+
+# Encrypt the image data
+ciphertext = encrypt_cbc(image_data, key, iv)
+
+# Save the encrypted image data to a file
+encrypted_image_path = r'D:\Univercity\spring 2024 semester\crypto\final\CBC\encrypted_image.bin'
+with open(encrypted_image_path, 'wb') as f:
+    f.write(iv + ciphertext)
+
+# Decrypt the image data
+with open(encrypted_image_path, 'rb') as f:
+    encrypted_data = f.read()
+
+iv = encrypted_data[:16]
+ciphertext = encrypted_data[16:]
+
+decrypted_data = decrypt_cbc(ciphertext, key, iv)
+
+# Save the decrypted image to verify the process
+decrypted_image_path = r'D:\Univercity\spring 2024 semester\crypto\final\CBC\decrypted_image.png'
+with open(decrypted_image_path, 'wb') as f:
+    f.write(decrypted_data)
+
+# Display the original, encrypted, and decrypted images
+original_image = Image.open(io.BytesIO(image_data))
+decrypted_image = Image.open(decrypted_image_path)
+
+# Convert encrypted data to an image-like structure for visualization
+encrypted_image_data = np.frombuffer(ciphertext, dtype=np.uint8)
+image_size = int(np.ceil(np.sqrt(len(encrypted_image_data))))
+encrypted_image_data = np.pad(encrypted_image_data, (0, image_size**2 - len(encrypted_image_data)), mode='constant')
+encrypted_image_data = encrypted_image_data.reshape((image_size, image_size))
+
+# Convert the encrypted data to a grayscale image
+encrypted_image = Image.fromarray(encrypted_image_data, mode='L')
+
+# Save the visualized encrypted image as a PNG file
+visualized_encrypted_image_path = r'D:\Univercity\spring 2024 semester\crypto\final\CBC\visualized_encrypted_image.png'
+encrypted_image.save(visualized_encrypted_image_path)
+
+# Show the images
+original_image.show(title="Original Image")
+encrypted_image.show(title="Encrypted Image (Visualized)")
+decrypted_image.show(title="Decrypted Image")
+
+# Convert the encrypted data to a hexadecimal string
+encrypted_hex = encrypted_data.hex()
+
+# Print the first 256 characters of the encrypted data
+print(encrypted_hex[:256])
