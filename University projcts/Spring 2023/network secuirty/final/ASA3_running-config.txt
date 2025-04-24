@@ -1,0 +1,102 @@
+: Saved
+:
+ASA Version 9.6(1)
+!
+hostname ciscoasa
+names
+!
+interface GigabitEthernet1/1
+ nameif OUTSIDE
+ security-level 0
+ ip address 160.0.0.1 255.0.0.0
+!
+interface GigabitEthernet1/2
+ nameif DMZ
+ security-level 85
+ ip address 60.0.0.1 255.0.0.0
+!
+interface GigabitEthernet1/3
+ nameif INSIDE
+ security-level 100
+ ip address 50.0.0.1 255.0.0.0
+!
+interface GigabitEthernet1/4
+ no nameif
+ no security-level
+ no ip address
+ shutdown
+!
+interface GigabitEthernet1/5
+ no nameif
+ no security-level
+ no ip address
+ shutdown
+!
+interface GigabitEthernet1/6
+ no nameif
+ no security-level
+ no ip address
+ shutdown
+!
+interface GigabitEthernet1/7
+ no nameif
+ no security-level
+ no ip address
+ shutdown
+!
+interface GigabitEthernet1/8
+ no nameif
+ no security-level
+ no ip address
+ shutdown
+!
+interface Management1/1
+ management-only
+ no nameif
+ no security-level
+ no ip address
+ shutdown
+!
+object network DMZ-NET
+ host 60.0.0.11
+ nat (DMZ,OUTSIDE) static 160.0.0.30
+object network INSIDE-NET
+ subnet 50.0.0.0 255.0.0.0
+ nat (INSIDE,OUTSIDE) dynamic interface
+!
+route OUTSIDE 0.0.0.0 0.0.0.0 160.0.0.2 1
+!
+!
+!
+!
+!
+class-map inspection_default
+ match default-inspection-traffic
+class-map inpection_defualt
+ match default-inspection-traffic
+class-map inspection_deafult
+ match default-inspection-traffic
+class-map ispection-default
+ match default-inspection-traffic
+!
+policy-map type inspect dns preset_dns_map
+ parameters
+  message-length maximum 512
+policy-map global_policy
+ class inspection_default
+  inspect dns preset_dns_map
+  inspect ftp 
+  inspect icmp 
+  inspect tftp 
+ class inspection_deafult
+  inspect icmp 
+policy-map global_policy1
+!
+service-policy global_policy global
+!
+telnet timeout 5
+ssh timeout 5
+!
+!
+!
+!

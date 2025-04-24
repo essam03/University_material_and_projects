@@ -1,0 +1,196 @@
+router:
+
+service password-encryption
+security password min-length 10
+no ip domain-lookup
+ip domain-name eis.jnr.com.jo
+username sam secret sammas2003
+crypto key generate rsa general-keys modulus 1024
+login block-for 300 attempts 3 within 180
+line vty 0 4
+transport input ssh
+login local
+exec-timeout 6
+
+
+
+
+
+
+
+
+
+---------------------------
+
+
+switch:
+service password-encryption
+no ip domain-lookup
+ip domain-name eis.jnr.com.jo
+username sam secret sammas2003
+crypto key generate rsa general-keys modulus 1024
+line vty 0 4
+transport input ssh
+login local
+exec-timeout 6
+
+
+
+
+
+
+
+
+
+
+
+
+
+----------------------------------------------
+
+
+
+d.	router ospf 1” to set the process number, and the ospf routing protocol
+e.	network 10.0.0.0 0.255.255.255 area 0
+f.	network 20.0.0.0 0.255.255.255 area 0
+g.	network 30.0.0.0 0.255.255.255 area 0
+h.	network 40.0.0.0 0.255.255.255 area 0
+i.	network 100.0.0.0 0.255.255.255 area 0
+j.	network 110.0.0.0 0.255.255.255 area 0
+k.	network 120.0.0.0 0.255.255.255 area 0
+l.	Writing “network 130.0.0.0 0.255.255.255 area 0
+m.	Now adding the passive interfaces as follow: 
+i.	Writing “passive-interface gig0/0/0.20”
+ii.	Writing “passive-interface gig0/0/0.30”
+iii.	Writing “passive-interface gig0/0/0.40”
+iv.	Writing “passive-interface gig0/0/1.10”
+2-	Irbid Router OSPF configuration: 
+a.	Clicking on the CLI
+b.	Writing “enable” to access the privileged executive mode
+c.	Writing configure terminal to access the global mode
+d.	Writing “router ospf 8” to set the process number, and the ospf routing protocol
+e.	Writing “network 90.0.0.0 0.255.255.255 area 0”
+f.	Writing “network 110.0.0.0 0.255.255.255 area 0”
+g.	Now adding the passive interfaces as follow: 
+i.	Writing “passive-interface gig0/0/0”
+3-	Turkey Router OSPF configuration: 
+a.	Clicking on the CLI
+b.	Writing “enable” to access the privileged executive mode
+c.	Writing configure terminal to access the global mode
+d.	Writing “router ospf 10” to set the process number, and the ospf routing protocol
+e.	Writing “network 80.0.0.0 0.255.255.255 area 0”
+f.	Writing “network 130.0.0.0 0.255.255.255 area 0”
+g.	Now adding the passive interfaces as follow: 
+i.	Writing “passive-interface gig0/0/0”
+4-	Saudi Router OSPF configuration: 
+a.	Clicking on the CLI
+b.	Writing “enable” to access the privileged executive mode
+c.	Writing configure terminal to access the global mode
+d.	Writing “router ospf 11” to set the process number, and the ospf routing protocol
+e.	Writing “network 70.0.0.0 0.255.255.255 area 0”
+f.	Writing “network 120.0.0.0 0.255.255.255 area 0”
+g.	Now adding the passive interfaces as follow: 
+i.	Writing “passive-interface gig0/0/0”
+5-	Aqaba Router OSPF configuration: 
+a.	Clicking on the CLI
+b.	Writing “enable” to access the privileged executive mode
+c.	Writing configure terminal to access the global mode
+d.	Writing “router ospf 15” to set the process number, and the ospf routing protocol
+e.	Writing “network 140.0.0.0 255.0.0.0 area 0”
+f.	Writing “network 100.0.0.0 255.0.0.0 area 0”
+g.	Now adding the passive interfaces as follow: 
+i.	Writing “passive-interface gig0/0/0”
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------
+configure terminal
+access-list 132 permit ip 10.0.0.1 0.255.255.255 80.0.0.1 0.255.255.255
+access-list 132 permit ip 20.0.0.1 0.255.255.255 80.0.0.1 0.255.255.255
+access-list 132 permit ip 30.0.0.1 0.255.255.255 80.0.0.1 0.255.255.255 
+access-list 132 permit ip 40.0.0.1 0.255.255.255 80.0.0.1 0.255.255.255
+crypto isakmp policy 10
+ encryption aes 256
+ authentication pre-share
+ group 5
+crypto isakmp key secret321 address 120.0.0.2
+crypto isakmp key secret123 address 130.0.0.2
+crypto ipsec transform-set VPN-SET esp-aes esp-sha-hmac
+crypto map VPN-MAP2 10 ipsec-isakmp
+ description VPN connection to turkey
+ set peer 130.0.0.2
+ set transform-set VPN-SET
+ match address 132
+interface s0/0/0
+ crypto map VPN-MAP2
+end
+configure terminal
+access-list 110 permit ip 192.168.3.0 0.0.0.255 192.168.1.0 0.0.0.255
+crypto isakmp policy 10
+ encryption aes 256
+ authentication pre-share
+ group 5
+crypto isakmp key vpnpa55 address 10.1.1.2
+crypto ipsec transform-set VPN-SET esp-aes esp-sha-hmac
+crypto map VPN-MAP 10 ipsec-isakmp
+ description VPN connection to R1
+ set peer 10.1.1.2
+ set transform-set VPN-SET
+ match address 110
+interface s0/0/1
+ crypto map VPN-MAP
+end
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+access 109 permit tcp any host 10.0.0.100 eq 443
+access 109 permit tcp any host 10.0.0.100 eq 25
+access 109 permit tcp any host 10.0.0.100 eq 53
+access 109 permit tcp 20.0.0.10 0.255.255.255 host 10.0.0.100 eq 20
+access 109 permit tcp 20.0.0.10 0.255.255.255 host 10.0.0.100 eq 21
+access 109 permit tcp 60.0.0.10 0.255.255.255 host 10.0.0.100 eq 20
+access 109 permit tcp 60.0.0.10 0.255.255.255 host 10.0.0.100 eq 21
+access 109 permit tcp 50.0.0.10 0.255.255.255 host 10.0.0.100 eq 20
+access 109 permit tcp 50.0.0.10 0.255.255.255 host 10.0.0.100 eq 21
+access 109 permit tcp 10.0.0.0 0.255.255.255 host 10.0.0.100 eq 68
+access 109 permit tcp 10.0.0.0 0.255.255.255 host 10.0.0.100 eq 67
+access 109 permit tcp 20.0.0.10 0.255.255.255 host 10.0.0.100 eq 80
+inter gig0/0/0.10
+ip access-gro 109 out   
+
+
+
+   
+
+
