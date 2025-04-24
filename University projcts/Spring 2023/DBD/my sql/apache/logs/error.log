@@ -1,0 +1,243 @@
+[Thu Apr 13 12:20:47.857039 2023] [ssl:warn] [pid 17008:tid 488] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Apr 13 12:20:47.925054 2023] [ssl:warn] [pid 17008:tid 488] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Apr 13 12:20:48.119913 2023] [mpm_winnt:notice] [pid 17008:tid 488] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Thu Apr 13 12:20:48.119913 2023] [mpm_winnt:notice] [pid 17008:tid 488] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Thu Apr 13 12:20:48.119913 2023] [core:notice] [pid 17008:tid 488] AH00094: Command line: 'd:\\univercity\\dbd\\my sql\\apache\\bin\\httpd.exe -d D:/Univercity/DBD/my sql/apache'
+[Thu Apr 13 12:20:48.125740 2023] [mpm_winnt:notice] [pid 17008:tid 488] AH00418: Parent: Created child process 21428
+[Thu Apr 13 12:20:48.765648 2023] [ssl:warn] [pid 21428:tid 464] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Apr 13 12:20:48.829199 2023] [ssl:warn] [pid 21428:tid 464] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu Apr 13 12:20:48.884212 2023] [mpm_winnt:notice] [pid 21428:tid 464] AH00354: Child: Starting 150 worker threads.
+[Sun Apr 30 22:38:30.999806 2023] [ssl:warn] [pid 22260:tid 188] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Apr 30 22:38:31.055242 2023] [core:warn] [pid 22260:tid 188] AH00098: pid file D:/Univercity/DBD/my sql/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Apr 30 22:38:31.055242 2023] [ssl:warn] [pid 22260:tid 188] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Apr 30 22:38:31.329954 2023] [mpm_winnt:notice] [pid 22260:tid 188] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Sun Apr 30 22:38:31.329954 2023] [mpm_winnt:notice] [pid 22260:tid 188] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Sun Apr 30 22:38:31.329954 2023] [core:notice] [pid 22260:tid 188] AH00094: Command line: 'd:\\univercity\\dbd\\my sql\\apache\\bin\\httpd.exe -d D:/Univercity/DBD/my sql/apache'
+[Sun Apr 30 22:38:31.337954 2023] [mpm_winnt:notice] [pid 22260:tid 188] AH00418: Parent: Created child process 23284
+[Sun Apr 30 22:38:31.865293 2023] [ssl:warn] [pid 23284:tid 408] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Apr 30 22:38:31.918498 2023] [ssl:warn] [pid 23284:tid 408] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Apr 30 22:38:31.986345 2023] [mpm_winnt:notice] [pid 23284:tid 408] AH00354: Child: Starting 150 worker threads.
+[Wed May 03 23:17:41.193774 2023] [ssl:warn] [pid 23268:tid 404] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 03 23:17:41.222780 2023] [core:warn] [pid 23268:tid 404] AH00098: pid file D:/Univercity/DBD/my sql/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed May 03 23:17:41.225781 2023] [ssl:warn] [pid 23268:tid 404] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 03 23:17:41.305799 2023] [mpm_winnt:notice] [pid 23268:tid 404] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Wed May 03 23:17:41.305799 2023] [mpm_winnt:notice] [pid 23268:tid 404] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Wed May 03 23:17:41.305799 2023] [core:notice] [pid 23268:tid 404] AH00094: Command line: 'd:\\univercity\\dbd\\my sql\\apache\\bin\\httpd.exe -d D:/Univercity/DBD/my sql/apache'
+[Wed May 03 23:17:41.307800 2023] [mpm_winnt:notice] [pid 23268:tid 404] AH00418: Parent: Created child process 13508
+[Wed May 03 23:17:41.591864 2023] [ssl:warn] [pid 13508:tid 408] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 03 23:17:41.619870 2023] [ssl:warn] [pid 13508:tid 408] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 03 23:17:41.651878 2023] [mpm_winnt:notice] [pid 13508:tid 408] AH00354: Child: Starting 150 worker threads.
+[Thu May 04 11:25:02.036207 2023] [ssl:warn] [pid 24268:tid 404] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu May 04 11:25:02.092361 2023] [core:warn] [pid 24268:tid 404] AH00098: pid file D:/Univercity/DBD/my sql/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu May 04 11:25:02.095374 2023] [ssl:warn] [pid 24268:tid 404] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu May 04 11:25:02.151376 2023] [mpm_winnt:notice] [pid 24268:tid 404] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Thu May 04 11:25:02.151376 2023] [mpm_winnt:notice] [pid 24268:tid 404] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Thu May 04 11:25:02.151376 2023] [core:notice] [pid 24268:tid 404] AH00094: Command line: 'd:\\univercity\\dbd\\my sql\\apache\\bin\\httpd.exe -d D:/Univercity/DBD/my sql/apache'
+[Thu May 04 11:25:02.155375 2023] [mpm_winnt:notice] [pid 24268:tid 404] AH00418: Parent: Created child process 28348
+[Thu May 04 11:25:02.649581 2023] [ssl:warn] [pid 28348:tid 408] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu May 04 11:25:02.694124 2023] [ssl:warn] [pid 28348:tid 408] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu May 04 11:25:02.747137 2023] [mpm_winnt:notice] [pid 28348:tid 408] AH00354: Child: Starting 150 worker threads.
+[Mon May 08 10:15:20.083848 2023] [ssl:warn] [pid 7164:tid 404] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 08 10:15:20.138860 2023] [core:warn] [pid 7164:tid 404] AH00098: pid file D:/Univercity/DBD/my sql/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon May 08 10:15:20.142860 2023] [ssl:warn] [pid 7164:tid 404] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 08 10:15:20.382555 2023] [mpm_winnt:notice] [pid 7164:tid 404] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Mon May 08 10:15:20.382555 2023] [mpm_winnt:notice] [pid 7164:tid 404] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Mon May 08 10:15:20.382555 2023] [core:notice] [pid 7164:tid 404] AH00094: Command line: 'd:\\univercity\\dbd\\my sql\\apache\\bin\\httpd.exe -d D:/Univercity/DBD/my sql/apache'
+[Mon May 08 10:15:20.386556 2023] [mpm_winnt:notice] [pid 7164:tid 404] AH00418: Parent: Created child process 16340
+[Mon May 08 10:15:20.975958 2023] [ssl:warn] [pid 16340:tid 420] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 08 10:15:21.031972 2023] [ssl:warn] [pid 16340:tid 420] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 08 10:15:21.087984 2023] [mpm_winnt:notice] [pid 16340:tid 420] AH00354: Child: Starting 150 worker threads.
+[Wed May 10 10:35:42.546518 2023] [ssl:warn] [pid 9828:tid 416] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 10 10:35:42.604214 2023] [core:warn] [pid 9828:tid 416] AH00098: pid file D:/Univercity/DBD/my sql/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed May 10 10:35:42.608309 2023] [ssl:warn] [pid 9828:tid 416] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 10 10:35:42.750931 2023] [mpm_winnt:notice] [pid 9828:tid 416] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Wed May 10 10:35:42.750931 2023] [mpm_winnt:notice] [pid 9828:tid 416] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Wed May 10 10:35:42.750931 2023] [core:notice] [pid 9828:tid 416] AH00094: Command line: 'd:\\univercity\\dbd\\my sql\\apache\\bin\\httpd.exe -d D:/Univercity/DBD/my sql/apache'
+[Wed May 10 10:35:42.756932 2023] [mpm_winnt:notice] [pid 9828:tid 416] AH00418: Parent: Created child process 17124
+[Wed May 10 10:35:43.257343 2023] [ssl:warn] [pid 17124:tid 416] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 10 10:35:43.306349 2023] [ssl:warn] [pid 17124:tid 416] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 10 10:35:43.364363 2023] [mpm_winnt:notice] [pid 17124:tid 416] AH00354: Child: Starting 150 worker threads.
+[Thu May 11 20:16:31.238146 2023] [ssl:warn] [pid 21300:tid 404] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu May 11 20:16:31.288046 2023] [core:warn] [pid 21300:tid 404] AH00098: pid file D:/Univercity/DBD/my sql/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu May 11 20:16:31.290062 2023] [ssl:warn] [pid 21300:tid 404] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu May 11 20:16:31.397939 2023] [mpm_winnt:notice] [pid 21300:tid 404] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Thu May 11 20:16:31.397939 2023] [mpm_winnt:notice] [pid 21300:tid 404] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Thu May 11 20:16:31.397939 2023] [core:notice] [pid 21300:tid 404] AH00094: Command line: 'd:\\univercity\\dbd\\my sql\\apache\\bin\\httpd.exe -d D:/Univercity/DBD/my sql/apache'
+[Thu May 11 20:16:31.397939 2023] [mpm_winnt:notice] [pid 21300:tid 404] AH00418: Parent: Created child process 8704
+[Thu May 11 20:16:31.823687 2023] [ssl:warn] [pid 8704:tid 408] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu May 11 20:16:31.871030 2023] [ssl:warn] [pid 8704:tid 408] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu May 11 20:16:31.915666 2023] [mpm_winnt:notice] [pid 8704:tid 408] AH00354: Child: Starting 150 worker threads.
+[Fri May 12 22:51:50.365157 2023] [mpm_winnt:crit] [pid 8704:tid 408] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Mon May 15 10:47:02.918484 2023] [ssl:warn] [pid 13924:tid 156] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 15 10:47:02.957069 2023] [core:warn] [pid 13924:tid 156] AH00098: pid file D:/Univercity/DBD/my sql/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon May 15 10:47:02.960070 2023] [ssl:warn] [pid 13924:tid 156] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 15 10:47:03.169231 2023] [mpm_winnt:notice] [pid 13924:tid 156] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Mon May 15 10:47:03.169231 2023] [mpm_winnt:notice] [pid 13924:tid 156] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Mon May 15 10:47:03.169231 2023] [core:notice] [pid 13924:tid 156] AH00094: Command line: 'd:\\univercity\\dbd\\my sql\\apache\\bin\\httpd.exe -d D:/Univercity/DBD/my sql/apache'
+[Mon May 15 10:47:03.173231 2023] [mpm_winnt:notice] [pid 13924:tid 156] AH00418: Parent: Created child process 20880
+[Mon May 15 10:47:03.571919 2023] [ssl:warn] [pid 20880:tid 404] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 15 10:47:03.608918 2023] [ssl:warn] [pid 20880:tid 404] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 15 10:47:03.650927 2023] [mpm_winnt:notice] [pid 20880:tid 404] AH00354: Child: Starting 150 worker threads.
+[Wed May 17 10:36:48.970658 2023] [ssl:warn] [pid 6208:tid 400] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 17 10:36:49.018681 2023] [core:warn] [pid 6208:tid 400] AH00098: pid file D:/Univercity/DBD/my sql/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed May 17 10:36:49.022669 2023] [ssl:warn] [pid 6208:tid 400] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 17 10:36:49.168702 2023] [mpm_winnt:notice] [pid 6208:tid 400] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Wed May 17 10:36:49.168702 2023] [mpm_winnt:notice] [pid 6208:tid 400] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Wed May 17 10:36:49.168702 2023] [core:notice] [pid 6208:tid 400] AH00094: Command line: 'd:\\univercity\\dbd\\my sql\\apache\\bin\\httpd.exe -d D:/Univercity/DBD/my sql/apache'
+[Wed May 17 10:36:49.172703 2023] [mpm_winnt:notice] [pid 6208:tid 400] AH00418: Parent: Created child process 13396
+[Wed May 17 10:36:49.697249 2023] [ssl:warn] [pid 13396:tid 412] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 17 10:36:49.744259 2023] [ssl:warn] [pid 13396:tid 412] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 17 10:36:49.801274 2023] [mpm_winnt:notice] [pid 13396:tid 412] AH00354: Child: Starting 150 worker threads.
+[Wed May 17 10:36:56.402593 2023] [ssl:warn] [pid 13700:tid 412] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 17 10:36:56.462608 2023] [core:warn] [pid 13700:tid 412] AH00098: pid file D:/Univercity/DBD/my sql/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed May 17 10:36:56.465670 2023] [ssl:warn] [pid 13700:tid 412] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 17 10:36:56.518630 2023] [mpm_winnt:notice] [pid 13700:tid 412] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Wed May 17 10:36:56.518630 2023] [mpm_winnt:notice] [pid 13700:tid 412] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Wed May 17 10:36:56.518630 2023] [core:notice] [pid 13700:tid 412] AH00094: Command line: 'd:\\univercity\\dbd\\my sql\\apache\\bin\\httpd.exe -d D:/Univercity/DBD/my sql/apache'
+[Wed May 17 10:36:56.522620 2023] [mpm_winnt:notice] [pid 13700:tid 412] AH00418: Parent: Created child process 16948
+[Wed May 17 10:36:57.008728 2023] [ssl:warn] [pid 16948:tid 420] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 17 10:36:57.053184 2023] [ssl:warn] [pid 16948:tid 420] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 17 10:36:57.108196 2023] [mpm_winnt:notice] [pid 16948:tid 420] AH00354: Child: Starting 150 worker threads.
+[Fri May 19 20:50:23.282578 2023] [ssl:warn] [pid 25520:tid 400] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri May 19 20:50:23.341320 2023] [core:warn] [pid 25520:tid 400] AH00098: pid file D:/Univercity/DBD/my sql/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri May 19 20:50:23.341320 2023] [ssl:warn] [pid 25520:tid 400] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri May 19 20:50:23.469687 2023] [mpm_winnt:notice] [pid 25520:tid 400] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Fri May 19 20:50:23.469687 2023] [mpm_winnt:notice] [pid 25520:tid 400] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Fri May 19 20:50:23.469687 2023] [core:notice] [pid 25520:tid 400] AH00094: Command line: 'd:\\univercity\\dbd\\my sql\\apache\\bin\\httpd.exe -d D:/Univercity/DBD/my sql/apache'
+[Fri May 19 20:50:23.472714 2023] [mpm_winnt:notice] [pid 25520:tid 400] AH00418: Parent: Created child process 25416
+[Fri May 19 20:50:24.013511 2023] [ssl:warn] [pid 25416:tid 412] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri May 19 20:50:24.053307 2023] [ssl:warn] [pid 25416:tid 412] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri May 19 20:50:24.111259 2023] [mpm_winnt:notice] [pid 25416:tid 412] AH00354: Child: Starting 150 worker threads.
+[Mon May 22 10:37:06.545651 2023] [ssl:warn] [pid 16192:tid 424] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 22 10:37:06.595121 2023] [core:warn] [pid 16192:tid 424] AH00098: pid file D:/Univercity/DBD/my sql/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon May 22 10:37:06.603121 2023] [ssl:warn] [pid 16192:tid 424] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 22 10:37:06.734752 2023] [mpm_winnt:notice] [pid 16192:tid 424] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Mon May 22 10:37:06.734752 2023] [mpm_winnt:notice] [pid 16192:tid 424] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Mon May 22 10:37:06.734752 2023] [core:notice] [pid 16192:tid 424] AH00094: Command line: 'd:\\univercity\\dbd\\my sql\\apache\\bin\\httpd.exe -d D:/Univercity/DBD/my sql/apache'
+[Mon May 22 10:37:06.738753 2023] [mpm_winnt:notice] [pid 16192:tid 424] AH00418: Parent: Created child process 23448
+[Mon May 22 10:37:07.370838 2023] [ssl:warn] [pid 23448:tid 428] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 22 10:37:07.420457 2023] [ssl:warn] [pid 23448:tid 428] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 22 10:37:07.473472 2023] [mpm_winnt:notice] [pid 23448:tid 428] AH00354: Child: Starting 150 worker threads.
+[Mon May 22 22:33:32.006401 2023] [ssl:warn] [pid 22000:tid 408] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 22 22:33:32.062406 2023] [core:warn] [pid 22000:tid 408] AH00098: pid file D:/Univercity/DBD/my sql/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon May 22 22:33:32.062406 2023] [ssl:warn] [pid 22000:tid 408] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 22 22:33:32.185939 2023] [mpm_winnt:notice] [pid 22000:tid 408] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Mon May 22 22:33:32.185939 2023] [mpm_winnt:notice] [pid 22000:tid 408] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Mon May 22 22:33:32.185939 2023] [core:notice] [pid 22000:tid 408] AH00094: Command line: 'd:\\univercity\\dbd\\my sql\\apache\\bin\\httpd.exe -d D:/Univercity/DBD/my sql/apache'
+[Mon May 22 22:33:32.185939 2023] [mpm_winnt:notice] [pid 22000:tid 408] AH00418: Parent: Created child process 2816
+[Mon May 22 22:33:32.708708 2023] [ssl:warn] [pid 2816:tid 408] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 22 22:33:32.763837 2023] [ssl:warn] [pid 2816:tid 408] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Mon May 22 22:33:32.822548 2023] [mpm_winnt:notice] [pid 2816:tid 408] AH00354: Child: Starting 150 worker threads.
+[Tue May 23 00:13:28.238430 2023] [mpm_winnt:crit] [pid 2816:tid 408] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Wed May 24 10:10:07.645766 2023] [ssl:warn] [pid 7864:tid 412] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 24 10:10:07.699764 2023] [core:warn] [pid 7864:tid 412] AH00098: pid file D:/Univercity/DBD/my sql/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed May 24 10:10:07.702765 2023] [ssl:warn] [pid 7864:tid 412] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 24 10:10:07.834795 2023] [mpm_winnt:notice] [pid 7864:tid 412] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Wed May 24 10:10:07.834795 2023] [mpm_winnt:notice] [pid 7864:tid 412] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Wed May 24 10:10:07.834795 2023] [core:notice] [pid 7864:tid 412] AH00094: Command line: 'd:\\univercity\\dbd\\my sql\\apache\\bin\\httpd.exe -d D:/Univercity/DBD/my sql/apache'
+[Wed May 24 10:10:07.838795 2023] [mpm_winnt:notice] [pid 7864:tid 412] AH00418: Parent: Created child process 24244
+[Wed May 24 10:10:08.339049 2023] [ssl:warn] [pid 24244:tid 416] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 24 10:10:08.386058 2023] [ssl:warn] [pid 24244:tid 416] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 24 10:10:08.441072 2023] [mpm_winnt:notice] [pid 24244:tid 416] AH00354: Child: Starting 150 worker threads.
+[Wed May 24 23:22:14.524065 2023] [ssl:warn] [pid 16856:tid 452] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 24 23:22:14.592068 2023] [core:warn] [pid 16856:tid 452] AH00098: pid file D:/Univercity/DBD/my sql/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed May 24 23:22:14.596071 2023] [ssl:warn] [pid 16856:tid 452] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 24 23:22:14.653082 2023] [mpm_winnt:notice] [pid 16856:tid 452] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Wed May 24 23:22:14.653082 2023] [mpm_winnt:notice] [pid 16856:tid 452] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Wed May 24 23:22:14.653082 2023] [core:notice] [pid 16856:tid 452] AH00094: Command line: 'd:\\univercity\\dbd\\my sql\\apache\\bin\\httpd.exe -d D:/Univercity/DBD/my sql/apache'
+[Wed May 24 23:22:14.659087 2023] [mpm_winnt:notice] [pid 16856:tid 452] AH00418: Parent: Created child process 4708
+[Wed May 24 23:22:15.208054 2023] [ssl:warn] [pid 4708:tid 404] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 24 23:22:15.276739 2023] [ssl:warn] [pid 4708:tid 404] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed May 24 23:22:15.342755 2023] [mpm_winnt:notice] [pid 4708:tid 404] AH00354: Child: Starting 150 worker threads.
+[Thu May 25 16:00:24.752685 2023] [ssl:warn] [pid 18884:tid 404] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu May 25 16:00:24.792465 2023] [core:warn] [pid 18884:tid 404] AH00098: pid file D:/Univercity/DBD/my sql/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu May 25 16:00:24.792465 2023] [ssl:warn] [pid 18884:tid 404] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu May 25 16:00:24.972649 2023] [mpm_winnt:notice] [pid 18884:tid 404] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Thu May 25 16:00:24.972649 2023] [mpm_winnt:notice] [pid 18884:tid 404] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Thu May 25 16:00:24.972649 2023] [core:notice] [pid 18884:tid 404] AH00094: Command line: 'd:\\univercity\\dbd\\my sql\\apache\\bin\\httpd.exe -d D:/Univercity/DBD/my sql/apache'
+[Thu May 25 16:00:24.972649 2023] [mpm_winnt:notice] [pid 18884:tid 404] AH00418: Parent: Created child process 12452
+[Thu May 25 16:00:25.411816 2023] [ssl:warn] [pid 12452:tid 404] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu May 25 16:00:25.460424 2023] [ssl:warn] [pid 12452:tid 404] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Thu May 25 16:00:25.514227 2023] [mpm_winnt:notice] [pid 12452:tid 404] AH00354: Child: Starting 150 worker threads.
+[Wed Jun 07 20:12:11.490712 2023] [ssl:warn] [pid 13024:tid 400] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jun 07 20:12:11.535129 2023] [core:warn] [pid 13024:tid 400] AH00098: pid file D:/Univercity/DBD/my sql/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jun 07 20:12:11.537131 2023] [ssl:warn] [pid 13024:tid 400] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jun 07 20:12:11.815590 2023] [mpm_winnt:notice] [pid 13024:tid 400] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Wed Jun 07 20:12:11.815590 2023] [mpm_winnt:notice] [pid 13024:tid 400] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Wed Jun 07 20:12:11.815590 2023] [core:notice] [pid 13024:tid 400] AH00094: Command line: 'd:\\univercity\\dbd\\my sql\\apache\\bin\\httpd.exe -d D:/Univercity/DBD/my sql/apache'
+[Wed Jun 07 20:12:11.821591 2023] [mpm_winnt:notice] [pid 13024:tid 400] AH00418: Parent: Created child process 19236
+[Wed Jun 07 20:12:12.309064 2023] [ssl:warn] [pid 19236:tid 412] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jun 07 20:12:12.350072 2023] [ssl:warn] [pid 19236:tid 412] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Wed Jun 07 20:12:12.405085 2023] [mpm_winnt:notice] [pid 19236:tid 412] AH00354: Child: Starting 150 worker threads.
+[Wed Jun 07 22:42:05.502596 2023] [mpm_winnt:crit] [pid 19236:tid 412] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Jun 10 12:52:45.008069 2023] [ssl:warn] [pid 744:tid 404] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 10 12:52:45.066082 2023] [core:warn] [pid 744:tid 404] AH00098: pid file D:/Univercity/DBD/my sql/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Jun 10 12:52:45.069083 2023] [ssl:warn] [pid 744:tid 404] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 10 12:52:45.321315 2023] [mpm_winnt:notice] [pid 744:tid 404] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Sat Jun 10 12:52:45.321315 2023] [mpm_winnt:notice] [pid 744:tid 404] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Sat Jun 10 12:52:45.321315 2023] [core:notice] [pid 744:tid 404] AH00094: Command line: 'd:\\univercity\\dbd\\my sql\\apache\\bin\\httpd.exe -d D:/Univercity/DBD/my sql/apache'
+[Sat Jun 10 12:52:45.328317 2023] [mpm_winnt:notice] [pid 744:tid 404] AH00418: Parent: Created child process 10112
+[Sat Jun 10 12:52:45.754923 2023] [ssl:warn] [pid 10112:tid 412] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 10 12:52:45.795699 2023] [ssl:warn] [pid 10112:tid 412] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 10 12:52:45.844296 2023] [mpm_winnt:notice] [pid 10112:tid 412] AH00354: Child: Starting 150 worker threads.
+[Fri Jun 16 22:53:09.408746 2023] [ssl:warn] [pid 12904:tid 400] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 16 22:53:09.446796 2023] [core:warn] [pid 12904:tid 400] AH00098: pid file D:/Univercity/DBD/my sql/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Jun 16 22:53:09.454797 2023] [ssl:warn] [pid 12904:tid 400] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 16 22:53:09.719053 2023] [mpm_winnt:notice] [pid 12904:tid 400] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Fri Jun 16 22:53:09.719053 2023] [mpm_winnt:notice] [pid 12904:tid 400] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Fri Jun 16 22:53:09.719053 2023] [core:notice] [pid 12904:tid 400] AH00094: Command line: 'd:\\univercity\\dbd\\my sql\\apache\\bin\\httpd.exe -d D:/Univercity/DBD/my sql/apache'
+[Fri Jun 16 22:53:09.727045 2023] [mpm_winnt:notice] [pid 12904:tid 400] AH00418: Parent: Created child process 16196
+[Fri Jun 16 22:53:10.112711 2023] [ssl:warn] [pid 16196:tid 404] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 16 22:53:10.153361 2023] [ssl:warn] [pid 16196:tid 404] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jun 16 22:53:10.190820 2023] [mpm_winnt:notice] [pid 16196:tid 404] AH00354: Child: Starting 150 worker threads.
+[Sat Jun 17 19:37:31.613489 2023] [ssl:warn] [pid 12144:tid 400] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 17 19:37:31.661497 2023] [core:warn] [pid 12144:tid 400] AH00098: pid file D:/Univercity/DBD/my sql/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Jun 17 19:37:31.663494 2023] [ssl:warn] [pid 12144:tid 400] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 17 19:37:31.722071 2023] [mpm_winnt:notice] [pid 12144:tid 400] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Sat Jun 17 19:37:31.722071 2023] [mpm_winnt:notice] [pid 12144:tid 400] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Sat Jun 17 19:37:31.722071 2023] [core:notice] [pid 12144:tid 400] AH00094: Command line: 'd:\\univercity\\dbd\\my sql\\apache\\bin\\httpd.exe -d D:/Univercity/DBD/my sql/apache'
+[Sat Jun 17 19:37:31.732069 2023] [mpm_winnt:notice] [pid 12144:tid 400] AH00418: Parent: Created child process 19492
+[Sat Jun 17 19:37:32.183761 2023] [ssl:warn] [pid 19492:tid 420] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 17 19:37:32.227788 2023] [ssl:warn] [pid 19492:tid 420] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 17 19:37:32.283796 2023] [mpm_winnt:notice] [pid 19492:tid 420] AH00354: Child: Starting 150 worker threads.
+[Sat Jun 17 19:38:17.042747 2023] [ssl:warn] [pid 15940:tid 400] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 17 19:38:17.102641 2023] [core:warn] [pid 15940:tid 400] AH00098: pid file D:/Univercity/DBD/my sql/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Jun 17 19:38:17.102641 2023] [ssl:warn] [pid 15940:tid 400] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 17 19:38:17.159031 2023] [mpm_winnt:notice] [pid 15940:tid 400] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Sat Jun 17 19:38:17.159031 2023] [mpm_winnt:notice] [pid 15940:tid 400] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Sat Jun 17 19:38:17.159031 2023] [core:notice] [pid 15940:tid 400] AH00094: Command line: 'd:\\univercity\\dbd\\my sql\\apache\\bin\\httpd.exe -d D:/Univercity/DBD/my sql/apache'
+[Sat Jun 17 19:38:17.167031 2023] [mpm_winnt:notice] [pid 15940:tid 400] AH00418: Parent: Created child process 24140
+[Sat Jun 17 19:38:17.658238 2023] [ssl:warn] [pid 24140:tid 420] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 17 19:38:17.706369 2023] [ssl:warn] [pid 24140:tid 420] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 17 19:38:17.754557 2023] [mpm_winnt:notice] [pid 24140:tid 420] AH00354: Child: Starting 150 worker threads.
+[Sat Jun 17 19:40:48.047478 2023] [ssl:warn] [pid 14936:tid 404] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 17 19:40:48.104482 2023] [core:warn] [pid 14936:tid 404] AH00098: pid file D:/Univercity/DBD/my sql/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Jun 17 19:40:48.104482 2023] [ssl:warn] [pid 14936:tid 404] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 17 19:40:48.155737 2023] [mpm_winnt:notice] [pid 14936:tid 404] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Sat Jun 17 19:40:48.155737 2023] [mpm_winnt:notice] [pid 14936:tid 404] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Sat Jun 17 19:40:48.155737 2023] [core:notice] [pid 14936:tid 404] AH00094: Command line: 'd:\\univercity\\dbd\\my sql\\apache\\bin\\httpd.exe -d D:/Univercity/DBD/my sql/apache'
+[Sat Jun 17 19:40:48.163934 2023] [mpm_winnt:notice] [pid 14936:tid 404] AH00418: Parent: Created child process 14848
+[Sat Jun 17 19:40:48.749103 2023] [ssl:warn] [pid 14848:tid 404] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 17 19:40:48.798376 2023] [ssl:warn] [pid 14848:tid 404] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 17 19:40:48.854779 2023] [mpm_winnt:notice] [pid 14848:tid 404] AH00354: Child: Starting 150 worker threads.
+[Sat Jun 17 19:43:01.645591 2023] [mpm_winnt:crit] [pid 14848:tid 404] AH02538: Child: Parent process exited abruptly. Child process is ending
+[Sat Jun 17 19:43:02.690423 2023] [ssl:warn] [pid 17932:tid 400] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 17 19:43:02.746815 2023] [core:warn] [pid 17932:tid 400] AH00098: pid file D:/Univercity/DBD/my sql/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Jun 17 19:43:02.749803 2023] [ssl:warn] [pid 17932:tid 400] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 17 19:43:02.801818 2023] [mpm_winnt:notice] [pid 17932:tid 400] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Sat Jun 17 19:43:02.801818 2023] [mpm_winnt:notice] [pid 17932:tid 400] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Sat Jun 17 19:43:02.801818 2023] [core:notice] [pid 17932:tid 400] AH00094: Command line: 'd:\\univercity\\dbd\\my sql\\apache\\bin\\httpd.exe -d D:/Univercity/DBD/my sql/apache'
+[Sat Jun 17 19:43:02.808817 2023] [mpm_winnt:notice] [pid 17932:tid 400] AH00418: Parent: Created child process 10256
+[Sat Jun 17 19:43:03.254747 2023] [ssl:warn] [pid 10256:tid 416] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 17 19:43:03.298761 2023] [ssl:warn] [pid 10256:tid 416] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 17 19:43:03.349782 2023] [mpm_winnt:notice] [pid 10256:tid 416] AH00354: Child: Starting 150 worker threads.
+[Sat Jun 17 19:51:07.390192 2023] [ssl:warn] [pid 26096:tid 400] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 17 19:51:07.444331 2023] [core:warn] [pid 26096:tid 400] AH00098: pid file D:/Univercity/DBD/my sql/apache/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Jun 17 19:51:07.446332 2023] [ssl:warn] [pid 26096:tid 400] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 17 19:51:07.502358 2023] [mpm_winnt:notice] [pid 26096:tid 400] AH00455: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4 configured -- resuming normal operations
+[Sat Jun 17 19:51:07.502358 2023] [mpm_winnt:notice] [pid 26096:tid 400] AH00456: Apache Lounge VS16 Server built: Mar  7 2023 13:21:03
+[Sat Jun 17 19:51:07.502358 2023] [core:notice] [pid 26096:tid 400] AH00094: Command line: 'd:\\univercity\\dbd\\my sql\\apache\\bin\\httpd.exe -d D:/Univercity/DBD/my sql/apache'
+[Sat Jun 17 19:51:07.509357 2023] [mpm_winnt:notice] [pid 26096:tid 400] AH00418: Parent: Created child process 5356
+[Sat Jun 17 19:51:07.938029 2023] [ssl:warn] [pid 5356:tid 424] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 17 19:51:07.983719 2023] [ssl:warn] [pid 5356:tid 424] AH01909: www.example.com:443:0 server certificate does NOT include an ID which matches the server name
+[Sat Jun 17 19:51:08.032719 2023] [mpm_winnt:notice] [pid 5356:tid 424] AH00354: Child: Starting 150 worker threads.
