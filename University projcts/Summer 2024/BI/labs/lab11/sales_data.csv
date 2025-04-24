@@ -1,0 +1,501 @@
+SalesID,CustomerID,Product,Quantity,SaleDate,Price,StoreID,PaymentMethod,Discount,SaleType
+1,273,Laptop,4,01/01/2024,400,7,Online Payment,20,In-Store
+2,148,Desktop,1,02/01/2024,1000,5,Credit Card,0,Online
+3,218,Laptop,3,03/01/2024,600,4,Online Payment,20,In-Store
+4,293,Smartphone,2,04/01/2024,600,4,Online Payment,10,In-Store
+5,424,Headphones,4,05/01/2024,1200,2,Cash,5,In-Store
+6,352,Desktop,1,06/01/2024,600,1,Cash,0,In-Store
+7,296,Smartphone,2,07/01/2024,200,8,Credit Card,15,In-Store
+8,460,Tablet,1,08/01/2024,800,9,Credit Card,15,In-Store
+9,110,Smartphone,3,09/01/2024,1000,7,Credit Card,5,In-Store
+10,312,Tablet,3,10/01/2024,800,3,Online Payment,20,Online
+11,378,Headphones,4,11/01/2024,1200,9,Online Payment,20,In-Store
+12,343,Tablet,4,12/01/2024,800,9,Online Payment,0,In-Store
+13,393,Laptop,2,13/01/2024,200,10,Online Payment,10,Online
+14,188,Laptop,4,14/01/2024,200,7,Credit Card,20,Online
+15,171,Laptop,2,15/01/2024,600,5,Credit Card,15,In-Store
+16,573,Laptop,1,16/01/2024,800,2,Credit Card,15,In-Store
+17,189,Laptop,2,17/01/2024,1200,9,Online Payment,15,Online
+18,497,Tablet,3,18/01/2024,200,6,Online Payment,20,In-Store
+19,415,Laptop,3,19/01/2024,1200,5,Credit Card,5,In-Store
+20,294,Desktop,4,20/01/2024,600,4,Cash,20,In-Store
+21,587,Tablet,3,21/01/2024,1000,6,Credit Card,20,In-Store
+22,140,Headphones,2,22/01/2024,200,8,Online Payment,0,Online
+23,188,Tablet,1,23/01/2024,200,7,Online Payment,10,In-Store
+24,275,Smartphone,3,24/01/2024,1000,7,Credit Card,20,In-Store
+25,189,Headphones,3,25/01/2024,1000,10,Cash,20,Online
+26,438,Laptop,2,26/01/2024,200,4,Cash,10,Online
+27,266,Laptop,2,27/01/2024,1000,4,Online Payment,15,Online
+28,126,Smartphone,2,28/01/2024,1000,3,Online Payment,10,Online
+29,434,Laptop,2,29/01/2024,600,8,Online Payment,20,Online
+30,173,Headphones,1,30/01/2024,200,4,Credit Card,5,Online
+31,366,Headphones,2,31/01/2024,1000,10,Online Payment,0,Online
+32,505,Headphones,4,01/02/2024,600,10,Online Payment,0,In-Store
+33,216,Tablet,1,02/02/2024,200,6,Online Payment,10,Online
+34,565,Tablet,1,03/02/2024,200,10,Cash,10,Online
+35,344,Headphones,4,04/02/2024,200,9,Cash,15,Online
+36,298,Tablet,3,05/02/2024,1000,4,Online Payment,0,In-Store
+37,436,Tablet,4,06/02/2024,1000,9,Cash,10,Online
+38,532,Desktop,3,07/02/2024,800,6,Cash,20,In-Store
+39,549,Tablet,2,08/02/2024,600,10,Cash,20,Online
+40,439,Desktop,3,09/02/2024,800,1,Cash,5,Online
+41,200,Desktop,4,10/02/2024,1200,8,Credit Card,5,In-Store
+42,573,Tablet,1,11/02/2024,600,1,Cash,10,In-Store
+43,278,Tablet,4,12/02/2024,400,2,Cash,15,Online
+44,344,Tablet,2,13/02/2024,800,7,Cash,15,Online
+45,386,Laptop,2,14/02/2024,1200,7,Cash,15,Online
+46,248,Desktop,2,15/02/2024,200,5,Credit Card,15,Online
+47,248,Laptop,4,16/02/2024,1200,6,Credit Card,0,In-Store
+48,499,Headphones,2,17/02/2024,400,8,Online Payment,15,In-Store
+49,524,Tablet,3,18/02/2024,400,7,Cash,5,Online
+50,389,Headphones,2,19/02/2024,400,1,Cash,5,Online
+51,550,Laptop,1,20/02/2024,600,2,Online Payment,0,Online
+52,366,Desktop,2,21/02/2024,1000,7,Credit Card,10,Online
+53,286,Smartphone,3,22/02/2024,1000,7,Online Payment,20,In-Store
+54,228,Tablet,4,23/02/2024,400,5,Credit Card,5,In-Store
+55,133,Headphones,1,24/02/2024,1000,3,Online Payment,5,Online
+56,132,Headphones,4,25/02/2024,1200,3,Online Payment,0,Online
+57,303,Headphones,3,26/02/2024,200,5,Cash,5,Online
+58,345,Laptop,4,27/02/2024,1000,5,Online Payment,20,Online
+59,252,Laptop,3,28/02/2024,600,4,Credit Card,0,In-Store
+60,264,Smartphone,3,29/02/2024,400,2,Credit Card,15,In-Store
+61,560,Laptop,3,01/03/2024,800,1,Online Payment,15,Online
+62,471,Desktop,2,02/03/2024,200,7,Credit Card,15,Online
+63,284,Desktop,3,03/03/2024,800,7,Online Payment,20,In-Store
+64,129,Headphones,2,04/03/2024,400,1,Cash,10,Online
+65,391,Tablet,2,05/03/2024,1200,10,Cash,5,Online
+66,229,Headphones,4,06/03/2024,400,9,Cash,20,In-Store
+67,229,Desktop,4,07/03/2024,800,10,Cash,10,Online
+68,521,Desktop,3,08/03/2024,400,6,Online Payment,0,Online
+69,154,Desktop,4,09/03/2024,400,3,Credit Card,20,In-Store
+70,490,Headphones,1,10/03/2024,400,10,Online Payment,0,In-Store
+71,139,Smartphone,4,11/03/2024,1000,9,Credit Card,10,Online
+72,589,Tablet,3,12/03/2024,1200,5,Online Payment,20,Online
+73,345,Smartphone,4,13/03/2024,1000,5,Credit Card,5,Online
+74,374,Smartphone,4,14/03/2024,600,1,Credit Card,10,Online
+75,436,Tablet,3,15/03/2024,800,3,Online Payment,5,Online
+76,489,Desktop,2,16/03/2024,200,6,Cash,0,Online
+77,206,Desktop,4,17/03/2024,800,8,Online Payment,5,In-Store
+78,143,Headphones,2,18/03/2024,800,8,Cash,20,Online
+79,543,Headphones,4,19/03/2024,600,2,Online Payment,20,Online
+80,132,Smartphone,2,20/03/2024,1200,4,Credit Card,15,In-Store
+81,477,Tablet,4,21/03/2024,1000,3,Cash,5,Online
+82,358,Tablet,4,22/03/2024,200,1,Credit Card,15,Online
+83,422,Laptop,2,23/03/2024,200,4,Credit Card,10,In-Store
+84,588,Laptop,3,24/03/2024,600,3,Credit Card,0,Online
+85,526,Smartphone,4,25/03/2024,400,3,Online Payment,10,Online
+86,158,Headphones,1,26/03/2024,800,3,Credit Card,0,Online
+87,392,Desktop,4,27/03/2024,800,4,Online Payment,5,In-Store
+88,459,Desktop,1,28/03/2024,200,6,Cash,20,In-Store
+89,220,Smartphone,1,29/03/2024,800,2,Credit Card,5,Online
+90,368,Tablet,1,30/03/2024,200,8,Cash,0,In-Store
+91,531,Laptop,2,31/03/2024,1000,6,Cash,15,Online
+92,183,Headphones,4,01/04/2024,1000,4,Online Payment,0,In-Store
+93,192,Tablet,3,02/04/2024,200,10,Cash,15,Online
+94,485,Headphones,2,03/04/2024,600,4,Online Payment,10,Online
+95,499,Headphones,2,04/04/2024,800,1,Online Payment,20,In-Store
+96,200,Smartphone,3,05/04/2024,1200,7,Cash,10,In-Store
+97,154,Laptop,4,06/04/2024,1200,4,Cash,5,In-Store
+98,497,Laptop,3,07/04/2024,200,7,Cash,15,In-Store
+99,222,Desktop,3,08/04/2024,600,10,Online Payment,15,In-Store
+100,527,Tablet,2,09/04/2024,1200,6,Online Payment,10,Online
+101,185,Tablet,1,10/04/2024,1200,2,Cash,20,In-Store
+102,304,Laptop,4,11/04/2024,1000,10,Online Payment,20,In-Store
+103,425,Headphones,2,12/04/2024,800,4,Cash,10,In-Store
+104,363,Desktop,4,13/04/2024,800,4,Online Payment,20,In-Store
+105,553,Desktop,2,14/04/2024,1000,10,Online Payment,5,Online
+106,148,Headphones,3,15/04/2024,400,8,Credit Card,0,Online
+107,228,Desktop,4,16/04/2024,200,9,Credit Card,15,In-Store
+108,232,Headphones,2,17/04/2024,600,5,Cash,15,In-Store
+109,561,Desktop,4,18/04/2024,600,8,Credit Card,15,Online
+110,457,Laptop,1,19/04/2024,1200,9,Online Payment,0,Online
+111,281,Desktop,1,20/04/2024,1200,10,Cash,5,Online
+112,589,Desktop,4,21/04/2024,400,5,Credit Card,10,Online
+113,435,Tablet,4,22/04/2024,600,2,Cash,20,Online
+114,244,Desktop,4,23/04/2024,600,6,Cash,20,Online
+115,249,Headphones,4,24/04/2024,800,1,Online Payment,0,In-Store
+116,328,Laptop,2,25/04/2024,200,4,Credit Card,15,In-Store
+117,543,Desktop,3,26/04/2024,800,7,Online Payment,20,In-Store
+118,380,Laptop,2,27/04/2024,1000,4,Cash,10,Online
+119,308,Laptop,1,28/04/2024,1200,1,Cash,20,In-Store
+120,498,Desktop,1,29/04/2024,800,4,Cash,15,In-Store
+121,474,Tablet,2,30/04/2024,400,7,Credit Card,10,In-Store
+122,442,Smartphone,1,01/05/2024,200,10,Online Payment,15,Online
+123,149,Desktop,2,02/05/2024,400,6,Online Payment,15,Online
+124,406,Smartphone,1,03/05/2024,200,2,Credit Card,0,Online
+125,170,Desktop,3,04/05/2024,200,8,Online Payment,15,In-Store
+126,270,Laptop,4,05/05/2024,200,4,Online Payment,10,Online
+127,264,Desktop,1,06/05/2024,600,5,Cash,0,In-Store
+128,549,Smartphone,2,07/05/2024,1200,8,Cash,0,In-Store
+129,196,Laptop,4,08/05/2024,800,1,Cash,10,In-Store
+130,298,Desktop,2,09/05/2024,600,4,Credit Card,0,Online
+131,195,Tablet,4,10/05/2024,1200,6,Cash,10,Online
+132,357,Headphones,4,11/05/2024,600,7,Online Payment,20,In-Store
+133,470,Desktop,4,12/05/2024,800,7,Credit Card,0,In-Store
+134,279,Tablet,3,13/05/2024,400,8,Online Payment,20,In-Store
+135,393,Smartphone,1,14/05/2024,1200,5,Credit Card,0,In-Store
+136,519,Tablet,2,15/05/2024,200,8,Online Payment,15,Online
+137,405,Headphones,1,16/05/2024,400,3,Credit Card,10,Online
+138,450,Tablet,3,17/05/2024,400,1,Online Payment,15,In-Store
+139,488,Desktop,2,18/05/2024,1200,2,Cash,20,Online
+140,199,Tablet,3,19/05/2024,1000,7,Credit Card,10,In-Store
+141,143,Desktop,4,20/05/2024,1200,6,Online Payment,10,Online
+142,562,Smartphone,2,21/05/2024,600,10,Online Payment,20,In-Store
+143,469,Headphones,1,22/05/2024,200,5,Online Payment,10,In-Store
+144,588,Tablet,4,23/05/2024,800,9,Online Payment,10,In-Store
+145,506,Headphones,2,24/05/2024,400,8,Cash,0,In-Store
+146,302,Tablet,4,25/05/2024,1000,9,Cash,5,Online
+147,484,Headphones,4,26/05/2024,1000,7,Credit Card,15,Online
+148,101,Tablet,3,27/05/2024,400,2,Credit Card,5,In-Store
+149,495,Smartphone,2,28/05/2024,1200,5,Online Payment,10,Online
+150,471,Smartphone,3,29/05/2024,1200,9,Credit Card,5,In-Store
+151,144,Desktop,2,30/05/2024,1200,6,Online Payment,0,Online
+152,543,Tablet,3,31/05/2024,400,2,Credit Card,20,In-Store
+153,484,Smartphone,1,01/06/2024,1200,7,Credit Card,20,Online
+154,124,Smartphone,2,02/06/2024,1000,3,Online Payment,5,In-Store
+155,288,Headphones,1,03/06/2024,600,8,Cash,0,In-Store
+156,231,Smartphone,2,04/06/2024,1200,6,Online Payment,20,In-Store
+157,478,Smartphone,2,05/06/2024,1000,8,Cash,5,In-Store
+158,199,Desktop,1,06/06/2024,1000,10,Credit Card,5,In-Store
+159,163,Laptop,3,07/06/2024,1000,7,Cash,15,Online
+160,520,Headphones,1,08/06/2024,600,7,Online Payment,0,Online
+161,323,Smartphone,1,09/06/2024,600,4,Credit Card,15,In-Store
+162,224,Laptop,2,10/06/2024,1200,10,Cash,5,In-Store
+163,552,Laptop,3,11/06/2024,600,10,Cash,15,Online
+164,183,Smartphone,4,12/06/2024,800,4,Online Payment,15,In-Store
+165,531,Desktop,3,13/06/2024,800,5,Credit Card,5,In-Store
+166,328,Tablet,1,14/06/2024,800,5,Credit Card,20,In-Store
+167,249,Desktop,4,15/06/2024,800,2,Cash,10,In-Store
+168,310,Smartphone,1,16/06/2024,200,4,Cash,20,In-Store
+169,151,Headphones,4,17/06/2024,200,10,Cash,0,Online
+170,512,Tablet,3,18/06/2024,1200,6,Credit Card,20,In-Store
+171,371,Tablet,1,19/06/2024,200,2,Cash,5,Online
+172,142,Smartphone,2,20/06/2024,400,10,Cash,15,In-Store
+173,159,Smartphone,4,21/06/2024,200,8,Credit Card,0,Online
+174,294,Headphones,4,22/06/2024,1200,6,Credit Card,0,In-Store
+175,137,Desktop,4,23/06/2024,400,5,Online Payment,0,Online
+176,367,Headphones,4,24/06/2024,1000,3,Credit Card,15,Online
+177,187,Smartphone,4,25/06/2024,200,1,Credit Card,20,Online
+178,144,Headphones,2,26/06/2024,600,9,Online Payment,15,In-Store
+179,461,Smartphone,1,27/06/2024,1200,8,Credit Card,10,Online
+180,112,Tablet,2,28/06/2024,800,2,Online Payment,0,Online
+181,359,Headphones,3,29/06/2024,400,2,Credit Card,5,Online
+182,408,Laptop,1,30/06/2024,1200,2,Online Payment,15,Online
+183,181,Tablet,2,01/07/2024,1000,10,Cash,0,Online
+184,133,Laptop,1,02/07/2024,200,8,Cash,15,Online
+185,283,Smartphone,3,03/07/2024,800,5,Cash,15,In-Store
+186,229,Laptop,2,04/07/2024,600,9,Online Payment,20,Online
+187,395,Desktop,3,05/07/2024,1000,7,Cash,15,Online
+188,376,Smartphone,4,06/07/2024,1200,2,Credit Card,5,In-Store
+189,275,Laptop,1,07/07/2024,600,3,Online Payment,10,Online
+190,143,Smartphone,1,08/07/2024,200,9,Credit Card,10,In-Store
+191,472,Desktop,2,09/07/2024,400,5,Credit Card,15,Online
+192,285,Laptop,3,10/07/2024,1000,8,Credit Card,15,In-Store
+193,545,Laptop,1,11/07/2024,200,10,Online Payment,15,Online
+194,589,Tablet,4,12/07/2024,200,9,Credit Card,10,Online
+195,178,Laptop,4,13/07/2024,400,9,Cash,15,In-Store
+196,387,Laptop,3,14/07/2024,400,4,Online Payment,20,Online
+197,381,Smartphone,3,15/07/2024,200,3,Cash,15,Online
+198,226,Desktop,2,16/07/2024,400,6,Online Payment,5,In-Store
+199,359,Headphones,3,17/07/2024,1000,7,Credit Card,5,Online
+200,104,Desktop,4,18/07/2024,400,5,Cash,10,Online
+201,195,Desktop,4,19/07/2024,1000,6,Online Payment,5,Online
+202,327,Laptop,1,20/07/2024,200,8,Credit Card,10,Online
+203,464,Headphones,4,21/07/2024,800,10,Credit Card,5,Online
+204,370,Headphones,4,22/07/2024,200,1,Online Payment,10,In-Store
+205,469,Desktop,1,23/07/2024,1200,4,Online Payment,0,In-Store
+206,397,Smartphone,2,24/07/2024,200,6,Online Payment,5,In-Store
+207,429,Headphones,3,25/07/2024,200,6,Online Payment,15,In-Store
+208,120,Headphones,1,26/07/2024,1000,8,Cash,10,In-Store
+209,196,Desktop,1,27/07/2024,800,9,Online Payment,10,In-Store
+210,429,Tablet,2,28/07/2024,400,1,Credit Card,20,In-Store
+211,511,Headphones,3,29/07/2024,600,3,Cash,0,Online
+212,551,Desktop,3,30/07/2024,1000,7,Credit Card,0,In-Store
+213,349,Tablet,3,31/07/2024,200,6,Credit Card,15,In-Store
+214,281,Desktop,1,01/08/2024,1200,2,Online Payment,10,Online
+215,424,Desktop,4,02/08/2024,200,6,Cash,0,In-Store
+216,593,Smartphone,4,03/08/2024,600,2,Online Payment,0,In-Store
+217,418,Laptop,1,04/08/2024,400,10,Credit Card,20,Online
+218,371,Tablet,4,05/08/2024,800,3,Online Payment,15,Online
+219,453,Laptop,2,06/08/2024,1200,4,Online Payment,15,In-Store
+220,361,Tablet,4,07/08/2024,200,1,Online Payment,0,In-Store
+221,552,Tablet,1,08/08/2024,600,4,Online Payment,5,Online
+222,338,Headphones,4,09/08/2024,1200,1,Online Payment,20,Online
+223,240,Smartphone,2,10/08/2024,1200,2,Online Payment,5,Online
+224,187,Smartphone,4,11/08/2024,200,3,Cash,20,Online
+225,562,Desktop,4,12/08/2024,600,3,Online Payment,5,Online
+226,478,Laptop,2,13/08/2024,400,4,Cash,15,Online
+227,210,Desktop,3,14/08/2024,600,5,Online Payment,10,Online
+228,432,Smartphone,2,15/08/2024,200,6,Cash,15,Online
+229,285,Desktop,4,16/08/2024,1000,9,Credit Card,0,Online
+230,117,Smartphone,3,17/08/2024,1200,6,Cash,5,In-Store
+231,253,Smartphone,3,18/08/2024,400,2,Cash,0,In-Store
+232,514,Tablet,1,19/08/2024,600,7,Credit Card,15,Online
+233,250,Desktop,1,20/08/2024,1000,2,Online Payment,5,In-Store
+234,211,Tablet,2,21/08/2024,800,10,Online Payment,20,Online
+235,126,Desktop,2,22/08/2024,800,7,Cash,10,Online
+236,565,Smartphone,2,23/08/2024,600,2,Online Payment,15,Online
+237,545,Smartphone,4,24/08/2024,400,6,Online Payment,15,In-Store
+238,478,Headphones,2,25/08/2024,200,7,Credit Card,10,Online
+239,475,Tablet,1,26/08/2024,800,3,Online Payment,15,Online
+240,218,Laptop,2,27/08/2024,1000,3,Online Payment,5,In-Store
+241,546,Desktop,3,28/08/2024,1000,10,Cash,5,In-Store
+242,184,Laptop,1,29/08/2024,1000,3,Online Payment,15,In-Store
+243,262,Headphones,3,30/08/2024,800,9,Online Payment,5,In-Store
+244,461,Smartphone,4,31/08/2024,600,7,Cash,15,Online
+245,517,Tablet,2,01/09/2024,1200,4,Cash,15,In-Store
+246,329,Laptop,1,02/09/2024,800,5,Cash,20,Online
+247,352,Tablet,3,03/09/2024,400,2,Online Payment,10,Online
+248,222,Smartphone,1,04/09/2024,400,7,Online Payment,5,In-Store
+249,427,Tablet,3,05/09/2024,600,7,Online Payment,10,In-Store
+250,570,Tablet,1,06/09/2024,1000,9,Online Payment,20,Online
+251,388,Desktop,3,07/09/2024,800,9,Online Payment,0,In-Store
+252,114,Laptop,4,08/09/2024,600,9,Online Payment,15,In-Store
+253,428,Headphones,3,09/09/2024,1200,6,Cash,5,Online
+254,285,Tablet,3,10/09/2024,200,3,Cash,0,In-Store
+255,253,Tablet,1,11/09/2024,400,3,Online Payment,0,In-Store
+256,180,Headphones,3,12/09/2024,200,6,Credit Card,5,Online
+257,142,Laptop,3,13/09/2024,200,10,Cash,0,Online
+258,375,Smartphone,2,14/09/2024,1200,6,Online Payment,15,In-Store
+259,141,Desktop,3,15/09/2024,800,5,Cash,15,In-Store
+260,539,Headphones,2,16/09/2024,1200,2,Credit Card,15,Online
+261,308,Tablet,1,17/09/2024,600,2,Cash,20,In-Store
+262,368,Smartphone,3,18/09/2024,200,9,Cash,0,Online
+263,267,Desktop,4,19/09/2024,200,9,Cash,15,In-Store
+264,212,Headphones,1,20/09/2024,1000,4,Cash,20,In-Store
+265,450,Tablet,4,21/09/2024,1000,1,Online Payment,15,Online
+266,230,Laptop,2,22/09/2024,200,10,Credit Card,15,Online
+267,324,Headphones,2,23/09/2024,800,3,Online Payment,5,In-Store
+268,475,Tablet,4,24/09/2024,200,10,Cash,15,In-Store
+269,401,Smartphone,4,25/09/2024,400,4,Cash,15,In-Store
+270,317,Headphones,4,26/09/2024,600,7,Cash,15,In-Store
+271,482,Desktop,1,27/09/2024,800,5,Credit Card,15,Online
+272,125,Laptop,4,28/09/2024,1200,8,Credit Card,15,Online
+273,168,Headphones,3,29/09/2024,1000,6,Online Payment,10,In-Store
+274,567,Headphones,1,30/09/2024,1200,6,Cash,10,In-Store
+275,596,Laptop,2,01/10/2024,600,4,Credit Card,20,Online
+276,360,Smartphone,4,02/10/2024,400,9,Cash,20,Online
+277,335,Desktop,2,03/10/2024,800,8,Online Payment,20,In-Store
+278,305,Tablet,3,04/10/2024,800,2,Online Payment,10,In-Store
+279,587,Smartphone,4,05/10/2024,800,8,Credit Card,20,Online
+280,392,Tablet,2,06/10/2024,1000,6,Online Payment,5,Online
+281,315,Desktop,3,07/10/2024,1200,5,Credit Card,0,Online
+282,290,Smartphone,4,08/10/2024,600,1,Cash,5,Online
+283,298,Headphones,3,09/10/2024,400,6,Credit Card,0,Online
+284,316,Smartphone,4,10/10/2024,1200,8,Online Payment,0,In-Store
+285,144,Tablet,3,11/10/2024,200,9,Cash,15,In-Store
+286,133,Headphones,2,12/10/2024,200,2,Online Payment,20,In-Store
+287,112,Laptop,1,13/10/2024,200,7,Cash,0,In-Store
+288,205,Smartphone,4,14/10/2024,600,7,Cash,15,In-Store
+289,313,Smartphone,4,15/10/2024,800,10,Cash,5,Online
+290,239,Headphones,1,16/10/2024,400,1,Cash,15,Online
+291,283,Smartphone,2,17/10/2024,1200,3,Online Payment,0,Online
+292,592,Headphones,4,18/10/2024,1000,9,Credit Card,15,Online
+293,522,Laptop,1,19/10/2024,1200,7,Cash,15,In-Store
+294,226,Smartphone,1,20/10/2024,800,7,Online Payment,5,In-Store
+295,257,Tablet,2,21/10/2024,1000,4,Online Payment,5,Online
+296,212,Smartphone,1,22/10/2024,800,5,Online Payment,0,Online
+297,589,Headphones,4,23/10/2024,200,5,Credit Card,15,In-Store
+298,359,Headphones,2,24/10/2024,800,5,Online Payment,10,In-Store
+299,128,Tablet,3,25/10/2024,200,2,Online Payment,15,Online
+300,568,Tablet,3,26/10/2024,200,5,Credit Card,0,In-Store
+301,318,Headphones,4,27/10/2024,400,4,Online Payment,10,In-Store
+302,252,Headphones,1,28/10/2024,400,9,Online Payment,15,In-Store
+303,410,Smartphone,2,29/10/2024,1200,10,Credit Card,5,In-Store
+304,408,Headphones,3,30/10/2024,1000,3,Credit Card,0,In-Store
+305,275,Tablet,2,31/10/2024,1000,2,Credit Card,15,Online
+306,249,Smartphone,4,01/11/2024,600,8,Cash,5,Online
+307,538,Headphones,4,02/11/2024,600,9,Credit Card,0,In-Store
+308,130,Laptop,2,03/11/2024,1000,4,Cash,10,In-Store
+309,168,Tablet,2,04/11/2024,400,4,Cash,10,Online
+310,136,Laptop,4,05/11/2024,200,10,Credit Card,0,In-Store
+311,396,Smartphone,4,06/11/2024,600,1,Cash,5,Online
+312,494,Tablet,1,07/11/2024,400,8,Online Payment,10,Online
+313,174,Smartphone,3,08/11/2024,200,8,Online Payment,0,Online
+314,398,Desktop,1,09/11/2024,1200,6,Credit Card,15,Online
+315,508,Tablet,2,10/11/2024,600,4,Cash,0,In-Store
+316,488,Smartphone,3,11/11/2024,400,8,Online Payment,0,Online
+317,403,Laptop,1,12/11/2024,1000,9,Cash,0,Online
+318,319,Smartphone,3,13/11/2024,400,6,Cash,5,In-Store
+319,535,Headphones,1,14/11/2024,1200,6,Online Payment,20,Online
+320,465,Headphones,2,15/11/2024,600,2,Credit Card,15,Online
+321,360,Laptop,4,16/11/2024,200,8,Cash,5,In-Store
+322,388,Smartphone,3,17/11/2024,600,7,Online Payment,0,Online
+323,366,Tablet,2,18/11/2024,800,2,Credit Card,15,In-Store
+324,495,Laptop,2,19/11/2024,1200,9,Cash,5,In-Store
+325,128,Smartphone,4,20/11/2024,1000,2,Cash,10,In-Store
+326,530,Desktop,4,21/11/2024,800,3,Cash,15,In-Store
+327,300,Headphones,4,22/11/2024,600,1,Cash,20,Online
+328,524,Laptop,3,23/11/2024,600,3,Credit Card,20,Online
+329,162,Smartphone,4,24/11/2024,400,5,Cash,15,Online
+330,442,Desktop,3,25/11/2024,400,5,Online Payment,15,Online
+331,454,Headphones,4,26/11/2024,800,9,Online Payment,0,Online
+332,145,Desktop,1,27/11/2024,1200,5,Online Payment,0,In-Store
+333,391,Laptop,1,28/11/2024,400,8,Credit Card,0,In-Store
+334,519,Smartphone,2,29/11/2024,400,6,Online Payment,15,In-Store
+335,189,Desktop,1,30/11/2024,800,3,Cash,20,In-Store
+336,134,Desktop,4,01/12/2024,400,4,Cash,10,Online
+337,234,Desktop,3,02/12/2024,800,1,Online Payment,20,In-Store
+338,333,Tablet,3,03/12/2024,200,8,Credit Card,0,In-Store
+339,356,Desktop,4,04/12/2024,800,10,Credit Card,5,Online
+340,137,Smartphone,3,05/12/2024,400,7,Cash,20,Online
+341,357,Smartphone,2,06/12/2024,1200,10,Cash,0,Online
+342,560,Smartphone,1,07/12/2024,1000,9,Online Payment,15,Online
+343,391,Headphones,4,08/12/2024,1000,2,Credit Card,10,In-Store
+344,298,Desktop,1,09/12/2024,800,8,Online Payment,5,Online
+345,483,Laptop,1,10/12/2024,1200,7,Cash,20,In-Store
+346,538,Headphones,4,11/12/2024,1000,9,Cash,0,Online
+347,355,Tablet,4,12/12/2024,1200,5,Online Payment,20,In-Store
+348,181,Smartphone,1,13/12/2024,1000,4,Credit Card,10,In-Store
+349,547,Tablet,4,14/12/2024,400,6,Cash,5,Online
+350,237,Headphones,1,15/12/2024,200,3,Cash,20,Online
+351,290,Tablet,1,16/12/2024,200,1,Credit Card,10,In-Store
+352,230,Headphones,1,17/12/2024,400,2,Cash,5,In-Store
+353,310,Tablet,4,18/12/2024,1200,5,Credit Card,20,Online
+354,469,Smartphone,4,19/12/2024,200,1,Credit Card,0,In-Store
+355,392,Desktop,2,20/12/2024,800,6,Cash,10,In-Store
+356,477,Smartphone,1,21/12/2024,200,9,Online Payment,0,In-Store
+357,448,Smartphone,1,22/12/2024,1000,4,Cash,10,In-Store
+358,269,Smartphone,1,23/12/2024,400,10,Cash,0,Online
+359,473,Desktop,2,24/12/2024,600,2,Cash,0,Online
+360,393,Smartphone,1,25/12/2024,1000,6,Cash,20,In-Store
+361,277,Headphones,2,26/12/2024,1000,10,Online Payment,20,In-Store
+362,126,Tablet,2,27/12/2024,800,1,Online Payment,0,Online
+363,424,Desktop,4,28/12/2024,600,9,Online Payment,10,Online
+364,460,Laptop,2,29/12/2024,800,2,Credit Card,20,In-Store
+365,392,Headphones,4,30/12/2024,400,7,Online Payment,20,In-Store
+366,215,Desktop,3,31/12/2024,600,10,Credit Card,0,In-Store
+367,387,Tablet,1,01/01/2025,1200,8,Cash,10,Online
+368,130,Desktop,3,02/01/2025,400,2,Online Payment,0,Online
+369,342,Headphones,1,03/01/2025,200,5,Online Payment,15,In-Store
+370,390,Headphones,2,04/01/2025,1000,10,Online Payment,0,Online
+371,247,Laptop,4,05/01/2025,200,9,Online Payment,10,In-Store
+372,374,Smartphone,2,06/01/2025,400,7,Online Payment,20,Online
+373,322,Tablet,1,07/01/2025,800,8,Cash,20,In-Store
+374,441,Headphones,1,08/01/2025,1200,6,Online Payment,5,In-Store
+375,103,Headphones,2,09/01/2025,1000,8,Credit Card,0,In-Store
+376,170,Tablet,1,10/01/2025,1000,9,Credit Card,20,Online
+377,458,Headphones,1,11/01/2025,600,6,Online Payment,15,In-Store
+378,497,Laptop,3,12/01/2025,1200,2,Credit Card,20,In-Store
+379,145,Laptop,2,13/01/2025,200,5,Online Payment,15,In-Store
+380,474,Smartphone,3,14/01/2025,1200,8,Cash,20,Online
+381,354,Desktop,2,15/01/2025,400,9,Credit Card,20,Online
+382,423,Tablet,3,16/01/2025,400,8,Online Payment,10,In-Store
+383,212,Laptop,4,17/01/2025,400,8,Credit Card,20,Online
+384,192,Laptop,1,18/01/2025,400,10,Online Payment,15,Online
+385,442,Laptop,1,19/01/2025,800,10,Credit Card,10,In-Store
+386,524,Laptop,2,20/01/2025,1200,1,Cash,20,In-Store
+387,140,Smartphone,2,21/01/2025,400,7,Credit Card,10,In-Store
+388,560,Headphones,2,22/01/2025,800,4,Credit Card,20,Online
+389,251,Laptop,3,23/01/2025,1200,8,Credit Card,5,In-Store
+390,515,Smartphone,2,24/01/2025,800,3,Credit Card,10,Online
+391,246,Desktop,1,25/01/2025,600,7,Online Payment,15,In-Store
+392,299,Headphones,2,26/01/2025,600,4,Cash,5,In-Store
+393,556,Desktop,1,27/01/2025,200,6,Cash,20,Online
+394,375,Headphones,3,28/01/2025,400,9,Credit Card,20,Online
+395,449,Headphones,1,29/01/2025,800,10,Credit Card,5,In-Store
+396,144,Headphones,4,30/01/2025,600,6,Cash,0,In-Store
+397,184,Smartphone,1,31/01/2025,400,1,Cash,5,In-Store
+398,534,Tablet,4,01/02/2025,600,7,Cash,15,In-Store
+399,398,Desktop,3,02/02/2025,600,10,Cash,20,Online
+400,194,Headphones,1,03/02/2025,200,2,Credit Card,10,In-Store
+401,275,Headphones,3,04/02/2025,800,5,Cash,0,In-Store
+402,506,Laptop,3,05/02/2025,800,8,Credit Card,10,Online
+403,302,Laptop,4,06/02/2025,1200,6,Credit Card,5,Online
+404,446,Smartphone,3,07/02/2025,1200,3,Cash,20,In-Store
+405,599,Headphones,1,08/02/2025,600,7,Online Payment,15,Online
+406,581,Desktop,4,09/02/2025,400,5,Credit Card,5,Online
+407,576,Desktop,3,10/02/2025,1200,8,Cash,5,Online
+408,430,Laptop,2,11/02/2025,800,4,Credit Card,10,In-Store
+409,129,Laptop,4,12/02/2025,1200,7,Online Payment,10,In-Store
+410,592,Tablet,1,13/02/2025,200,8,Cash,20,In-Store
+411,310,Headphones,1,14/02/2025,800,1,Credit Card,10,Online
+412,206,Headphones,2,15/02/2025,200,7,Online Payment,0,In-Store
+413,543,Laptop,4,16/02/2025,400,5,Online Payment,20,Online
+414,485,Laptop,2,17/02/2025,1200,3,Credit Card,15,In-Store
+415,571,Laptop,4,18/02/2025,600,4,Cash,0,In-Store
+416,164,Tablet,4,19/02/2025,400,3,Cash,5,In-Store
+417,117,Tablet,2,20/02/2025,1200,1,Credit Card,10,Online
+418,207,Tablet,2,21/02/2025,1200,10,Online Payment,15,Online
+419,265,Headphones,4,22/02/2025,400,6,Online Payment,20,In-Store
+420,195,Tablet,3,23/02/2025,200,9,Online Payment,10,In-Store
+421,125,Headphones,4,24/02/2025,400,2,Online Payment,0,In-Store
+422,217,Laptop,1,25/02/2025,600,1,Credit Card,5,Online
+423,292,Headphones,1,26/02/2025,800,10,Online Payment,5,Online
+424,296,Desktop,2,27/02/2025,200,6,Credit Card,10,In-Store
+425,408,Smartphone,4,28/02/2025,1200,10,Cash,20,In-Store
+426,237,Laptop,3,01/03/2025,200,3,Cash,20,In-Store
+427,541,Desktop,3,02/03/2025,400,2,Online Payment,10,In-Store
+428,448,Smartphone,2,03/03/2025,400,4,Online Payment,10,In-Store
+429,194,Desktop,2,04/03/2025,1200,1,Online Payment,10,Online
+430,480,Smartphone,2,05/03/2025,400,7,Cash,15,In-Store
+431,339,Smartphone,2,06/03/2025,1000,1,Credit Card,10,Online
+432,188,Tablet,3,07/03/2025,600,8,Credit Card,15,Online
+433,261,Desktop,1,08/03/2025,400,10,Credit Card,0,In-Store
+434,248,Desktop,3,09/03/2025,1000,4,Online Payment,10,In-Store
+435,173,Laptop,1,10/03/2025,200,9,Credit Card,10,In-Store
+436,556,Headphones,1,11/03/2025,600,5,Online Payment,20,In-Store
+437,188,Desktop,1,12/03/2025,1000,5,Cash,10,In-Store
+438,114,Desktop,3,13/03/2025,200,6,Credit Card,15,Online
+439,415,Laptop,4,14/03/2025,800,2,Online Payment,15,Online
+440,182,Laptop,2,15/03/2025,800,7,Credit Card,10,In-Store
+441,221,Tablet,2,16/03/2025,600,9,Cash,15,Online
+442,473,Headphones,4,17/03/2025,1000,7,Credit Card,10,Online
+443,540,Headphones,3,18/03/2025,1000,2,Credit Card,0,In-Store
+444,421,Tablet,3,19/03/2025,200,5,Cash,15,Online
+445,304,Laptop,4,20/03/2025,800,5,Online Payment,15,Online
+446,321,Laptop,1,21/03/2025,800,10,Online Payment,15,Online
+447,521,Laptop,3,22/03/2025,400,9,Online Payment,15,Online
+448,382,Desktop,1,23/03/2025,1200,7,Credit Card,10,In-Store
+449,389,Headphones,3,24/03/2025,1200,3,Credit Card,10,In-Store
+450,527,Headphones,4,25/03/2025,1200,4,Online Payment,0,In-Store
+451,371,Smartphone,2,26/03/2025,1000,9,Online Payment,10,In-Store
+452,571,Smartphone,2,27/03/2025,1200,1,Credit Card,15,In-Store
+453,385,Desktop,2,28/03/2025,600,6,Online Payment,0,Online
+454,377,Desktop,3,29/03/2025,800,9,Online Payment,5,In-Store
+455,567,Headphones,4,30/03/2025,600,8,Credit Card,20,Online
+456,425,Smartphone,1,31/03/2025,1200,6,Cash,0,Online
+457,123,Tablet,2,01/04/2025,600,7,Credit Card,20,In-Store
+458,328,Laptop,1,02/04/2025,400,6,Online Payment,15,In-Store
+459,479,Headphones,2,03/04/2025,800,8,Online Payment,5,In-Store
+460,184,Tablet,1,04/04/2025,600,5,Cash,20,In-Store
+461,236,Desktop,3,05/04/2025,800,3,Cash,0,In-Store
+462,557,Laptop,3,06/04/2025,400,7,Credit Card,10,Online
+463,162,Desktop,1,07/04/2025,1200,7,Cash,20,Online
+464,242,Smartphone,3,08/04/2025,200,9,Online Payment,10,Online
+465,106,Tablet,1,09/04/2025,200,2,Online Payment,20,In-Store
+466,357,Laptop,3,10/04/2025,200,1,Online Payment,15,Online
+467,237,Laptop,3,11/04/2025,600,6,Online Payment,10,In-Store
+468,308,Desktop,1,12/04/2025,600,1,Cash,5,Online
+469,564,Headphones,2,13/04/2025,600,2,Online Payment,0,In-Store
+470,538,Tablet,2,14/04/2025,800,5,Online Payment,5,Online
+471,240,Laptop,4,15/04/2025,1000,2,Online Payment,20,In-Store
+472,105,Laptop,4,16/04/2025,800,10,Credit Card,20,In-Store
+473,524,Smartphone,2,17/04/2025,200,1,Credit Card,5,Online
+474,449,Tablet,1,18/04/2025,1000,4,Online Payment,20,Online
+475,530,Tablet,4,19/04/2025,400,10,Cash,15,In-Store
+476,383,Laptop,2,20/04/2025,1000,4,Cash,0,Online
+477,175,Tablet,3,21/04/2025,400,1,Credit Card,15,Online
+478,409,Tablet,2,22/04/2025,600,9,Credit Card,10,Online
+479,595,Laptop,4,23/04/2025,200,3,Cash,0,Online
+480,534,Laptop,3,24/04/2025,600,6,Credit Card,0,In-Store
+481,320,Desktop,2,25/04/2025,800,5,Credit Card,20,Online
+482,408,Desktop,2,26/04/2025,1200,3,Online Payment,10,In-Store
+483,328,Desktop,1,27/04/2025,600,5,Cash,5,Online
+484,462,Desktop,3,28/04/2025,600,3,Online Payment,10,In-Store
+485,375,Tablet,3,29/04/2025,1000,1,Credit Card,5,Online
+486,474,Smartphone,3,30/04/2025,400,2,Credit Card,10,Online
+487,391,Laptop,2,01/05/2025,200,6,Credit Card,10,In-Store
+488,152,Laptop,2,02/05/2025,600,6,Credit Card,5,Online
+489,259,Headphones,4,03/05/2025,600,9,Cash,15,Online
+490,538,Smartphone,1,04/05/2025,400,1,Cash,20,In-Store
+491,415,Smartphone,4,05/05/2025,800,1,Cash,20,In-Store
+492,528,Laptop,1,06/05/2025,800,6,Cash,20,In-Store
+493,412,Smartphone,4,07/05/2025,1000,8,Online Payment,5,In-Store
+494,375,Headphones,1,08/05/2025,400,4,Online Payment,20,In-Store
+495,530,Tablet,4,09/05/2025,600,7,Online Payment,0,In-Store
+496,444,Desktop,2,10/05/2025,800,1,Credit Card,10,Online
+497,550,Headphones,1,11/05/2025,800,3,Cash,5,Online
+498,427,Desktop,3,12/05/2025,200,1,Cash,5,Online
+499,591,Laptop,1,13/05/2025,200,6,Cash,0,Online
+500,154,Tablet,4,14/05/2025,1200,2,Online Payment,10,Online

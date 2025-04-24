@@ -1,0 +1,501 @@
+PatientID,Country,AgeGroup,Gender,DiseaseType,TreatmentCost,HospitalStay,RecoveryTime,Year
+1,Germany,19-35,Female,Heart Disease,2213.4,8,10,2021
+2,France,51+,Male,Cancer,7337.23,17,35,2018
+3,UK,51+,Female,Asthma,1147.46,15,51,2018
+4,France,0-18,Female,Heart Disease,2032.28,17,49,2021
+5,France,19-35,Male,Asthma,8240.0,28,32,2019
+6,Canada,0-18,Female,Hypertension,3087.96,23,7,2020
+7,UK,36-50,Male,Hypertension,11567.05,24,21,2018
+8,UK,36-50,Female,Diabetes,13944.57,13,20,2019
+9,UK,0-18,Male,Heart Disease,16111.44,19,26,2022
+10,France,51+,Male,Asthma,4402.93,5,4,2018
+11,Germany,51+,Female,Cancer,3765.91,12,46,2019
+12,UK,0-18,Female,Hypertension,2539.07,1,52,2019
+13,France,0-18,Female,Hypertension,12910.39,23,22,2020
+14,Canada,36-50,Female,Cancer,14276.28,5,15,2020
+15,Germany,51+,Female,Asthma,1115.93,8,56,2022
+16,Canada,0-18,Male,Asthma,18756.14,13,40,2019
+17,Germany,36-50,Female,Heart Disease,1513.44,8,21,2019
+18,France,51+,Male,Heart Disease,11055.28,25,15,2020
+19,USA,19-35,Male,Diabetes,14326.68,23,22,2018
+20,Germany,36-50,Female,Hypertension,17483.9,11,52,2018
+21,Canada,51+,Male,Heart Disease,14424.7,1,28,2021
+22,France,51+,Male,Asthma,16133.7,13,14,2020
+23,Germany,36-50,Male,Cancer,7119.28,19,27,2021
+24,USA,19-35,Male,Asthma,16389.09,24,41,2020
+25,USA,36-50,Female,Hypertension,2062.24,3,40,2022
+26,UK,51+,Male,Asthma,17948.92,24,58,2019
+27,UK,0-18,Female,Diabetes,11178.05,17,28,2022
+28,Canada,0-18,Female,Hypertension,16437.31,5,26,2020
+29,Germany,36-50,Male,Cancer,9320.21,20,49,2019
+30,Germany,51+,Female,Diabetes,13049.77,21,2,2018
+31,UK,0-18,Female,Hypertension,10764.85,8,25,2018
+32,Germany,51+,Female,Cancer,14766.0,26,56,2021
+33,Germany,36-50,Male,Diabetes,2091.78,14,3,2020
+34,USA,0-18,Female,Diabetes,1676.87,4,8,2020
+35,UK,51+,Female,Hypertension,5318.51,11,44,2018
+36,France,0-18,Female,Heart Disease,3611.12,20,33,2022
+37,UK,36-50,Male,Diabetes,17499.78,15,42,2019
+38,France,51+,Female,Diabetes,4774.67,19,52,2022
+39,USA,0-18,Male,Cancer,19529.37,7,35,2022
+40,Canada,36-50,Male,Asthma,7069.47,19,6,2018
+41,Germany,0-18,Male,Hypertension,4051.3,28,39,2018
+42,USA,0-18,Male,Hypertension,15899.12,19,52,2018
+43,Germany,19-35,Male,Heart Disease,13344.8,11,23,2021
+44,Canada,19-35,Male,Heart Disease,10214.82,26,25,2022
+45,Canada,36-50,Female,Hypertension,11329.59,5,59,2020
+46,USA,19-35,Male,Heart Disease,14524.43,5,50,2019
+47,Canada,36-50,Female,Cancer,4954.87,22,43,2021
+48,France,19-35,Female,Hypertension,19928.51,8,19,2020
+49,Canada,0-18,Male,Heart Disease,19508.47,10,5,2022
+50,Germany,36-50,Female,Hypertension,13181.35,6,51,2018
+51,Germany,36-50,Female,Asthma,4391.08,15,11,2022
+52,Germany,0-18,Female,Diabetes,13764.45,16,56,2019
+53,Germany,36-50,Female,Hypertension,1907.87,28,12,2021
+54,France,36-50,Male,Diabetes,1097.72,17,10,2021
+55,UK,19-35,Female,Heart Disease,5524.82,8,8,2019
+56,USA,36-50,Male,Diabetes,9521.15,8,24,2020
+57,Germany,51+,Female,Hypertension,17431.31,25,28,2020
+58,Canada,0-18,Female,Asthma,14679.8,9,41,2021
+59,Germany,19-35,Male,Heart Disease,14982.78,2,36,2021
+60,Canada,19-35,Female,Hypertension,8797.12,15,37,2018
+61,Canada,51+,Female,Heart Disease,7245.73,18,21,2020
+62,Germany,0-18,Female,Cancer,7735.26,3,8,2019
+63,France,0-18,Male,Diabetes,19759.17,17,55,2020
+64,Canada,19-35,Female,Cancer,1282.13,4,9,2018
+65,Canada,36-50,Male,Hypertension,17407.11,4,47,2021
+66,Germany,19-35,Female,Asthma,11784.17,14,15,2021
+67,Canada,0-18,Male,Heart Disease,9053.0,9,48,2018
+68,Canada,51+,Male,Diabetes,14642.52,9,46,2019
+69,Germany,19-35,Female,Heart Disease,9990.04,25,40,2021
+70,Germany,0-18,Female,Hypertension,17531.75,26,18,2022
+71,USA,19-35,Male,Heart Disease,18063.69,23,42,2021
+72,France,36-50,Male,Diabetes,8723.56,18,20,2022
+73,France,19-35,Female,Hypertension,5898.14,10,6,2018
+74,Canada,19-35,Male,Heart Disease,12050.83,21,12,2018
+75,France,0-18,Female,Asthma,18291.09,4,2,2021
+76,Canada,0-18,Female,Hypertension,4607.91,12,7,2020
+77,USA,0-18,Female,Hypertension,12647.85,27,16,2022
+78,Germany,19-35,Female,Asthma,12815.42,8,3,2019
+79,Germany,36-50,Male,Cancer,14795.7,2,45,2021
+80,Germany,51+,Female,Diabetes,3065.57,22,3,2019
+81,France,51+,Male,Cancer,14458.59,13,27,2021
+82,USA,0-18,Female,Heart Disease,18226.13,21,50,2020
+83,France,0-18,Male,Asthma,4003.82,16,43,2020
+84,France,19-35,Female,Cancer,5132.09,28,40,2020
+85,USA,51+,Male,Hypertension,19442.2,2,38,2020
+86,USA,0-18,Male,Heart Disease,4029.05,11,33,2018
+87,USA,36-50,Female,Heart Disease,17160.51,10,28,2018
+88,USA,36-50,Female,Cancer,10099.42,15,1,2022
+89,Germany,0-18,Female,Cancer,5321.01,17,55,2019
+90,UK,0-18,Female,Asthma,17479.62,8,8,2021
+91,UK,51+,Male,Diabetes,9183.45,18,37,2021
+92,USA,51+,Female,Cancer,10538.94,23,32,2018
+93,UK,19-35,Male,Cancer,7505.05,9,48,2021
+94,UK,51+,Male,Hypertension,12062.54,25,43,2018
+95,USA,36-50,Female,Heart Disease,3688.72,8,37,2022
+96,UK,36-50,Male,Diabetes,8126.09,27,4,2019
+97,France,0-18,Male,Hypertension,19403.54,14,30,2022
+98,Canada,51+,Male,Asthma,5533.6,28,6,2020
+99,Canada,19-35,Male,Asthma,13306.36,26,46,2020
+100,USA,36-50,Female,Cancer,6841.21,25,54,2020
+101,Germany,36-50,Female,Cancer,15582.73,18,19,2022
+102,USA,19-35,Female,Asthma,3052.04,22,32,2021
+103,Germany,19-35,Female,Cancer,19411.51,20,9,2019
+104,Canada,36-50,Male,Diabetes,9348.9,20,12,2020
+105,USA,36-50,Male,Cancer,5102.98,21,11,2020
+106,France,19-35,Female,Heart Disease,1933.19,12,46,2020
+107,UK,36-50,Female,Cancer,3810.28,19,55,2019
+108,Germany,0-18,Female,Hypertension,10635.59,14,16,2020
+109,UK,0-18,Male,Diabetes,7071.56,17,1,2019
+110,UK,19-35,Female,Hypertension,16663.23,24,45,2020
+111,USA,51+,Female,Hypertension,8902.31,21,55,2022
+112,UK,19-35,Female,Heart Disease,5349.93,3,53,2022
+113,France,19-35,Male,Diabetes,12534.33,26,21,2019
+114,UK,51+,Male,Diabetes,14282.16,23,30,2022
+115,USA,51+,Male,Diabetes,3757.32,7,13,2019
+116,France,51+,Male,Diabetes,3768.57,17,34,2022
+117,Canada,0-18,Male,Diabetes,1215.09,12,4,2022
+118,UK,36-50,Male,Heart Disease,14859.84,9,28,2019
+119,USA,0-18,Male,Cancer,13444.19,15,38,2021
+120,Canada,36-50,Male,Hypertension,9755.3,18,58,2022
+121,Canada,0-18,Female,Diabetes,16961.32,21,31,2020
+122,Germany,36-50,Female,Cancer,16210.57,13,59,2021
+123,France,0-18,Male,Cancer,11914.41,21,55,2019
+124,UK,51+,Male,Hypertension,17431.29,8,27,2021
+125,USA,19-35,Female,Heart Disease,4513.9,14,5,2018
+126,Germany,0-18,Male,Asthma,2682.43,8,25,2018
+127,France,36-50,Male,Asthma,5760.12,14,3,2022
+128,Germany,51+,Male,Cancer,1613.19,7,33,2022
+129,France,0-18,Female,Hypertension,10857.81,23,4,2020
+130,France,0-18,Female,Asthma,18763.81,12,25,2021
+131,UK,51+,Female,Cancer,1267.2,11,20,2018
+132,France,0-18,Female,Heart Disease,2881.14,22,34,2022
+133,Germany,19-35,Female,Asthma,9317.88,22,26,2021
+134,France,0-18,Male,Cancer,18710.56,11,5,2022
+135,UK,19-35,Female,Cancer,6665.04,25,35,2022
+136,UK,19-35,Male,Diabetes,10391.08,22,28,2018
+137,Germany,51+,Male,Heart Disease,1310.67,28,29,2018
+138,Canada,0-18,Female,Diabetes,3392.69,29,9,2022
+139,Canada,51+,Female,Hypertension,19739.29,13,52,2019
+140,France,0-18,Male,Diabetes,19319.81,18,38,2022
+141,USA,0-18,Male,Diabetes,596.33,2,50,2022
+142,France,36-50,Male,Asthma,19060.33,29,6,2020
+143,Germany,0-18,Female,Cancer,12962.84,21,19,2020
+144,Germany,51+,Female,Heart Disease,17424.41,15,44,2020
+145,Germany,19-35,Female,Diabetes,9367.43,20,57,2019
+146,Germany,0-18,Female,Heart Disease,10554.12,27,11,2019
+147,Germany,36-50,Female,Diabetes,10032.51,18,2,2022
+148,UK,51+,Male,Hypertension,13503.85,15,47,2020
+149,Canada,0-18,Female,Diabetes,3223.2,19,44,2019
+150,Germany,51+,Male,Asthma,1084.49,23,44,2018
+151,USA,36-50,Male,Cancer,6504.63,24,9,2022
+152,USA,36-50,Male,Hypertension,14241.27,12,21,2021
+153,USA,51+,Female,Diabetes,4436.14,13,24,2022
+154,USA,0-18,Female,Heart Disease,13631.93,22,34,2021
+155,UK,19-35,Female,Hypertension,19413.28,11,22,2020
+156,USA,36-50,Male,Hypertension,2331.06,5,3,2021
+157,Germany,0-18,Male,Diabetes,13615.74,29,12,2020
+158,France,0-18,Male,Hypertension,9153.13,1,28,2018
+159,USA,19-35,Male,Heart Disease,17428.77,24,30,2021
+160,UK,36-50,Male,Hypertension,3954.42,3,26,2022
+161,UK,36-50,Male,Heart Disease,14006.21,22,48,2020
+162,USA,0-18,Female,Diabetes,16843.25,19,21,2022
+163,France,0-18,Female,Cancer,18919.98,23,28,2019
+164,USA,19-35,Female,Hypertension,13823.34,29,56,2020
+165,UK,19-35,Female,Cancer,10194.91,7,26,2021
+166,Canada,36-50,Male,Heart Disease,12548.02,12,33,2020
+167,Germany,51+,Male,Hypertension,17443.65,15,21,2022
+168,UK,36-50,Female,Asthma,11626.89,25,35,2018
+169,USA,0-18,Male,Cancer,1092.55,5,52,2020
+170,Germany,36-50,Female,Hypertension,18653.5,15,34,2021
+171,USA,51+,Female,Cancer,13945.77,8,41,2019
+172,USA,19-35,Female,Hypertension,13692.01,10,51,2018
+173,Canada,51+,Male,Diabetes,4705.67,26,47,2019
+174,Germany,51+,Female,Cancer,13348.27,16,18,2020
+175,Germany,51+,Female,Asthma,8180.36,8,58,2022
+176,Canada,19-35,Female,Asthma,13199.04,1,11,2022
+177,UK,51+,Male,Heart Disease,2578.56,12,57,2021
+178,USA,51+,Male,Hypertension,13327.98,5,23,2022
+179,France,51+,Female,Cancer,19988.57,3,48,2018
+180,USA,0-18,Male,Heart Disease,1440.13,1,22,2022
+181,USA,51+,Male,Cancer,19554.9,4,17,2021
+182,UK,19-35,Male,Hypertension,8434.71,8,5,2020
+183,USA,51+,Male,Asthma,17479.69,3,44,2020
+184,Canada,51+,Male,Diabetes,15756.52,10,11,2022
+185,Canada,19-35,Male,Asthma,11556.82,2,30,2019
+186,Germany,51+,Male,Heart Disease,14899.76,11,15,2020
+187,France,19-35,Male,Diabetes,17631.05,25,27,2022
+188,USA,51+,Male,Heart Disease,8380.74,10,35,2021
+189,USA,19-35,Male,Hypertension,6877.15,21,33,2022
+190,UK,51+,Female,Diabetes,13518.07,14,20,2020
+191,Canada,51+,Female,Heart Disease,16253.0,7,16,2021
+192,France,0-18,Male,Hypertension,15364.56,27,34,2022
+193,Germany,0-18,Female,Asthma,16057.37,27,2,2018
+194,Canada,51+,Female,Hypertension,8993.87,2,35,2021
+195,Germany,51+,Male,Cancer,16447.77,9,40,2018
+196,UK,36-50,Male,Hypertension,2844.08,16,56,2019
+197,UK,19-35,Male,Hypertension,11117.54,13,28,2021
+198,USA,36-50,Female,Cancer,612.29,9,47,2018
+199,France,0-18,Female,Heart Disease,6829.42,20,39,2020
+200,Germany,0-18,Male,Heart Disease,7646.0,4,6,2020
+201,Canada,0-18,Male,Hypertension,8225.37,22,9,2019
+202,UK,0-18,Male,Cancer,14061.61,10,20,2021
+203,USA,51+,Female,Cancer,8076.88,26,1,2021
+204,USA,0-18,Female,Asthma,9249.53,26,8,2021
+205,Germany,51+,Female,Heart Disease,5132.11,22,55,2019
+206,UK,51+,Female,Diabetes,7778.41,12,23,2021
+207,France,0-18,Male,Heart Disease,4931.76,17,3,2020
+208,UK,0-18,Male,Heart Disease,1927.32,14,4,2018
+209,Germany,19-35,Male,Asthma,12267.25,14,58,2020
+210,Germany,36-50,Male,Diabetes,13530.15,25,25,2020
+211,UK,0-18,Female,Asthma,12580.06,2,47,2018
+212,Germany,19-35,Female,Diabetes,9538.13,21,38,2020
+213,UK,19-35,Male,Hypertension,7905.82,25,15,2019
+214,Canada,36-50,Male,Diabetes,17335.01,20,21,2018
+215,UK,51+,Female,Asthma,10622.09,11,35,2020
+216,UK,0-18,Male,Heart Disease,9844.05,16,57,2022
+217,Germany,36-50,Female,Diabetes,1000.02,19,53,2020
+218,Germany,0-18,Male,Diabetes,7154.33,23,53,2019
+219,USA,19-35,Male,Cancer,7913.81,6,46,2021
+220,USA,19-35,Male,Heart Disease,8277.04,24,52,2020
+221,Canada,51+,Male,Hypertension,11813.36,19,14,2021
+222,USA,19-35,Male,Asthma,10905.25,5,36,2022
+223,UK,19-35,Male,Hypertension,12354.15,26,12,2020
+224,Germany,36-50,Male,Heart Disease,15415.22,4,17,2018
+225,USA,0-18,Female,Diabetes,16353.22,15,39,2021
+226,USA,0-18,Female,Diabetes,14503.4,29,9,2022
+227,Canada,36-50,Female,Heart Disease,19132.71,4,35,2018
+228,Canada,51+,Female,Diabetes,855.54,20,13,2018
+229,UK,0-18,Female,Diabetes,4317.67,10,15,2018
+230,Germany,19-35,Male,Diabetes,647.48,24,18,2018
+231,Canada,0-18,Male,Asthma,13125.76,22,51,2020
+232,USA,19-35,Female,Asthma,18011.6,3,33,2020
+233,Germany,51+,Male,Cancer,5247.9,26,6,2020
+234,Germany,36-50,Female,Hypertension,18577.17,5,59,2022
+235,USA,0-18,Female,Heart Disease,1675.21,6,27,2022
+236,Canada,36-50,Male,Heart Disease,18721.5,21,23,2022
+237,USA,0-18,Male,Heart Disease,7356.64,22,59,2019
+238,Germany,19-35,Male,Cancer,2477.71,8,27,2022
+239,France,36-50,Female,Asthma,9974.5,7,34,2020
+240,France,0-18,Male,Cancer,5507.14,21,56,2020
+241,UK,19-35,Female,Heart Disease,6055.02,10,46,2019
+242,USA,36-50,Female,Hypertension,6492.15,6,38,2019
+243,USA,36-50,Female,Diabetes,16159.01,14,14,2022
+244,UK,0-18,Male,Asthma,11013.64,4,36,2021
+245,UK,0-18,Male,Asthma,6570.5,28,53,2019
+246,UK,0-18,Female,Cancer,12401.51,25,8,2018
+247,Germany,19-35,Male,Asthma,14464.94,13,35,2020
+248,USA,0-18,Male,Heart Disease,5816.17,20,19,2018
+249,Germany,36-50,Male,Heart Disease,8564.21,17,30,2020
+250,UK,36-50,Female,Cancer,2876.78,23,14,2020
+251,USA,0-18,Female,Heart Disease,4032.41,7,59,2019
+252,Germany,0-18,Male,Hypertension,13781.8,4,20,2019
+253,Germany,51+,Female,Cancer,4038.05,29,49,2018
+254,UK,36-50,Male,Hypertension,10740.69,14,25,2020
+255,USA,19-35,Male,Diabetes,14326.4,3,40,2018
+256,UK,51+,Male,Hypertension,2584.1,24,24,2021
+257,USA,0-18,Male,Diabetes,11562.59,5,14,2018
+258,France,0-18,Female,Diabetes,5502.97,16,26,2022
+259,Canada,36-50,Female,Hypertension,19277.07,26,38,2018
+260,Canada,0-18,Female,Cancer,9929.14,23,23,2022
+261,Canada,19-35,Male,Heart Disease,16216.85,20,22,2022
+262,UK,36-50,Male,Heart Disease,11229.42,4,48,2022
+263,France,0-18,Male,Diabetes,1346.54,24,57,2021
+264,USA,36-50,Female,Diabetes,12846.45,24,19,2018
+265,Germany,0-18,Male,Cancer,19052.37,2,46,2018
+266,USA,0-18,Female,Asthma,12231.43,18,51,2021
+267,Germany,0-18,Female,Hypertension,16474.18,19,3,2020
+268,USA,19-35,Female,Diabetes,17742.03,28,42,2019
+269,France,19-35,Female,Heart Disease,4947.56,28,19,2018
+270,Germany,36-50,Female,Cancer,4634.87,19,9,2019
+271,UK,0-18,Female,Hypertension,12414.13,17,28,2021
+272,USA,0-18,Male,Cancer,8515.06,14,20,2020
+273,USA,19-35,Male,Hypertension,16877.3,19,45,2020
+274,Germany,0-18,Female,Hypertension,18050.45,22,7,2020
+275,UK,19-35,Female,Diabetes,7391.72,24,14,2021
+276,UK,0-18,Male,Cancer,5118.98,13,9,2022
+277,France,36-50,Female,Cancer,15720.25,12,59,2022
+278,UK,0-18,Female,Heart Disease,5858.72,26,55,2019
+279,UK,0-18,Male,Heart Disease,16540.98,6,57,2022
+280,UK,51+,Female,Diabetes,8762.9,21,19,2022
+281,Canada,19-35,Female,Diabetes,13517.22,4,47,2020
+282,France,0-18,Female,Asthma,2362.94,19,52,2020
+283,USA,0-18,Male,Heart Disease,12665.26,16,14,2019
+284,Germany,51+,Male,Hypertension,9309.47,13,56,2018
+285,USA,51+,Male,Cancer,11938.87,4,38,2019
+286,France,19-35,Female,Diabetes,3776.28,23,53,2019
+287,Germany,51+,Female,Cancer,14869.04,17,36,2021
+288,France,36-50,Male,Cancer,17324.54,23,40,2021
+289,UK,51+,Female,Asthma,4726.43,1,17,2019
+290,Germany,36-50,Female,Heart Disease,2366.43,18,30,2019
+291,UK,19-35,Female,Diabetes,960.95,20,9,2019
+292,USA,19-35,Female,Cancer,13018.44,17,33,2022
+293,USA,19-35,Female,Diabetes,12338.33,27,56,2021
+294,Germany,19-35,Male,Hypertension,11160.6,28,52,2019
+295,Germany,19-35,Female,Asthma,5022.97,27,25,2020
+296,France,36-50,Male,Hypertension,8122.67,15,14,2020
+297,France,36-50,Female,Diabetes,12092.29,11,11,2022
+298,UK,19-35,Male,Diabetes,10186.95,25,53,2022
+299,Germany,51+,Female,Heart Disease,19761.82,28,35,2018
+300,USA,0-18,Male,Cancer,3160.58,22,41,2018
+301,France,19-35,Female,Cancer,14055.32,13,59,2018
+302,France,51+,Male,Hypertension,8384.22,1,14,2022
+303,USA,0-18,Female,Asthma,8849.89,17,30,2022
+304,France,19-35,Male,Cancer,14493.16,6,41,2022
+305,UK,19-35,Female,Heart Disease,14002.5,4,4,2020
+306,Germany,36-50,Male,Hypertension,19829.49,20,59,2022
+307,USA,0-18,Male,Hypertension,3003.69,16,4,2020
+308,Germany,0-18,Female,Heart Disease,2530.14,15,28,2018
+309,France,51+,Female,Asthma,14624.61,27,8,2018
+310,France,36-50,Male,Heart Disease,11778.54,15,2,2018
+311,USA,36-50,Female,Asthma,5846.13,6,41,2019
+312,UK,36-50,Male,Heart Disease,2048.68,15,46,2019
+313,Canada,36-50,Male,Heart Disease,2170.34,14,22,2021
+314,USA,0-18,Male,Diabetes,17936.72,28,41,2021
+315,Canada,0-18,Female,Hypertension,4241.41,11,56,2021
+316,Canada,19-35,Male,Heart Disease,6805.75,7,55,2019
+317,UK,19-35,Male,Heart Disease,4919.8,9,16,2019
+318,Canada,36-50,Female,Cancer,7422.43,26,29,2021
+319,Canada,36-50,Female,Hypertension,1853.76,16,49,2021
+320,UK,36-50,Female,Cancer,10621.67,5,48,2022
+321,Canada,19-35,Female,Hypertension,1818.44,25,30,2021
+322,Canada,51+,Male,Cancer,16106.95,20,12,2022
+323,Canada,51+,Male,Heart Disease,5057.39,29,35,2020
+324,USA,19-35,Male,Heart Disease,11030.23,10,11,2019
+325,USA,19-35,Male,Diabetes,17661.54,18,46,2021
+326,USA,19-35,Female,Cancer,13192.11,3,50,2019
+327,UK,19-35,Male,Asthma,10892.68,13,21,2019
+328,France,19-35,Male,Diabetes,6824.51,11,21,2019
+329,Canada,19-35,Female,Cancer,6993.54,17,5,2020
+330,Canada,36-50,Male,Cancer,13555.0,22,48,2018
+331,UK,36-50,Male,Diabetes,19885.72,13,20,2021
+332,Canada,36-50,Male,Heart Disease,13405.86,6,37,2018
+333,USA,36-50,Male,Cancer,11376.78,17,3,2018
+334,France,19-35,Male,Heart Disease,14747.68,27,44,2018
+335,Germany,51+,Male,Diabetes,9571.51,13,33,2019
+336,Canada,0-18,Female,Heart Disease,1672.78,19,53,2022
+337,USA,19-35,Female,Hypertension,11464.79,21,9,2019
+338,Germany,0-18,Male,Asthma,19173.69,19,9,2019
+339,France,51+,Male,Cancer,3918.41,10,4,2018
+340,Germany,36-50,Female,Asthma,13955.1,3,35,2019
+341,USA,51+,Male,Heart Disease,4418.21,14,17,2018
+342,Germany,19-35,Male,Cancer,10948.64,26,34,2022
+343,UK,36-50,Male,Heart Disease,2385.19,19,24,2021
+344,Germany,19-35,Female,Hypertension,9282.23,5,32,2018
+345,Canada,36-50,Male,Diabetes,15245.18,29,1,2022
+346,Canada,0-18,Female,Cancer,7277.64,5,8,2021
+347,UK,0-18,Male,Hypertension,13465.78,20,45,2020
+348,USA,0-18,Female,Hypertension,16011.27,17,23,2018
+349,Canada,51+,Female,Cancer,18579.97,21,47,2018
+350,France,19-35,Male,Heart Disease,5075.52,10,40,2020
+351,Canada,51+,Female,Hypertension,8286.66,5,12,2020
+352,Canada,0-18,Male,Asthma,3472.11,4,54,2018
+353,USA,19-35,Female,Hypertension,19853.43,6,12,2020
+354,Germany,0-18,Male,Heart Disease,18576.52,26,46,2019
+355,Canada,51+,Male,Heart Disease,11029.16,4,47,2021
+356,UK,51+,Female,Asthma,16919.65,7,15,2021
+357,Germany,51+,Male,Hypertension,10658.68,7,41,2021
+358,France,0-18,Male,Heart Disease,12659.92,18,19,2019
+359,USA,19-35,Female,Cancer,2237.93,3,26,2020
+360,France,19-35,Male,Diabetes,15227.77,1,52,2022
+361,Germany,0-18,Male,Diabetes,2990.41,24,29,2020
+362,Germany,19-35,Female,Diabetes,16608.32,25,22,2018
+363,Germany,0-18,Female,Hypertension,15749.55,4,40,2021
+364,France,19-35,Male,Asthma,14320.52,6,21,2020
+365,Germany,36-50,Male,Heart Disease,1205.13,9,51,2022
+366,France,36-50,Female,Cancer,6411.0,22,38,2018
+367,Germany,51+,Female,Cancer,5630.7,14,20,2019
+368,UK,36-50,Male,Hypertension,7522.66,28,57,2019
+369,Germany,36-50,Female,Diabetes,2209.03,12,29,2022
+370,France,36-50,Male,Hypertension,18770.68,28,51,2018
+371,Canada,0-18,Male,Asthma,11299.14,25,4,2021
+372,Germany,36-50,Male,Asthma,6457.72,20,55,2020
+373,Canada,36-50,Male,Heart Disease,8241.14,24,7,2018
+374,UK,51+,Male,Heart Disease,9220.45,25,28,2019
+375,USA,36-50,Female,Asthma,12211.59,4,28,2022
+376,UK,36-50,Female,Asthma,10555.75,21,4,2022
+377,Germany,19-35,Female,Asthma,18428.14,24,22,2020
+378,Canada,51+,Female,Hypertension,10190.79,12,12,2022
+379,Canada,51+,Male,Asthma,19847.08,10,45,2022
+380,France,51+,Male,Cancer,17102.79,22,3,2018
+381,Canada,51+,Male,Diabetes,4565.96,28,22,2021
+382,France,51+,Male,Asthma,18646.61,7,44,2020
+383,USA,51+,Female,Diabetes,2769.14,3,2,2018
+384,Germany,0-18,Male,Hypertension,16440.27,23,24,2021
+385,France,36-50,Male,Diabetes,7922.15,28,34,2018
+386,USA,51+,Female,Hypertension,17620.5,14,27,2018
+387,Canada,36-50,Female,Cancer,17427.11,24,55,2022
+388,Canada,36-50,Female,Hypertension,16215.55,10,41,2021
+389,USA,0-18,Female,Hypertension,15905.59,16,1,2020
+390,Canada,51+,Male,Heart Disease,6441.24,16,8,2020
+391,USA,19-35,Male,Asthma,2077.93,22,23,2021
+392,France,0-18,Female,Asthma,8358.11,10,38,2022
+393,France,19-35,Male,Cancer,3883.73,25,6,2019
+394,USA,36-50,Male,Cancer,14051.55,13,22,2018
+395,France,36-50,Male,Asthma,7248.94,6,25,2022
+396,France,0-18,Female,Heart Disease,19524.4,12,18,2021
+397,France,0-18,Male,Asthma,12998.96,9,17,2018
+398,UK,19-35,Female,Heart Disease,16538.37,13,12,2020
+399,Germany,51+,Male,Cancer,3084.23,4,6,2019
+400,Canada,19-35,Male,Diabetes,17309.28,24,26,2020
+401,UK,0-18,Male,Cancer,18493.77,11,27,2021
+402,France,19-35,Female,Cancer,9997.71,20,8,2018
+403,USA,0-18,Male,Hypertension,12321.93,18,19,2021
+404,France,19-35,Female,Hypertension,15413.79,26,42,2018
+405,Germany,0-18,Female,Hypertension,3909.35,11,1,2022
+406,France,0-18,Female,Hypertension,10300.04,25,57,2019
+407,USA,0-18,Male,Heart Disease,8273.93,21,29,2022
+408,Germany,51+,Male,Asthma,3354.29,4,45,2022
+409,France,19-35,Male,Diabetes,7666.92,18,49,2021
+410,Germany,19-35,Male,Cancer,1829.36,1,35,2019
+411,Canada,19-35,Female,Heart Disease,1003.33,27,40,2018
+412,Canada,0-18,Female,Diabetes,3135.74,7,14,2018
+413,France,19-35,Female,Heart Disease,19280.74,6,35,2020
+414,Germany,19-35,Male,Heart Disease,11215.83,15,48,2018
+415,USA,0-18,Female,Cancer,19333.53,18,45,2021
+416,France,36-50,Male,Asthma,8933.71,24,20,2022
+417,Canada,0-18,Female,Hypertension,6580.41,11,56,2022
+418,Canada,19-35,Male,Asthma,10369.77,20,49,2022
+419,France,0-18,Male,Cancer,9070.48,24,13,2019
+420,Germany,36-50,Female,Cancer,2560.46,15,38,2018
+421,Canada,0-18,Female,Cancer,12996.11,16,49,2021
+422,Germany,19-35,Female,Diabetes,4712.74,7,46,2019
+423,Canada,36-50,Female,Asthma,12581.97,21,49,2020
+424,Canada,51+,Male,Asthma,13178.92,10,8,2021
+425,UK,19-35,Female,Heart Disease,3464.48,26,43,2021
+426,Canada,36-50,Female,Heart Disease,1696.32,12,20,2021
+427,USA,36-50,Female,Heart Disease,15724.85,24,33,2022
+428,France,51+,Male,Cancer,9466.11,14,26,2021
+429,France,0-18,Male,Asthma,1634.19,25,39,2018
+430,Germany,0-18,Female,Cancer,19899.89,5,21,2021
+431,Canada,19-35,Male,Diabetes,1626.72,26,53,2022
+432,USA,51+,Female,Heart Disease,14053.19,21,49,2021
+433,Germany,0-18,Male,Cancer,19681.74,18,42,2020
+434,UK,51+,Male,Cancer,5164.01,5,43,2020
+435,Germany,0-18,Male,Diabetes,3273.86,3,54,2022
+436,Germany,36-50,Male,Hypertension,2867.01,23,41,2018
+437,Canada,0-18,Female,Asthma,6413.87,26,9,2018
+438,UK,51+,Female,Hypertension,2470.39,5,24,2019
+439,Germany,36-50,Female,Heart Disease,13997.15,24,37,2022
+440,USA,36-50,Male,Cancer,1714.69,17,49,2021
+441,USA,36-50,Female,Diabetes,10433.73,19,41,2022
+442,France,51+,Female,Diabetes,19935.59,19,17,2019
+443,UK,19-35,Female,Asthma,16372.42,25,24,2022
+444,UK,19-35,Male,Hypertension,12496.78,21,21,2022
+445,France,19-35,Male,Asthma,6471.95,12,51,2019
+446,Germany,51+,Male,Cancer,12665.97,25,59,2018
+447,UK,36-50,Female,Asthma,10777.31,29,39,2021
+448,USA,19-35,Female,Diabetes,8808.63,9,55,2019
+449,USA,51+,Female,Diabetes,3048.85,1,41,2020
+450,Canada,19-35,Male,Heart Disease,17788.78,18,39,2018
+451,UK,0-18,Male,Heart Disease,9270.8,21,13,2020
+452,Germany,19-35,Female,Cancer,4295.14,4,11,2018
+453,France,19-35,Male,Hypertension,7671.31,10,46,2021
+454,France,36-50,Male,Asthma,8575.53,25,19,2021
+455,Germany,51+,Male,Cancer,16636.99,7,11,2022
+456,Canada,36-50,Male,Heart Disease,14805.48,22,13,2020
+457,France,36-50,Female,Asthma,15501.45,23,46,2018
+458,UK,36-50,Male,Heart Disease,715.11,1,45,2021
+459,Canada,36-50,Male,Asthma,8615.0,17,1,2019
+460,UK,36-50,Male,Hypertension,9886.21,24,40,2021
+461,USA,19-35,Male,Cancer,874.25,29,44,2019
+462,Canada,36-50,Female,Asthma,5566.36,29,19,2018
+463,France,36-50,Female,Diabetes,15325.65,2,12,2021
+464,Canada,51+,Male,Diabetes,3173.64,28,8,2021
+465,Canada,0-18,Male,Asthma,10938.55,26,8,2018
+466,Canada,19-35,Male,Asthma,4696.44,11,53,2021
+467,Canada,19-35,Male,Asthma,736.36,9,45,2019
+468,UK,19-35,Male,Diabetes,5203.43,7,12,2021
+469,USA,36-50,Male,Diabetes,19529.54,22,48,2020
+470,Germany,36-50,Female,Asthma,16129.97,17,33,2022
+471,Canada,36-50,Male,Heart Disease,19211.74,17,45,2019
+472,France,51+,Female,Heart Disease,10013.15,2,26,2020
+473,Canada,0-18,Female,Hypertension,2639.86,6,39,2018
+474,France,36-50,Male,Cancer,11185.21,14,28,2019
+475,UK,0-18,Female,Heart Disease,9360.36,6,58,2022
+476,France,51+,Female,Diabetes,16964.96,2,5,2022
+477,Germany,19-35,Female,Heart Disease,2412.61,1,8,2018
+478,USA,36-50,Female,Hypertension,10020.7,10,25,2018
+479,France,0-18,Female,Hypertension,3425.95,21,27,2019
+480,France,0-18,Female,Cancer,6831.18,5,46,2021
+481,USA,36-50,Male,Heart Disease,14878.46,2,23,2018
+482,Germany,19-35,Female,Diabetes,9782.35,22,30,2021
+483,Canada,19-35,Female,Diabetes,7829.82,16,45,2020
+484,France,19-35,Female,Asthma,8192.29,25,47,2022
+485,USA,51+,Male,Diabetes,9459.21,2,23,2021
+486,UK,0-18,Female,Cancer,15807.82,10,49,2022
+487,USA,0-18,Male,Cancer,17895.65,2,47,2021
+488,UK,0-18,Female,Diabetes,19129.03,16,20,2020
+489,Germany,51+,Male,Diabetes,15844.62,16,18,2018
+490,Canada,0-18,Male,Asthma,6650.43,19,18,2020
+491,USA,51+,Female,Diabetes,13918.63,29,2,2018
+492,France,19-35,Female,Asthma,9033.26,7,4,2018
+493,Germany,36-50,Male,Asthma,5466.08,22,30,2022
+494,USA,0-18,Female,Diabetes,16897.0,12,33,2020
+495,France,0-18,Male,Hypertension,1249.31,24,36,2021
+496,USA,19-35,Male,Hypertension,18084.36,15,18,2020
+497,UK,36-50,Male,Asthma,9498.81,8,37,2022
+498,USA,51+,Male,Diabetes,12925.43,6,19,2018
+499,USA,36-50,Male,Hypertension,13357.4,28,47,2022
+500,USA,19-35,Female,Diabetes,17954.8,27,28,2019

@@ -1,0 +1,201 @@
+Ticket ID,Customer Name,Customer Email,Issue Description,Product Purchased,Category,Date Submitted,Status,Priority
+101,Travis Hanson,mlucero@example.net,Incorrect billing amount,Tablet,Home Office,29/01/2024,Resolved,Low
+102,Samantha Hansen,kpeters@example.net,Refund not received,Monitor,Networking,13/03/2024,Pending,High
+103,Gregory Harvey,spage@example.com,App crashes frequently,Smartwatch,Accessories,07/05/2024,Pending,Low
+104,Adam Taylor,jenniferlopez@example.org,Received wrong product,Mouse,Home Office,20/04/2024,Resolved,High
+105,Kristina Phillips,msutton@example.org,Website is very slow,Smartphone,Accessories,12/01/2024,Open,Medium
+106,Melissa Rojas,sandersalyssa@example.org,Website is very slow,Smartwatch,Electronics,10/06/2024,Pending,Medium
+107,Jessica Hayes,woodbrenda@example.net,Website is very slow,Keyboard,Home Office,25/04/2024,Resolved,High
+108,Danielle Blankenship,mnguyen@example.net,Unable to login to the account,Tablet,Networking,05/02/2024,Pending,High
+109,Barbara Davis,nunezamanda@example.org,Account has been locked,Headphones,Wearables,01/07/2024,Open,High
+110,Kelsey Clark,jfry@example.net,App crashes frequently,Laptop,Networking,02/05/2024,Resolved,High
+111,Bob Kemp,ehoffman@example.org,App crashes frequently,Laptop,Electronics,15/05/2024,Resolved,Medium
+112,Maria Ward,manderson@example.net,Order not delivered,Headphones,Home Office,22/04/2024,Open,Low
+113,Brooke Graves,coxalyssa@example.net,Website is very slow,Monitor,Home Office,10/01/2024,Resolved,Medium
+114,Ryan Ramirez,evelynevans@example.org,Website is very slow,Laptop,Wearables,28/06/2024,Resolved,High
+115,Lisa Hayes,egibson@example.net,App crashes frequently,Printer,Networking,05/04/2024,Resolved,Medium
+116,David Cortez,brodriguez@example.net,Incorrect billing amount,Smartwatch,Networking,18/02/2024,Open,Low
+117,Troy Webb,mcruz@example.org,Account has been locked,Router,Electronics,07/02/2024,Resolved,Low
+118,Charles Russell,lopezsharon@example.org,Received wrong product,Smartwatch,Networking,17/05/2024,Open,Medium
+119,Karen Moody,jacqueline37@example.org,Payment not processing,Mouse,Wearables,07/05/2024,Pending,Medium
+120,David Patterson,gordonbrandy@example.net,Refund not received,Mouse,Home Office,19/04/2024,Pending,Medium
+121,Rhonda Taylor,xrobertson@example.net,Order not delivered,Laptop,Networking,20/02/2024,Pending,High
+122,Kimberly Mullen,fdavis@example.net,Payment not processing,Monitor,Home Office,14/03/2024,Open,Low
+123,Zachary Holland,mccanntroy@example.org,Received wrong product,Keyboard,Wearables,31/07/2024,Resolved,Medium
+124,Natalie Nelson,copelandjason@example.org,Unable to login to the account,Smartwatch,Accessories,25/02/2024,Resolved,High
+125,Julie Williams,hmiller@example.com,Payment not processing,Headphones,Home Office,22/07/2024,Resolved,Low
+126,Hailey Lopez,lynchanthony@example.org,Website is very slow,Headphones,Wearables,12/01/2024,Open,Medium
+127,Damon Miller,yhughes@example.net,Order not delivered,Smartwatch,Electronics,02/08/2024,Open,Medium
+128,Justin Jackson,sherry94@example.com,Unable to login to the account,Laptop,Networking,13/05/2024,Resolved,Medium
+129,Michael Vance,dianestein@example.org,Account has been locked,Mouse,Wearables,23/04/2024,Pending,High
+130,Cynthia Leon,jasonrodriguez@example.com,Refund not received,Headphones,Wearables,23/06/2024,Open,Medium
+131,Veronica Jones,ballkenneth@example.org,Account has been locked,Laptop,Wearables,19/06/2024,Open,High
+132,Jose Archer,shelley12@example.org,Website is very slow,Router,Networking,19/04/2024,Resolved,High
+133,Paul Jones,lopezdanielle@example.org,App crashes frequently,Smartwatch,Home Office,01/04/2024,Open,High
+134,Shelia Li,tamaratownsend@example.org,Website is very slow,Monitor,Electronics,18/06/2024,Open,Medium
+135,Susan Lee,longjoseph@example.org,App crashes frequently,Tablet,Home Office,07/02/2024,Pending,High
+136,Michael Daniel,scott05@example.com,Website is very slow,Printer,Electronics,12/01/2024,Pending,High
+137,Alexis Glover,garciaaudrey@example.net,Cannot update profile information,Laptop,Home Office,29/01/2024,Pending,Medium
+138,Angela Livingston,rwalker@example.org,Refund not received,Router,Wearables,25/07/2024,Resolved,Low
+139,Elizabeth Diaz,lbrown@example.com,Refund not received,Monitor,Accessories,19/04/2024,Resolved,Low
+140,Heather Simmons,eharper@example.net,Account has been locked,Laptop,Home Office,14/07/2024,Open,High
+141,Cynthia Lee,lvargas@example.net,Incorrect billing amount,Headphones,Wearables,15/05/2024,Pending,Medium
+142,Alicia Miller,kelly71@example.org,Order not delivered,Headphones,Electronics,26/03/2024,Pending,Medium
+143,Yvette Williams,jacquelinelyons@example.org,Incorrect billing amount,Tablet,Home Office,24/07/2024,Pending,Low
+144,Robert Hoover,sjimenez@example.com,Received wrong product,Smartwatch,Home Office,26/03/2024,Pending,Medium
+145,John Graham,thomas99@example.com,Incorrect billing amount,Keyboard,Electronics,12/06/2024,Pending,Low
+146,Jessica Adams,deannacampbell@example.net,Unable to login to the account,Smartwatch,Home Office,28/04/2024,Open,Low
+147,Jeffrey Harris,mreed@example.com,Incorrect billing amount,Printer,Accessories,16/02/2024,Resolved,Medium
+148,Kim Navarro,churchmichael@example.com,Order not delivered,Headphones,Accessories,31/03/2024,Open,Medium
+149,Isaac Middleton,april78@example.net,Refund not received,Router,Accessories,07/02/2024,Resolved,Medium
+150,Matthew Gonzalez,hollyanderson@example.com,Unable to login to the account,Router,Networking,20/07/2024,Resolved,Medium
+151,Kevin Bolton,westphilip@example.org,Refund not received,Router,Wearables,18/02/2024,Resolved,Medium
+152,Kayla Huffman,youngnathan@example.org,Incorrect billing amount,Laptop,Home Office,25/03/2024,Open,Low
+153,Erin Stewart,lawrencejustin@example.net,Payment not processing,Mouse,Networking,23/06/2024,Pending,High
+154,David Chen,janicejackson@example.org,Order not delivered,Router,Electronics,09/05/2024,Resolved,Low
+155,Keith Morgan,zporter@example.com,App crashes frequently,Headphones,Wearables,30/06/2024,Pending,Low
+156,Terry Page,oliviajoyce@example.com,Incorrect billing amount,Mouse,Wearables,17/05/2024,Resolved,Low
+157,Adam Ryan,frivera@example.net,App crashes frequently,Smartwatch,Networking,30/05/2024,Pending,Medium
+158,Jamie Hall,schapman@example.net,Order not delivered,Router,Accessories,06/01/2024,Open,Low
+159,Amy Jones,andrew59@example.com,Unable to login to the account,Smartphone,Electronics,06/02/2024,Resolved,High
+160,Bryan Garner,stonelori@example.org,Refund not received,Smartwatch,Electronics,17/01/2024,Open,High
+161,Marie Hunter,melissa98@example.net,App crashes frequently,Smartwatch,Home Office,10/02/2024,Resolved,High
+162,Barbara Hernandez,kennedybrandon@example.org,Received wrong product,Headphones,Wearables,24/06/2024,Resolved,Low
+163,Erin Lucas,ocollins@example.com,App crashes frequently,Headphones,Networking,10/04/2024,Open,High
+164,Mathew Fernandez,floreskaylee@example.com,Account has been locked,Mouse,Wearables,11/03/2024,Resolved,Medium
+165,Andre Davis,glassjohn@example.org,Website is very slow,Monitor,Networking,09/03/2024,Pending,Medium
+166,Kevin Noble,jamesmiller@example.org,Refund not received,Laptop,Home Office,01/02/2024,Resolved,Low
+167,Henry Murphy,ynicholson@example.org,Unable to login to the account,Keyboard,Electronics,31/03/2024,Pending,Medium
+168,Tiffany Williams,jclark@example.net,Received wrong product,Mouse,Home Office,17/07/2024,Pending,Medium
+169,Michael Anderson,mackenziejohnson@example.org,Order not delivered,Monitor,Networking,11/03/2024,Resolved,High
+170,Phillip Hamilton,daughertycharlene@example.org,Incorrect billing amount,Mouse,Electronics,17/03/2024,Pending,Low
+171,Vanessa Roy,unguyen@example.com,Unable to login to the account,Keyboard,Home Office,16/06/2024,Pending,Medium
+172,Steven Perez,kristen53@example.org,Order not delivered,Keyboard,Wearables,27/06/2024,Open,Medium
+173,Ryan Schaefer,jessejones@example.com,Cannot update profile information,Router,Accessories,23/03/2024,Pending,Medium
+174,Judith Cardenas,simscourtney@example.com,Refund not received,Mouse,Home Office,12/01/2024,Resolved,High
+175,Mrs. Rachel Davidson DDS,freymichael@example.com,Received wrong product,Printer,Home Office,25/03/2024,Pending,Low
+176,Meredith Wise,abates@example.org,Cannot update profile information,Headphones,Accessories,03/01/2024,Pending,Medium
+177,Joseph Young,ashley50@example.org,Order not delivered,Router,Accessories,11/03/2024,Open,High
+178,Scott Allen,gorozco@example.net,Payment not processing,Printer,Wearables,30/01/2024,Open,Medium
+179,Pamela White,mayogreg@example.org,Incorrect billing amount,Mouse,Electronics,30/04/2024,Open,Low
+180,Ethan Matthews,cheryl19@example.org,Received wrong product,Router,Networking,22/02/2024,Pending,Medium
+181,Jessica Roberts,scott38@example.net,Order not delivered,Smartwatch,Home Office,19/07/2024,Open,Medium
+182,Tina Alexander,adamserrano@example.org,Unable to login to the account,Laptop,Electronics,13/03/2024,Pending,High
+183,Timothy Scott,elizabeth28@example.com,Unable to login to the account,Headphones,Networking,12/03/2024,Open,Medium
+184,Kelsey Watson,shartman@example.com,Received wrong product,Keyboard,Home Office,29/07/2024,Resolved,High
+185,Kelsey Ingram,dschultz@example.org,App crashes frequently,Monitor,Home Office,23/03/2024,Resolved,Low
+186,Gabriel Cain,lindsey81@example.net,Cannot update profile information,Tablet,Networking,28/01/2024,Pending,Medium
+187,Matthew Williams,erikafuller@example.net,Account has been locked,Keyboard,Home Office,19/04/2024,Resolved,Medium
+188,Lauren Jordan,juliesmith@example.org,Account has been locked,Smartwatch,Electronics,27/07/2024,Pending,Low
+189,Christina Jimenez,judith23@example.org,App crashes frequently,Router,Accessories,21/03/2024,Open,Medium
+190,Justin Cox,daniellerodriguez@example.org,Order not delivered,Smartphone,Home Office,27/07/2024,Resolved,Medium
+191,Gregory West,jespinoza@example.net,App crashes frequently,Tablet,Wearables,03/05/2024,Open,Medium
+192,Michelle Hoffman,adamssheila@example.org,App crashes frequently,Mouse,Wearables,04/03/2024,Pending,High
+193,Kaitlin Perez,gabrielanderson@example.com,Website is very slow,Laptop,Networking,16/06/2024,Pending,Medium
+194,Elizabeth Kennedy,timothyluna@example.org,Incorrect billing amount,Laptop,Electronics,08/01/2024,Pending,Low
+195,Logan Johnston,wayne49@example.com,Payment not processing,Laptop,Electronics,15/06/2024,Open,High
+196,Jordan Erickson,tcortez@example.com,Received wrong product,Tablet,Home Office,04/08/2024,Open,High
+197,Teresa Johnson,sullivanthomas@example.org,Refund not received,Printer,Wearables,18/01/2024,Pending,High
+198,Kyle Joseph,alexross@example.com,Order not delivered,Laptop,Networking,22/01/2024,Open,High
+199,Melissa Lara,kmoody@example.com,Incorrect billing amount,Mouse,Networking,25/05/2024,Open,Low
+200,Courtney Foster,anthony14@example.org,Cannot update profile information,Keyboard,Home Office,19/01/2024,Pending,Low
+201,Kimberly Love,samuel32@example.net,Payment not processing,Router,Wearables,07/04/2024,Resolved,High
+202,Kevin Byrd,natasha44@example.com,Refund not received,Mouse,Networking,20/01/2024,Pending,Medium
+203,Diana Turner,hawkinsgrace@example.net,Website is very slow,Headphones,Wearables,06/08/2024,Pending,Medium
+204,Jordan Luna,pateltasha@example.org,Cannot update profile information,Headphones,Electronics,19/01/2024,Resolved,Medium
+205,Mrs. April Jones,irwinnathan@example.net,Account has been locked,Router,Accessories,07/03/2024,Open,High
+206,Emily Flowers,alexandrahartman@example.net,Account has been locked,Keyboard,Accessories,14/06/2024,Pending,High
+207,Brian Hernandez,martinezdennis@example.com,Unable to login to the account,Router,Wearables,04/05/2024,Open,Medium
+208,Debra Keller,garyking@example.com,Unable to login to the account,Smartwatch,Electronics,01/05/2024,Open,High
+209,Kenneth Brown,palmerjudy@example.org,Unable to login to the account,Smartwatch,Electronics,01/08/2024,Open,Medium
+210,Deborah Moore,ashley25@example.net,Received wrong product,Keyboard,Accessories,12/07/2024,Open,Low
+211,Elaine Ortiz,james26@example.net,Order not delivered,Headphones,Accessories,14/07/2024,Open,Medium
+212,Kathryn Aguilar,nramsey@example.com,Incorrect billing amount,Smartphone,Home Office,25/04/2024,Open,High
+213,Larry Grant,yho@example.net,Order not delivered,Tablet,Home Office,21/07/2024,Pending,Low
+214,Patricia Zimmerman,williamsjamie@example.com,Refund not received,Router,Wearables,14/03/2024,Open,Low
+215,Diane Kramer,katherine80@example.org,Refund not received,Smartwatch,Electronics,11/07/2024,Resolved,High
+216,Catherine Maynard,ndudley@example.org,Cannot update profile information,Keyboard,Home Office,10/04/2024,Open,High
+217,Stephanie Robinson,nicole56@example.net,Payment not processing,Mouse,Networking,03/01/2024,Pending,High
+218,Bianca Green,ugarner@example.org,Cannot update profile information,Monitor,Home Office,10/02/2024,Open,High
+219,Steven Evans,jennifer02@example.net,Received wrong product,Smartphone,Electronics,31/07/2024,Open,Medium
+220,Bryan Grant,jefferymiles@example.org,Refund not received,Keyboard,Accessories,17/01/2024,Pending,High
+221,Paula Flowers,stacey70@example.net,Refund not received,Router,Home Office,16/07/2024,Pending,Low
+222,Isaiah Huffman,kennedykayla@example.org,Order not delivered,Printer,Networking,08/02/2024,Open,Low
+223,Dawn Perez,rfowler@example.org,Payment not processing,Printer,Electronics,27/06/2024,Open,Low
+224,Calvin Palmer,pennyreese@example.net,Received wrong product,Keyboard,Wearables,09/04/2024,Pending,Medium
+225,Crystal Torres,johnsondanielle@example.com,Unable to login to the account,Keyboard,Electronics,10/06/2024,Open,High
+226,Thomas Gould,conleychristian@example.org,Cannot update profile information,Tablet,Home Office,08/04/2024,Resolved,Low
+227,Terry Oliver,maria19@example.net,Order not delivered,Smartphone,Home Office,25/03/2024,Pending,Medium
+228,Mr. Caleb Stokes,juliasnyder@example.com,Refund not received,Keyboard,Wearables,19/06/2024,Pending,Low
+229,Maria Williams,robertmoran@example.net,Cannot update profile information,Router,Accessories,01/06/2024,Pending,Low
+230,Denise Lopez,robertsgeorge@example.com,Refund not received,Smartphone,Electronics,16/02/2024,Resolved,High
+231,Nicolas Jones,uhernandez@example.com,Refund not received,Router,Home Office,19/02/2024,Pending,Medium
+232,Yvonne Hall,sampsonbrian@example.com,Payment not processing,Monitor,Electronics,31/05/2024,Open,High
+233,Jonathan Cherry,qsmith@example.com,Cannot update profile information,Printer,Wearables,01/03/2024,Open,High
+234,Alexis Nguyen,johnathanriggs@example.org,Cannot update profile information,Monitor,Accessories,24/05/2024,Open,High
+235,Sonya Mccarty,sstone@example.net,Website is very slow,Monitor,Home Office,28/05/2024,Resolved,High
+236,Jeffrey Williams,jonathanbenson@example.org,App crashes frequently,Smartwatch,Accessories,30/07/2024,Resolved,Low
+237,Brenda Johns,tim67@example.net,Received wrong product,Mouse,Accessories,13/03/2024,Resolved,High
+238,Mathew Fields,michaelevans@example.com,Account has been locked,Keyboard,Networking,18/04/2024,Resolved,High
+239,Cheryl Fischer,wjuarez@example.org,Unable to login to the account,Smartwatch,Accessories,16/07/2024,Pending,Medium
+240,Mrs. Kristine Fernandez,josephjohnson@example.net,Payment not processing,Smartwatch,Electronics,06/04/2024,Open,Low
+241,Cheryl Martinez,carlochoa@example.org,Refund not received,Headphones,Accessories,23/01/2024,Resolved,Medium
+242,Antonio Ibarra,brownsteven@example.com,Website is very slow,Router,Home Office,02/01/2024,Open,Low
+243,Janet Coleman,kenneth45@example.net,Refund not received,Smartphone,Home Office,15/04/2024,Open,Medium
+244,Alexis Sanchez,gdavis@example.com,Refund not received,Headphones,Electronics,10/03/2024,Pending,High
+245,Joshua Anthony,adamsscott@example.net,Unable to login to the account,Tablet,Networking,18/02/2024,Open,Medium
+246,Megan Torres,pbutler@example.com,Website is very slow,Laptop,Networking,11/05/2024,Pending,High
+247,Brian Silva,jgonzalez@example.org,Unable to login to the account,Smartwatch,Networking,18/01/2024,Resolved,Medium
+248,Angela Kim,qarnold@example.org,Received wrong product,Router,Wearables,17/03/2024,Pending,Low
+249,Heather Guerra,collin14@example.org,Website is very slow,Router,Wearables,11/06/2024,Resolved,Medium
+250,Beth Smith PhD,millerashley@example.org,Incorrect billing amount,Headphones,Electronics,09/03/2024,Open,High
+251,James Williams,ehill@example.com,Unable to login to the account,Printer,Electronics,10/05/2024,Pending,Low
+252,Connor Hall,cosborn@example.com,App crashes frequently,Laptop,Accessories,17/04/2024,Open,Medium
+253,Danielle Smith,angela58@example.com,Website is very slow,Mouse,Networking,07/04/2024,Pending,High
+254,David Sanchez,jgrimes@example.com,App crashes frequently,Laptop,Accessories,11/06/2024,Open,Low
+255,Cindy Mosley,ireyes@example.net,Account has been locked,Headphones,Home Office,26/03/2024,Pending,Low
+256,Lisa Vargas,jburke@example.com,Unable to login to the account,Smartphone,Electronics,08/06/2024,Pending,High
+257,Ellen Mitchell,srivera@example.net,App crashes frequently,Headphones,Wearables,16/01/2024,Open,High
+258,Marcus Cervantes,jfernandez@example.net,Incorrect billing amount,Printer,Wearables,17/05/2024,Open,High
+259,Anne Herrera,curtisburke@example.org,App crashes frequently,Printer,Wearables,27/04/2024,Pending,Medium
+260,Jessica Murray,jilllarsen@example.org,Payment not processing,Tablet,Electronics,05/05/2024,Open,High
+261,Raymond Rodriguez,hughessamantha@example.org,Refund not received,Laptop,Home Office,23/02/2024,Pending,Low
+262,Anthony Scott,bsullivan@example.net,Order not delivered,Mouse,Networking,05/02/2024,Open,Low
+263,Gina Potts,brendanmadden@example.net,App crashes frequently,Monitor,Home Office,03/03/2024,Pending,Medium
+264,Stacey Tyler,lauragray@example.net,Website is very slow,Mouse,Electronics,19/07/2024,Pending,High
+265,Charlene Grant,ccox@example.net,Refund not received,Smartphone,Networking,04/07/2024,Pending,Low
+266,Charles Burke,samueldeleon@example.org,Account has been locked,Printer,Accessories,08/02/2024,Pending,Medium
+267,Jack Ingram,rebecca92@example.com,App crashes frequently,Mouse,Accessories,08/06/2024,Resolved,High
+268,Jennifer Roberts,evansmonica@example.com,Account has been locked,Monitor,Accessories,27/04/2024,Pending,High
+269,Lauren Freeman,felicia49@example.org,Payment not processing,Keyboard,Wearables,25/03/2024,Pending,High
+270,Jessica Morales,richardsonnathaniel@example.net,Cannot update profile information,Laptop,Accessories,08/01/2024,Resolved,Low
+271,Brandy Hernandez,aguirrealexandria@example.net,Cannot update profile information,Tablet,Networking,09/01/2024,Pending,Low
+272,Nathan Smith,brookssarah@example.net,Incorrect billing amount,Mouse,Networking,15/04/2024,Resolved,Low
+273,Gordon Cantu,elaine94@example.com,Received wrong product,Router,Accessories,17/03/2024,Open,Medium
+274,Tracy Hicks,coconnell@example.com,Account has been locked,Keyboard,Networking,18/06/2024,Pending,Medium
+275,Jason Weber,silvajoseph@example.net,Cannot update profile information,Tablet,Home Office,10/01/2024,Pending,High
+276,William Mullins,jason71@example.com,Cannot update profile information,Smartwatch,Accessories,13/05/2024,Pending,Low
+277,Ronald Odom,jonathantaylor@example.net,Website is very slow,Router,Wearables,29/07/2024,Resolved,Low
+278,Christopher Meyers,deanhines@example.com,Payment not processing,Keyboard,Electronics,25/07/2024,Pending,High
+279,Mrs. Laurie Smith,dalekrueger@example.net,Unable to login to the account,Keyboard,Wearables,05/03/2024,Pending,Low
+280,James Sawyer,stewartrobert@example.com,App crashes frequently,Router,Accessories,05/05/2024,Pending,High
+281,Shane Ball,jerryball@example.net,App crashes frequently,Monitor,Electronics,20/04/2024,Resolved,Low
+282,Mark Garcia,vchen@example.net,App crashes frequently,Monitor,Wearables,10/05/2024,Resolved,Low
+283,Keith Patton,morganjesse@example.org,Refund not received,Router,Networking,19/04/2024,Resolved,Low
+284,Alexis Park,vegakristie@example.net,Order not delivered,Printer,Accessories,01/06/2024,Resolved,High
+285,Julie Howard,smithjacob@example.net,Website is very slow,Router,Networking,19/04/2024,Open,High
+286,Dr. Daniel Cook,cjames@example.com,Unable to login to the account,Router,Accessories,21/03/2024,Open,High
+287,Chad Gonzalez,flewis@example.net,Cannot update profile information,Laptop,Home Office,11/05/2024,Pending,Low
+288,Rachel Hart,georgefinley@example.net,Unable to login to the account,Headphones,Home Office,09/08/2024,Pending,Medium
+289,Michael Benson,tammy85@example.com,Received wrong product,Laptop,Home Office,22/07/2024,Resolved,Medium
+290,Charles Thomas,timothy58@example.net,App crashes frequently,Monitor,Wearables,27/06/2024,Resolved,High
+291,Mrs. Susan Bates DDS,scottturner@example.net,Payment not processing,Router,Wearables,13/05/2024,Open,High
+292,Amy Robinson,kimberly10@example.com,Cannot update profile information,Headphones,Wearables,02/01/2024,Open,Medium
+293,Megan Maxwell,amy13@example.net,Unable to login to the account,Laptop,Accessories,27/03/2024,Pending,Low
+294,Caitlin Richardson,jameswallace@example.org,Order not delivered,Smartphone,Electronics,06/05/2024,Pending,High
+295,Megan Davis,rileycharles@example.com,Cannot update profile information,Printer,Electronics,01/03/2024,Open,High
+296,William Lewis,cochranjoshua@example.net,Incorrect billing amount,Tablet,Networking,10/02/2024,Open,Medium
+297,Lisa Thompson,maureencarroll@example.com,Refund not received,Smartwatch,Accessories,24/07/2024,Open,High
+298,Mrs. Diana Rivera,taylor71@example.org,Unable to login to the account,Router,Networking,14/01/2024,Open,Low
+299,Sara Baker,pittmantimothy@example.org,Received wrong product,Mouse,Accessories,25/06/2024,Resolved,High
+300,Fred Scott,jamiewolfe@example.org,Refund not received,Smartwatch,Networking,05/02/2024,Resolved,Medium
