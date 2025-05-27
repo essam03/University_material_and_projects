@@ -1,0 +1,4 @@
+#!/bin/bash
+echo "scan started"
+sudo nmap -P 10.0.0.20 | grep "open" | cut -d " " -f 1 >> open_ports.txt
+echo "scan finished"
