@@ -1,0 +1,10 @@
+writefile stringmod.py
+a="this is a string variable."
+
+def String_to_list(S):
+  return list(S)
+
+import stringmod
+S = "Hello!"
+print(stringmod.a)
+print(stringmod.String_to_list(S))
